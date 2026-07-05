@@ -2259,9 +2259,9 @@ th.caRbac-col-on{color:var(--red2) !important;border-bottom:2px solid var(--red)
 
 <!-- ===== Wordmark BTG Pactual (SVG vetorial proprio, white-label). "BTG Pactual" herda currentColor; barra de acento no gradiente azul BTG Pactual. Usado em todo lugar via <use href="#xplogo">. ===== -->
 <svg width="0" height="0" style="position:absolute;width:0;height:0" aria-hidden="true"><defs>
-  <linearGradient id="safraGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D8C27E"></stop><stop offset="1" stop-color="#C7B06A"></stop></linearGradient>
+  <linearGradient id="btgGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D8C27E"></stop><stop offset="1" stop-color="#C7B06A"></stop></linearGradient>
   <symbol id="xplogo" viewBox="0 0 300 92">
-    <rect x="0" y="9" width="13" height="74" rx="3" fill="url(#safraGrad)"></rect>
+    <rect x="0" y="9" width="13" height="74" rx="3" fill="url(#btgGrad)"></rect>
     <text x="28" y="74" font-family="Montserrat,-apple-system,'Segoe UI',sans-serif" font-weight="600" font-size="90" letter-spacing="-3" fill="currentColor">BTG Pactual</text>
   </symbol>
 </defs></svg>
@@ -5347,8 +5347,8 @@ const WFNET={
   ],
 };
 
-/* SAFRA_CANDIDATOS · pipeline de talentos (triagem assistida). Scores sao insumo para shortlist e revisao humana; nao decidem contratacao. */
-const SAFRA_CANDIDATOS=[
+/* BTG_CANDIDATOS · pipeline de talentos (triagem assistida). Scores sao insumo para shortlist e revisao humana; nao decidem contratacao. */
+const BTG_CANDIDATOS=[
   {id:'cand-helena-marques',nome:'Helena Marques',origem:'Indicação interna',segmentoAlvo:'Sênior',etapa:'Shortlist',scoreTecnico:92,comunicacao:90,postura:88,raciocinio:91,suitabilityAwareness:90,potencialConsultivo:90,redFlags:0,evidencia:'Conduziu cliente em pânico de mercado com escuta ativa e ancoragem de horizonte; suitability consistente em todo o case.',recomendacao:'Avançar para entrevista humana'},
   {id:'cand-rafael-domingues',nome:'Rafael Domingues',origem:'Mercado',segmentoAlvo:'Sênior',etapa:'Shortlist',scoreTecnico:90,comunicacao:88,postura:90,raciocinio:92,suitabilityAwareness:88,potencialConsultivo:88,redFlags:0,evidencia:'Estruturou diversificação coerente com perfil conservador e justificou cada alocação sem empurrar produto.',recomendacao:'Avançar para entrevista humana'},
   {id:'cand-beatriz-azevedo',nome:'Beatriz Azevedo',origem:'LinkedIn',segmentoAlvo:'Pleno',etapa:'Shortlist',scoreTecnico:86,comunicacao:91,postura:87,raciocinio:85,suitabilityAwareness:84,potencialConsultivo:86,redFlags:0,evidencia:'Excelente descoberta de objetivos antes de qualquer recomendação; explicou trade-offs com clareza notável.',recomendacao:'Avançar para entrevista humana'},
@@ -7610,7 +7610,7 @@ function selPill(rec){
 }
 function renderSelecao(){
   var root=document.getElementById('selRoot'); if(!root) return;
-  var C=(typeof SAFRA_CANDIDATOS!=='undefined')?SAFRA_CANDIDATOS:[];
+  var C=(typeof BTG_CANDIDATOS!=='undefined')?BTG_CANDIDATOS:[];
   if(!C.length){ root.innerHTML='<div class="muted">Pipeline de candidatos vazio.</div>'; return; }
   var shortlist=C.filter(function(c){return c.recomendacao==='Avançar para entrevista humana';}).length;
   var emAval=C.filter(function(c){return c.etapa!=='Shortlist';}).length;
@@ -8307,6 +8307,23 @@ const INTERVIEW=[
     return wrap;
   }
 
+  /* Fallback local do tutor: resposta-exemplo por palavras-chave quando nao ha backend live. */
+  function tutLocal(q, cert, topic){
+    const s=(q+' '+(topic||'')).toLowerCase();
+    const hit=(...ws)=>ws.some(w=>s.includes(w));
+    let core;
+    if(hit('suitability','adequa','perfil do cliente')) core='Suitability é o dever de adequação: antes de recomendar, você precisa conhecer objetivos, horizonte, tolerância a risco e situação financeira do cliente (Resolução CVM 30). Na prática: aplique o questionário, documente o perfil, recomende só o que é compatível e registre a justificativa. Produto fora do perfil exige alerta formal e decisão expressa do cliente.';
+    else if(hit('pgbl','vgbl','previd')) core='PGBL deduz até 12% da renda bruta anual no IR (bom para quem faz declaração completa e contribui para o INSS); no resgate, o IR incide sobre o total. VGBL não deduz, mas o IR incide só sobre os rendimentos - indicado para declaração simplificada. Em ambos, prefira a tabela regressiva para prazos longos (10% após 10 anos) e avalie as taxas de carregamento e administração.';
+    else if(hit('cdb','lci','lca','renda fixa','fgc','tesouro')) core='Na renda fixa bancária, o CDB tem IR pela tabela regressiva; LCI e LCA são isentas de IR para pessoa física. Os três contam com FGC até R$ 250 mil por CPF e por instituição (teto global de R$ 1 milhão a cada 4 anos). Tesouro Direto não tem FGC, mas é risco soberano. Compare sempre pelo retorno líquido no mesmo prazo e pela liquidez.';
+    else if(hit('fundo','come-cotas','cota')) core='Em fundos, avalie: política de investimento, taxa de administração e de performance, liquidez (D+X) e tributação. Fundos abertos de renda fixa e multimercado têm come-cotas (antecipação semestral de IR em maio e novembro); fundos de ações não têm come-cotas e pagam 15% no resgate. Fundo não tem FGC - o patrimônio é segregado da instituição.';
+    else if(hit('coe')) core='COE é o Certificado de Operações Estruturadas: combina renda fixa e derivativos, com cenários de resultado definidos no DIE (Documento de Informações Essenciais). O mais comum é o de capital protegido no vencimento - a proteção não vale para resgate antecipado e não há FGC. Explique sempre os cenários, o prazo e o custo de oportunidade.';
+    else if(hit('ancord','cpa','cea','cfp','certifica')) core='Trilha típica do assessor digital: ANCORD (obrigatória para atuar como AAI), depois CPA-20, CEA (especialista em investimentos) e, mais adiante, CFP (planejamento financeiro completo). Use o Modo Estudo e os simulados da plataforma para medir sua prontidão antes de agendar a prova.';
+    else if(hit('imposto','tributa','alíquota','aliquota')) core='Regra geral da renda fixa: tabela regressiva do IR - 22,5% até 180 dias, 20% até 360, 17,5% até 720 e 15% acima disso. Ações: 15% sobre o ganho líquido em operações comuns, com isenção para vendas de até R$ 20 mil no mês. Fundos seguem a classificação de curto ou longo prazo, com come-cotas. Calcule sempre o retorno líquido para comparar produtos.';
+    else if(hit('objeç','objec','negocia','atendimento')) core='Estrutura para responder objeções: acolha sem confronto, investigue a preocupação real com perguntas abertas, traga um dado objetivo (rentabilidade líquida, risco, liquidez), conecte ao objetivo declarado do cliente e proponha um próximo passo concreto. Nunca prometa rentabilidade nem minimize risco - isso é red flag de compliance.';
+    else core='Bom tema. Estruture assim: 1) conceito e para que serve; 2) como funciona na prática (custos, prazos, tributação); 3) para qual perfil de cliente faz sentido (suitability); 4) riscos e pontos de atenção de compliance. Experimente perguntar sobre suitability, previdência PGBL x VGBL, renda fixa e FGC, fundos, COE ou certificações.';
+    const tag=cert?(' Dica: confira também o banco de questões de '+cert+' no Modo Estudo.'):'';
+    return core+tag+' (Resposta do modo demonstração. Com o backend de IA configurado, o tutor responde sobre qualquer tema.)';
+  }
   async function send(text){
     const msg=(text!=null?text:input.value).trim();
     if(!msg || busy) return;
@@ -8322,9 +8339,10 @@ const INTERVIEW=[
       const topic=topicEl&&topicEl.value?topicEl.value.trim():'';
       if(cert) body.cert=cert;
       if(topic) body.topic=topic;
-      const data=await apiPost('/api/tutor', body);
+      let data=null;
+      try{ await apiReady; if(API.live) data=await apiPost('/api/tutor', body); }catch(err){ data=null; }
       typing.remove();
-      const reply=(data&&data.reply)?data.reply:'Desculpe, nao consegui gerar uma resposta agora.';
+      const reply=(data&&data.reply)?data.reply:tutLocal(msg, body.cert||'', body.topic||'');
       renderMsg('assistant', reply);
       tutMsgs.push({role:'assistant', content:reply});
     }catch(e){
@@ -12828,7 +12846,7 @@ function riApi_payloadRede(){
   return {
     ok: true,
     gerado_em: new Date().toISOString(),
-    rubric: 'safra-v1',
+    rubric: 'btg-digital-v1',
     escopo: wfFiltro.escritório ? riApi_escNome(wfFiltro.escritório) : (wfFiltro.regional ? riApi_regNome(wfFiltro.regional) : 'rede inteira'),
     total: linhas.length,
     readiness_medio: med(linhas.map(l=>l.readiness)),

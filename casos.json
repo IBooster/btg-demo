@@ -1,1 +1,1567 @@
-[{"area":"High Income · Previdência e aposentadoria","title":"Revisão de estratégia de aposentadoria aos 60 anos: previdência, retirada sustentável e taxa de reposição","cliente":"Roberto, 60 anos, casado, engenheiro CLT com salário bruto de R$ 18.000/mês. Pretende se aposentar em 5 anos (aos 65). Patrimônio acumulado: R$ 1,2 milhão, sendo R$ 600 mil em um PGBL, R$ 350 mil em CDBs/Tesouro e R$ 250 mil em fundos de ações. Perfil moderado. Casa própria quitada. Expectativa de gastar cerca de R$ 12.000/mês na aposentadoria. Sempre fez declaração completa do IR.","contexto":"Roberto procura o banker Safra preocupado se seu patrimônio será suficiente para manter o padrão de vida apos parar de trabalhar. Ele contratou o PGBL ha 12 anos por orientação do gerente de banco da época, mas nunca revisou a tabela de tributação escolhida nem o regime de saida; quer agora um advisory de previdência conduzido pelo Safra para a sua carteira. Também não sabe quanto poderá sacar por mês sem o risco de o dinheiro acabar e desconhece o impacto do INSS na sua renda futura.","etapas":[{"q":"Como você avaliaria a adequação do PGBL de Roberto, considerando o tipo de declaração de IR dele, o regime de tributação (progressivo x regressivo) e a fase do ciclo de vida em que ele se encontra? O produto continua fazendo sentido?","bullets":[{"t":"Confirmar que o PGBL e adequado por ele fazer declaração completa, permitindo deduzir aportes até 12% da renda bruta tributável anual, diferindo (não isentando) o imposto para o resgate.","kw":["declaracao completa","deducao 12%","diferimento","renda bruta tributavel"]},{"t":"Analisar o regime de tributação: o regressivo favorece o longo prazo (alíquota cai até 10% apos 10 anos), e como ele aporta ha 12 anos, parte relevante já estaria na faixa mínima; verificar se foi escolhido e se ainda cabe mudança.","kw":["regressivo","10%","10 anos","prazo medio"]},{"t":"Lembrar que no PGBL a tributação na saida incide sobre o valor total (principal + rendimentos), diferente do VGBL que tributa só o rendimento; isso deve entrar no cálculo da renda líquida.","kw":["base de calculo","valor total","VGBL","rendimento"]},{"t":"Considerar a fase do ciclo de vida: a poucos anos do resgate, avaliar a política de investimento do fundo (renda fixa x multimercado) e a taxa de administração/carregamento como fatores de adequação.","kw":["taxa de administracao","carregamento","politica de investimento","ciclo de vida"]}],"redFlags":[{"t":"Recomendar resgate total imediato do PGBL sem analisar o regime tributário, gerando tributação elevada de uma só vez e perda do diferimento.","kw":["resgate total","tributacao elevada"]},{"t":"Confundir PGBL com VGBL afirmando que a tributação incide só sobre os rendimentos.","kw":["confundir PGBL VGBL","so rendimentos"]}],"gab":"O PGBL e adequado a Roberto porque ele faz declaração completa do IR e pode deduzir aportes de até 12% da renda bruta tributável anual, o que difere (não elimina) o imposto para o momento do resgate. Como ele aporta ha 12 anos, se estiver no regime regressivo a maior parte dos aportes já alcanca a alíquota mínima de 10%, o cenário mais eficiente. Atenção critica: no PGBL o IR na saida incide sobre o valor total resgatado (principal + rendimentos), ao contrário do VGBL que tributa apenas o rendimento. A escolha do regime (progressivo x regressivo) e definitiva apos a opção formal e deve ser checada. O produto continua fazendo sentido se a política de investimento e os custos (taxa de administração e eventual carregamento) forem competitivos. O profissional deve revisar esses pontos antes de qualquer recomendação, evitando resgate total precipitado."},{"q":"Roberto quer saber quanto poderá retirar por mês na aposentadoria sem o risco de o dinheiro acabar. Como você estruturaria esse cálculo de retirada sustentável e quais premissas precisam ser definidas com ele?","bullets":[{"t":"Definir as premissas centrais: horizonte/expectativa de vida (planejar até 90-95 anos por conservadorismo), inflação, retorno real líquido esperado da carteira e se ele quer ou não preservar o principal para herdeiros.","kw":["expectativa de vida","retorno real","inflacao","preservar principal"]},{"t":"Apresentar a regra de retirada sustentável (ex.: faixa de 3,5% a 4% ao ano do patrimônio como referência) e calcular: sobre R$ 1,2 milhão, ~4% equivale a cerca de R$ 48 mil/ano (R$ 4 mil/mês), bem abaixo da meta de R$ 12 mil.","kw":["taxa de retirada","4%","retirada sustentavel","deficit"]},{"t":"Trabalhar com retorno real (descontada a inflação) e não nominal, e considerar a tributação das retiradas no cálculo do valor líquido disponível.","kw":["retorno real","valor liquido","tributacao da retirada"]},{"t":"Incluir o INSS e eventual renda do PGBL no fluxo total, e usar simulações de cenários/Monte Carlo ou estresse para medir a probabilidade de o patrimônio durar.","kw":["INSS","fluxo total","cenarios","probabilidade de sucesso"]},{"t":"Identificar o gap entre meta de gasto e renda projetada e propor ajustes: aumentar aportes nos 5 anos restantes, reduzir despesas, adiar a aposentadoria ou rever o padrão de vida.","kw":["gap","aportes adicionais","adiar aposentadoria","ajuste de meta"]}],"redFlags":[{"t":"Prometer retirada fixa garantida sem considerar inflação, sequência de retornos ou longevidade.","kw":["retirada garantida","sem inflacao"]},{"t":"Usar retorno nominal histórico otimista e ignorar tributação, superestimando a renda sustentável.","kw":["retorno nominal","ignorar tributacao"]}],"gab":"A retirada sustentável exige definir premissas com o cliente: horizonte (planejar até 90-95 anos), inflação, retorno real líquido da carteira e se ele deseja preservar o principal. Uma referência consagrada e a faixa de retirada de 3,5% a 4% ao ano do patrimônio (a 'regra dos 4%', baseada no estudo Trinity, e um ponto de partida, não garantia). Sobre R$ 1,2 milhão, 4% representam ~R$ 48 mil/ano, ou ~R$ 4 mil/mês, valor que pode crescer com os aportes dos próximos 5 anos e somar-se ao INSS, mas que ainda fica distante da meta de R$ 12 mil/mês. Os cálculos devem usar retorno real (não nominal) e considerar a tributação das retiradas. Identificado o gap, o banker deve apresentar alternativas: elevar aportes até a aposentadoria, reduzir despesas, adiar a saida do trabalho ou recalibrar a meta de gasto. Simulações de cenários (inclusive estresse e risco de sequência de retornos) ajudam a medir a probabilidade de o patrimônio durar."},{"q":"Considerando o INSS de Roberto, como a taxa de reposição (renda na aposentadoria dividida pela renda atual) entra na sua análise, e o que você explicaria a ele sobre o papel do INSS versus a previdência privada na composição da renda futura?","bullets":[{"t":"Definir taxa de reposição como a razão entre a renda total na aposentadoria e a renda da ativa, e estimar a de Roberto: meta de R$ 12 mil sobre os R$ 18 mil de hoje ~67%.","kw":["taxa de reposicao","renda na ativa","67%","razao"]},{"t":"Explicar que o INSS tem teto de benefício (em 2024 cerca de R$ 7.786) e que, ganhando R$ 18 mil, Roberto receberá muito menos que o salário via INSS, abrindo um gap relevante a ser coberto pela previdência privada/investimentos.","kw":["teto do INSS","gap previdenciario","beneficio limitado","complementar"]},{"t":"Posicionar o INSS como base (pilar público) e a previdência privada + carteira como complemento para elevar a taxa de reposição até o nível desejado.","kw":["pilar publico","complemento","pilares","composicao de renda"]},{"t":"Recomendar simular o benefício no Meu INSS e considerar regras vigentes (idade/tempo de contribuição apos a Reforma de 2019, fator/média salarial) antes de fixar a data de aposentadoria.","kw":["Meu INSS","Reforma da Previdencia","regras de elegibilidade","media salarial"]}],"redFlags":[{"t":"Assumir que o INSS substituirá o salário integral, ignorando o teto do benefício.","kw":["INSS integral","ignorar teto"]}],"gab":"Taxa de reposição e a relação entre a renda na aposentadoria e a renda da ativa. Para Roberto, uma meta de R$ 12 mil sobre R$ 18 mil indica reposição de ~67%. O ponto central e o teto do INSS (em 2024, cerca de R$ 7.786): mesmo contribuindo sobre R$ 18 mil, ele não receberá próximo disso pelo regime público, pois o benefício e limitado ao teto e ainda calculado pela média salarial corrigida com as regras pós-Reforma de 2019. O INSS deve ser tratado como o pilar/base da renda, e a previdência privada (PGBL) somada a carteira de investimentos como o complemento que fecha o gap até a reposição desejada. O banker deve orientar a simulação oficial no Meu INSS e verificar elegibilidade (idade, tempo de contribuição, regras de transição) antes de definir a data de aposentadoria, integrando o benefício estimado ao fluxo de renda total projetado."},{"q":"Para os 5 anos que faltam até a aposentadoria e a transição para a fase de retirada, como você ajustaria a alocação da carteira e a estratégia de saida (modalidade de renda do PGBL, glide path, reserva de liquidez), alinhando ao perfil moderado e a suitability?","bullets":[{"t":"Propor redução gradual de risco (glide path), aumentando renda fixa conforme se aproxima e durante a aposentadoria, sem zerar a parcela de risco, pois o horizonte de vida ainda e longo (20-30 anos).","kw":["glide path","reducao de risco","renda fixa","horizonte longo"]},{"t":"Mitigar o risco de sequência de retornos com uma reserva de liquidez/baldes (bucket) cobrindo 1-3 anos de despesas em ativos de baixa volatilidade, evitando vender ativos de risco em queda.","kw":["risco de sequencia","reserva de liquidez","baldes","baixa volatilidade"]},{"t":"Analisar as modalidades de saida do PGBL: resgates programados (flexibilidade, controle de alíquota regressiva) versus renda vitalícia/temporária (proteção a longevidade, porém com cessão da reserva e menor liquidez).","kw":["resgate programado","renda vitalicia","longevidade","liquidez"]},{"t":"Reafirmar a aderência ao perfil moderado e atualizar a suitability (API), documentando objetivos, horizonte e tolerância a risco antes de qualquer realocação.","kw":["suitability","perfil moderado","API","documentacao"]},{"t":"Considerar eficiência tributária na ordem de saques e o planejamento sucessório (beneficiários do PGBL/VGBL ficam fora do inventário), alinhando com objetivos de herança.","kw":["eficiencia tributaria","ordem de saque","sucessao","beneficiarios"]}],"redFlags":[{"t":"Migrar a carteira para 100% renda fixa, expondo a renda a perda de poder de compra ao longo de 20-30 anos de aposentadoria.","kw":["100% renda fixa","perda de poder de compra"]},{"t":"Recomendar renda vitalícia sem alertar sobre a cessão da reserva a seguradora e a perda de liquidez e de herança daquele saldo.","kw":["vitalicia sem alerta","cessao da reserva"]}],"gab":"A transição pede um glide path: reduzir gradualmente o risco aumentando renda fixa nos 5 anos pre-aposentadoria e na fase de saque, sem zerar a parcela de renda variável, já que a expectativa de vida ainda implica 20-30 anos de horizonte e necessidade de proteção contra a inflação. Para enfrentar o risco de sequência de retornos, recomenda-se uma reserva de liquidez (estratégia de baldes) com 1 a 3 anos de despesas em ativos de baixa volatilidade, evitando vender ativos de risco em momentos de queda. Na saida do PGBL, comparar resgates programados (mais flexíveis e com controle da alíquota regressiva) com a renda vitalícia (protege contra longevidade, mas cede a reserva a seguradora, reduz liquidez e tira o saldo da herança). Tudo deve ser ancorado no perfil moderado, com a suitability (API) atualizada e documentada, e considerar eficiência tributária na ordem dos saques e o planejamento sucessório, lembrando que beneficiários de PGBL/VGBL recebem fora do inventário."}]},{"area":"Private · Planejamento sucessório","title":"Herança de R$ 4,5 milhões: do recebimento a alocação estruturada","cliente":"Marina, 47 anos, dentista autônoma, casada em comunhão parcial de bens, 2 filhos (15 e 19 anos). Renda mensal líquida de cerca de R$ 28 mil. Perfil declarado moderado, baixa experiência em investimentos (só poupança e um CDB). Reserva de emergência parcial (R$ 60 mil). Objetivos: preservar o patrimônio, custear faculdade dos filhos e complementar a aposentadoria aos 60.","contexto":"Marina recebeu uma herança do pai falecido composta por R$ 1,8 milhão em conta corrente (apos inventário concluído), um imóvel comercial alugado avaliado em R$ 1,5 milhão (aluguel de R$ 9 mil/mês) e R$ 1,2 milhão em uma carteira herdada de ações e fundos. Ela esta ansiosa, recebeu várias ofertas de gerentes de banco e de um cunhado que 'investe em cripto', e quer 'fazer logo alguma coisa para o dinheiro não ficar parado'. Busca no Safra private um advisory estruturado para a alocação desse patrimônio. Procura você, banker Safra, para organizar a decisão antes de aplicar.","etapas":[{"q":"Antes de propor qualquer alocação, quais providências de diagnóstico e organização você deve conduzir com a Marina nas primeiras reuniões? Justifique por que não se deve investir imediatamente.","bullets":[{"t":"Verificar a conclusão formal do inventário e a regularidade da transmissão de cada ativo (formal de partilha, ITCMD já recolhido, escritura do imóvel em nome dela), confirmando que os bens efetivamente já são dela e estao livres.","kw":["inventario","formal de partilha","ITCMD","transmissao"]},{"t":"Reaplicar/atualizar o suitability (análise de perfil do investidor) e o questionário de adequação, pois um patrimônio novo e muito maior altera capacidade de risco, horizonte e objetivos; o perfil 'moderado' antigo foi traçado sobre patrimônio pequeno.","kw":["suitability","perfil do investidor","capacidade de risco","objetivos"]},{"t":"Mapear o balanço patrimonial e o fluxo de caixa completos: dívidas, custo de vida, reserva de emergência, e tratar a herança como capital de longo prazo separado da liquidez do dia a dia.","kw":["balanco patrimonial","fluxo de caixa","reserva de emergencia","liquidez"]},{"t":"Acolher o estado emocional (luto e ansiedade), recomendar parquear o numerário em ativo líquido e seguro de baixíssimo risco (Tesouro Selic / fundo DI / CDB de liquidez diária com FGC) enquanto se elabora o plano, evitando decisão impulsiva.","kw":["luto","Tesouro Selic","liquidez diaria","decisao impulsiva"]},{"t":"Definir e hierarquizar objetivos com horizontes (faculdade dos filhos em 1 a 6 anos, aposentadoria em 13 anos, preservação), pois cada objetivo demanda alocação distinta (goal-based / por objetivos).","kw":["objetivos","horizonte","goal-based","metas"]}],"redFlags":[{"t":"Sair recomendando produtos ou aplicar o dinheiro de imediato 'para não ficar parado', sem diagnóstico, suitability ou verificação da titularidade dos bens.","kw":["aplicar imediato","sem diagnostico","sem suitability"]},{"t":"Tratar a herança como dinheiro a ser gasto/movimentado livremente, ignorando a separação entre reserva, objetivos e capital de longo prazo.","kw":["sem separar objetivos","gastar a heranca"]}],"gab":"O erro mais comum e investir antes de diagnosticar. Primeiro confirme que a transmissão esta juridicamente concluída: inventário encerrado, formal de partilha, ITCMD pago (imposto estadual de 2% a 8% sobre herança, já devido por se tratar de causa mortis) e imóvel já registrado em nome de Marina no cartório. Só então os ativos são dela para alocar. Em paralelo, refaca o suitability: o perfil 'moderado' foi medido sobre patrimônio pequeno e o aporte mudou completamente a capacidade financeira de assumir risco - capacidade (objetiva) e tolerância (subjetiva) são coisas distintas e ambas precisam ser reavaliadas. Levante balanço patrimonial e fluxo de caixa, complete a reserva de emergência (6 a 12 meses de custo de vida, ainda mais relevante por ela ser autônoma sem CLT). Como ela esta em luto e ansiosa, estacione o numerário em ativo líquido e seguro (Tesouro Selic, fundo DI ou CDB de liquidez diária coberto pelo FGC até R$ 250 mil por instituição/CPF) e só monte a carteira definitiva apos planejar. Por fim, organize os objetivos por horizonte (faculdade dos filhos no curto/médio prazo, aposentadoria aos 60 no longo prazo) para alocar cada balde de forma adequada."},{"q":"Considerando os objetivos e o novo perfil, como você estruturaria a alocação estratégica dos recursos financeiros (os R$ 1,8 mi em caixa mais a carteira herdada de R$ 1,2 mi)? Trate diversificação e a destinação para a faculdade dos filhos.","bullets":[{"t":"Alocação por objetivos (baldes): caixa/reserva, balde de curto-médio prazo para a faculdade (renda fixa de baixa volatilidade casada com o vencimento dos gastos) e balde de longo prazo para aposentadoria com mais exposição a risco.","kw":["alocacao por objetivos","baldes","casamento de prazos","horizonte"]},{"t":"Diversificação por classes e emissores: renda fixa (Tesouro IPCA+, CDBs/LCIs/LCAs com FGC, debentures), renda variável (ações/ETFs/fundos), multimercado e parcela internacional/câmbio para reduzir risco-país.","kw":["diversificacao","classes de ativos","internacional","renda fixa e variavel"]},{"t":"Faculdade: para os gastos mais próximos (filho de 19 já na faculdade ou perto) usar Tesouro Selic/IPCA+ curto ou CDB de vencimento alinhado; nada de renda variável para recursos que serão usados em até 2-3 anos.","kw":["Tesouro IPCA+","vencimento alinhado","baixa volatilidade","curto prazo"]},{"t":"Analisar criticamente a carteira herdada (R$ 1,2 mi): não manter por inércia ou apego; avaliar concentração, qualidade dos ativos, custos/taxas de fundos e ganho de capital embutido antes de rebalancear, vendendo de forma planejada.","kw":["carteira herdada","rebalanceamento","concentracao","custos"]},{"t":"Dimensionar risco de forma compatível: como já existe o imóvel (R$ 1,5 mi) gerando renda, o patrimônio total já tem forte peso imobiliário - isso deve ser considerado na alocação global para não concentrar ainda mais.","kw":["visao do patrimonio total","concentracao imobiliaria","risco compativel"]}],"redFlags":[{"t":"Concentrar em poucos ativos, num só emissor/banco ou em modas (cripto via cunhado, ação da hora) sem mandato, prazo ou diversificação.","kw":["concentracao","cripto sem criterio","produto da moda"]},{"t":"Colocar dinheiro de uso próximo (faculdade) em renda variável ou ativos voláteis, expondo a meta de curto prazo a perdas.","kw":["renda variavel curto prazo","meta exposta","volatilidade indevida"]}],"gab":"A espinha dorsal e alocação por objetivos somada a diversificação. Separe em baldes por horizonte: (1) reserva de emergência e caixa em Tesouro Selic/fundo DI; (2) balde faculdade, casando o vencimento dos títulos com os anos de mensalidade - para o filho de 19, recursos de uso em até 2-3 anos ficam em Tesouro Selic ou CDB de liquidez/vencimento curto, sem renda variável; para o de 15, ha horizonte de 3 a 6 anos, permitindo Tesouro IPCA+ de prazo alinhado, que protege o poder de compra (mensalidade sobe com inflação); (3) balde aposentadoria (13 anos), onde cabe maior exposição a renda variável, multimercado e ativos internacionais. Diversifique por classe (renda fixa pós e pre e indexada a inflação, renda variável, multimercado, câmbio/exterior) e por emissor, respeitando o limite do FGC (R$ 250 mil por CPF/instituição, teto de R$ 1 mi a cada 4 anos) - com R$ 1,8 mi em caixa, isso obriga a distribuir entre instituições ou usar Tesouro Direto, que e risco soberano. Sobre a carteira herdada: não a mantenha por apego nem a venda toda de uma vez; audite concentração, taxas e o imposto sobre ganho de capital antes de rebalancear gradualmente. E fundamental olhar o patrimônio total: o imóvel de R$ 1,5 mi já da peso imobiliário relevante, então a carteira financeira não deve reforçar essa concentração."},{"q":"Quais são as implicações tributárias relevantes nessa situação (herança, imóvel alugado e os investimentos) e como elas influenciam suas recomendações?","bullets":[{"t":"ITCMD já incidiu sobre a herança (imposto estadual, alíquota de 2% a 8% conforme o estado); apos isso o recebimento em si não gera IR para a herdeira - o que tributa dali pra frente são os rendimentos.","kw":["ITCMD","imposto estadual","causa mortis","isento de IR no recebimento"]},{"t":"Aluguel do imóvel: tributado na pessoa física pela tabela progressiva do IRPF (até 27,5%) via carne-leão mensal; avaliar se vale comparar com outras estruturas e considerar o custo de oportunidade do imóvel.","kw":["aluguel","carne-leao","tabela progressiva","27,5%"]},{"t":"IR sobre investimentos: renda fixa segue tabela regressiva (22,5% até 15%); LCI/LCA, poupança e debentures incentivadas são isentas de IR para PF; FIIs têm isenção no dividendo (regra atual) mas ganho de capital na venda e tributado.","kw":["tabela regressiva","LCI LCA isentas","FII isencao dividendo","debenture incentivada"]},{"t":"Ganho de capital: na venda de ações/fundos da carteira herdada apura-se ganho sobre o custo de aquisição (na sucessão, em geral o valor declarado pelo espólio/partilha); planejar a venda para não gerar IR desnecessário; alienação de imóvel tem IR de ganho de capital (15% a 22,5%) com regras de isenção específicas.","kw":["ganho de capital","custo de aquisicao","venda planejada","IR sobre imovel"]},{"t":"Eficiência tributária como critério de alocação: preferir produtos isentos/diferidos para PF quando alinhados ao objetivo, e considerar previdência (PGBL/VGBL) para aposentadoria, atentando a tabela regressiva da previdência (10% apos 10 anos) e ao planejamento sucessório.","kw":["eficiencia tributaria","PGBL VGBL","diferimento","tabela regressiva previdencia"]}],"redFlags":[{"t":"Afirmar que a herança recebida e tributada por IR de renda, confundindo ITCMD (sucessão) com Imposto de Renda.","kw":["heranca paga IR","confundir ITCMD com IR"]},{"t":"Vender toda a carteira herdada de imediato sem apurar ganho de capital nem o custo de aquisição, gerando imposto evitável.","kw":["venda sem apurar ganho","imposto evitavel"]}],"gab":"O ponto de partida e não confundir tributos. Sobre a herança em si incide o ITCMD (imposto estadual, causa mortis, alíquota de 2% a 8% conforme o estado), que já deve ter sido pago no inventário; o mero recebimento não gera Imposto de Renda para Marina. A partir dai, tributa-se a renda gerada. O aluguel de R$ 9 mil/mês e tributado na PF pela tabela progressiva do IRPF (até 27,5%), recolhido mensalmente via carne-leão - isso reduz o rendimento líquido do imóvel e deve entrar na análise de custo de oportunidade de manter ou vender o bem. Nos investimentos: renda fixa segue tabela regressiva de IR (22,5% até 180 dias, caindo a 15% acima de 720 dias); LCI, LCA, poupança e debentures incentivadas são isentas de IR para pessoa física; FIIs distribuem dividendos isentos pela regra atual, mas o ganho na venda da cota e tributado em 20%. Na carteira herdada, a venda de ações e fundos apura ganho de capital sobre o custo de aquisição (no recebimento por sucessão o custo costuma ser o valor declarado pelo espólio/na partilha), então programe as vendas para não gerar IR desnecessário e aproveite, em ações, a isenção mensal de vendas até R$ 20 mil no mercado a vista. A venda do imóvel, se ocorrer, tem IR sobre ganho de capital (15% a 22,5%, com fatores de redução e isenções específicas). Conclusão prática: a eficiência tributária deve guiar a alocação - priorize produtos isentos ou com diferimento quando casarem com o objetivo, e avalie PGBL/VGBL para o balde aposentadoria, lembrando que o VGBL e útil também no planejamento sucessório por transmitir-se fora do inventário."},{"q":"Como você abordaria o planejamento sucessório e a proteção do próprio patrimônio de Marina (ela tem 2 filhos, e casada e exerce profissão com risco), e como conduziria a relação para mitigar conflitos e vieses (cunhado, ofertas de bancos)?","bullets":[{"t":"Planejamento sucessório da própria Marina: discutir testamento, doação em vida com reserva de usufruto, holding familiar e o uso de VGBL/seguro de vida, que transmitem valores aos beneficiários fora do inventário e com agilidade de liquidez.","kw":["planejamento sucessorio","testamento","holding familiar","VGBL fora do inventario"]},{"t":"Considerar o regime de bens (comunhão parcial) e a legítima dos herdeiros (50% indisponíveis aos herdeiros necessários), respeitando os limites legais ao planejar doações e testamento.","kw":["regime de bens","legitima","herdeiros necessarios","comunhao parcial"]},{"t":"Proteção patrimonial pela atividade de risco (dentista): seguros adequados (responsabilidade civil profissional, vida, invalidez) e separação patrimonial, sem recorrer a estruturas com propósito de fraude/ocultação.","kw":["protecao patrimonial","seguro RC profissional","seguro de vida","invalidez"]},{"t":"Gestão de vieses e conflitos: educar Marina sobre o risco do palpite do cunhado (cripto) e das ofertas de produtos do banco (possível conflito de interesse/comissões), reforçando decisão baseada em plano e em fiduciária/melhor interesse do cliente.","kw":["vieses comportamentais","conflito de interesse","melhor interesse do cliente","educacao financeira"]},{"t":"Documentar e monitorar: formalizar o IPS/plano (política de investimento), revisar periodicamente, e atuar de forma transparente sobre remuneração e suitability continuo, incluindo a família/filhos no diálogo quando pertinente.","kw":["politica de investimento","monitoramento","transparencia","revisao periodica"]}],"redFlags":[{"t":"Propor estruturas (holding, doações) com finalidade de fraudar credores, sonegar tributos ou burlar a legítima dos herdeiros necessários.","kw":["fraude a credores","burlar legitima","sonegacao"]},{"t":"Ceder a pressão do cunhado/banco e alocar em cripto ou produtos de alta comissão sem suitability, plano ou divulgação de conflito.","kw":["ceder a pressao","alta comissao sem disclosure","cripto sem suitability"]}],"gab":"Agora a herança tornou Marina detentora de patrimônio relevante, o que torna o planejamento sucessório DELA tema central. Apresente os instrumentos: testamento (que só pode dispor de 50%, pois a legítima - a outra metade - e reservada por lei aos herdeiros necessários, os dois filhos), doação em vida com reserva de usufruto, holding familiar para patrimônio maior e, com destaque, VGBL e seguro de vida, que se transmitem aos beneficiários fora do inventário, com liquidez rapida e, no caso do VGBL, sem ITCMD em vários estados (tema ainda em discussão judicial) - útil para dar caixa imediato a família. Considere o regime de comunhão parcial e os direitos do cônjuge ao planejar. Pela profissão de risco (dentista, exposta a responsabilidade civil), recomende seguros adequados (RC profissional, vida e invalidez) e separação patrimonial legítima - nunca estruturas voltadas a fraude a credores, sonegação ou a burlar a legítima, o que e ilegal e antiético. No plano comportamental, seu papel fiduciário e proteger Marina de decisões guiadas por viés e por terceiros: o palpite do cunhado sobre cripto (excesso de confiança, FOMO) e as ofertas do banco (potencial conflito de interesse e comissões embutidas) devem ser confrontados com o plano e o suitability. Atue com transparência sobre sua própria remuneração, formalize uma política de investimento (IPS), monitore e revise periodicamente, e mantenha a decisão ancorada no melhor interesse da cliente - princípio central dos códigos da ANBIMA/CVM e da certificação CFP."}]},{"area":"Safra Invest · Suitability","title":"Aplicação do caixa da empresa: liquidez, risco e compliance na tesouraria PJ","cliente":"Mariana, 47 anos, sócia-administradora de uma empresa de serviços de engenharia (Lucro Presumido, faturamento ~R$ 18 mi/ano). Perfil de investidora conservador a moderado. A empresa acumulou R$ 4,5 milhões em caixa, hoje 100% em conta corrente e em um CDB de liquidez diária do banco de relacionamento rendendo ~85% do CDI.","contexto":"Mariana procura o banker porque o caixa da empresa esta 'parado' e rendendo pouco. Ela quer melhorar a rentabilidade, mas tem necessidades de capital de giro recorrentes (folha, fornecedores, impostos) e uma obra grande prevista para daqui a 18 meses que pode exigir aporte. Ela também mistura, na prática, recursos da PJ com objetivos pessoais e cogita 'investir tudo no que render mais'. A conta e PJ, sob CNPJ, e não existe política formal de aplicação financeira; ela leva o caso ao banker Safra do segmento para estruturar a tesouraria.","etapas":[{"q":"Antes de recomendar qualquer produto, como você estrutura o diagnóstico do caixa da empresa para definir quanto, quando e com qual horizonte cada parcela pode ser aplicada? Que informações você levanta?","bullets":[{"t":"Levantar fluxo de caixa projetado e identificar capital de giro recorrente (folha, fornecedores, tributos, sazonalidade) antes de decidir aplicações.","kw":["fluxo de caixa","capital de giro","sazonalidade"]},{"t":"Segmentar o caixa por horizonte e objetivo (reserva operacional/liquidez imediata, recursos de médio prazo, e o aporte da obra em ~18 meses).","kw":["segmentar","horizonte","reserva operacional","obra 18 meses"]},{"t":"Mapear obrigações e datas certas: vencimentos de tributos (DAS/IRPJ/CSLL/PIS/Cofins), 13o, dividendos e eventuais covenants ou garantias bancárias.","kw":["vencimentos","tributos","covenants"]},{"t":"Aplicar suitability da PJ e separar claramente patrimônio da empresa do patrimônio pessoal da sócia.","kw":["suitability","separacao PJ PF","perfil"]},{"t":"Definir política/objetivo de cada bucket: preservação de capital e liquidez tem prioridade sobre rentabilidade no caixa operacional.","kw":["preservacao de capital","liquidez","politica"]}],"redFlags":[{"t":"Recomendar produtos antes de entender o fluxo de caixa e as necessidades de liquidez da empresa.","kw":["recomendar antes","sem diagnostico"]},{"t":"Tratar todo o caixa como recurso de longo prazo, ignorando capital de giro e a obra futura.","kw":["tudo longo prazo","ignorar giro"]}],"gab":"Um bom diagnóstico comeca pelo fluxo de caixa projetado, não pelo produto. O banker deve estimar a queima mensal de caixa (folha, fornecedores, tributos), a sazonalidade do faturamento e os eventos certos (13o, dividendos, vencimentos de DAS/IRPJ/CSLL/PIS/Cofins). A partir disso, segmenta o caixa em buckets: (1) liquidez imediata / reserva operacional (D+0 a D+1) para giro e imprevistos; (2) médio prazo para excedentes sem uso definido; (3) o aporte da obra em ~18 meses, que tem data e valor relativamente conhecidos e pede produto com vencimento alinhado. Suitability também se aplica a PJ, e e essencial separar o patrimônio da empresa do patrimônio pessoal da sócia, pois misturar os dois gera risco tributário, societário e de confusão patrimonial. No caixa corporativo, a hierarquia correta e preservação de capital e liquidez acima de rentabilidade."},{"q":"Mariana diz que quer 'investir tudo no que render mais', incluindo possivelmente ações e fundos imobiliários para o caixa da empresa. Como você conduz essa conversa sob a ótica de suitability e dos objetivos da tesouraria corporativa?","bullets":[{"t":"Reforçar que o objetivo do caixa corporativo e dar suporte a operação; renda variável concentra risco de mercado e liquidez incompatível com capital de giro.","kw":["objetivo do caixa","risco de mercado","incompativel"]},{"t":"Distinguir suitability da PJ do apetite pessoal da sócia; a vontade individual não autoriza expor o caixa operacional a renda variável.","kw":["suitability PJ","apetite pessoal","nao autoriza"]},{"t":"Explicar implicações tributárias e contábeis: ganhos da PJ entram no resultado; renda variável e marcação a mercado afetam balanço e podem gerar volatilidade indesejada.","kw":["tributacao PJ","marcacao a mercado","balanco"]},{"t":"Propor que apetite por risco maior seja canalizado via distribuição de lucros/dividendos para a PF e investido no nome pessoal, se for o caso.","kw":["distribuicao de lucros","investir na PF"]},{"t":"Documentar a recomendação e eventual desenquadramento de perfil (recusa do cliente), registrando ciência de risco.","kw":["documentar","desenquadramento","termo de ciencia"]}],"redFlags":[{"t":"Acatar 'investir tudo no que render mais' e alocar o caixa operacional em ações/FIIs.","kw":["acatar tudo","caixa em acoes"]},{"t":"Vender produto de maior comissão explorando o desejo de rentabilidade, sem alinhar a suitability.","kw":["maior comissao","sem suitability"]}],"gab":"O papel do banker aqui e reorientar a expectativa sem desrespeitar a cliente. O caixa da empresa existe para sustentar a operação; aloca-lo em renda variável (ações, FIIs) introduz volatilidade e risco de liquidez que podem comprometer folha, fornecedores e tributos justamente em um momento de estresse de mercado. Suitability também vale para PJ, e o apetite pessoal de Mariana não transforma o caixa operacional em recurso de risco. Ha ainda efeito tributário e contábil: na PJ os rendimentos integram o resultado e a renda variável sofre marcação a mercado, oscilando o balanço. Se a cliente realmente deseja mais risco, o caminho correto e distribuir lucros/dividendos (isentos na PF dentro das regras vigentes) e investir esse recurso no nome pessoal, onde a alocação em renda variável faz mais sentido e fica separada da operação. Caso ela insista em desenquadrar o perfil da empresa, o banker deve formalizar a recomendação e colher termo de ciência de risco, mantendo o dever fiduciário e o registro."},{"q":"Para a parcela de liquidez/reserva operacional e para os excedentes de curto prazo, que produtos de renda fixa você sugere e por que? Aborde risco de crédito, liquidez e o FGC no contexto de uma PJ.","bullets":[{"t":"Para liquidez imediata: fundos DI / Tesouro Selic (LFT) e CDBs de liquidez diária de bancos sólidos, priorizando baixa volatilidade e resgate rapido.","kw":["Tesouro Selic","fundo DI","liquidez diaria"]},{"t":"Avaliar risco de crédito do emissor e diversificar; não concentrar todo o caixa em um único banco/emissor.","kw":["risco de credito","diversificar emissores","concentracao"]},{"t":"Explicar o FGC corretamente: limite de R$ 250 mil por CPF/CNPJ por instituição e teto de R$ 1 mi em 4 anos; LCI/LCA/CDB cobertos, Tesouro/fundos NÃO são cobertos.","kw":["FGC","250 mil por CNPJ","teto 1 milhao"]},{"t":"Comparar líquido de impostos: PJ no Lucro Presumido não tem isenção de LCI/LCA como a PF; comparar rentabilidade líquida de IR/IOF entre produtos.","kw":["liquido de IR","LCI LCA PJ","IOF"]},{"t":"Negociar taxa: 85% do CDI e baixo; buscar CDB/fundos com taxa próxima ou acima de 100% do CDI mantendo a qualidade de crédito.","kw":["85% do CDI baixo","100% do CDI","negociar taxa"]}],"redFlags":[{"t":"Concentrar R$ 4,5 mi em um único emissor confiando no FGC, ignorando o limite de R$ 250 mil por CNPJ/instituição.","kw":["concentrar tudo","ignorar limite FGC"]},{"t":"Indicar LCI/LCA para a PJ alegando isenção de IR (a isenção e da PF, não da PJ).","kw":["LCI isencao PJ","isencao errada"]}],"gab":"Para a reserva operacional o foco e liquidez e baixa volatilidade: Tesouro Selic (LFT), fundos DI/RF simples de baixa taxa e CDBs de liquidez diária de bancos sólidos atendem bem, com resgate em D+0/D+1. Para excedentes de curto prazo sem uso imediato, pode-se aceitar D+30 ou até o vencimento da obra. O risco de crédito do emissor deve ser avaliado e a carteira diversificada, evitando concentrar R$ 4,5 mi em um único banco. Sobre o FGC: ele cobre CDB, LCI, LCA, LC e poupança até R$ 250 mil por CPF ou CNPJ por instituição, com teto global de R$ 1 milhão a cada 4 anos; Tesouro Direto e fundos de investimento NÃO são cobertos pelo FGC (o fundo tem o próprio patrimônio segregado). Atenção tributária: a PJ no Lucro Presumido NÃO goza da isenção de IR de LCI/LCA que beneficia a PF, então a comparação deve ser sempre por rentabilidade líquida de IR (tabela regressiva de 22,5% a 15%) e de IOF nos primeiros 30 dias. Por fim, 85% do CDI em liquidez diária e remuneração baixa; com R$ 4,5 mi ha poder de negociação para obter CDBs e fundos próximos ou acima de 100% do CDI sem abrir mão da qualidade de crédito."},{"q":"Que cuidados de compliance, governança e formalização você recomenda para que essa estrutura de aplicação do caixa seja sustentável e defensável (perante sócios, fisco e reguladores)?","bullets":[{"t":"Criar uma política de investimentos/tesouraria formal: objetivos, limites por emissor/produto, horizonte e alcadas de aprovação dos sócios.","kw":["politica de investimentos","limites","alcadas"]},{"t":"Garantir separação patrimonial PJ x PF; recursos da empresa saem para o sócio apenas via pro-labore ou distribuição de lucros formalizada, evitando confusão patrimonial.","kw":["separacao patrimonial","distribuicao de lucros","confusao patrimonial"]},{"t":"Verificar contrato social/poderes para aplicar recursos e o cadastro/KYC e suitability da PJ na instituição.","kw":["contrato social","KYC","suitability PJ"]},{"t":"Assegurar registro contábil correto, comprovantes e tratamento tributário das aplicações; manter trilha de auditoria das decisões.","kw":["registro contabil","comprovantes","auditoria"]},{"t":"Atuar dentro do dever fiduciário e dos limites da atividade (o banker não faz gestão discricionária nem aconselhamento tributário/contábil; envolver contador/advogado).","kw":["dever fiduciario","nao discricionaria","envolver contador"]}],"redFlags":[{"t":"Permitir uso do caixa PJ para despesas pessoais da sócia sem distribuição formal (confusão patrimonial).","kw":["uso pessoal do caixa","confusao patrimonial"]},{"t":"Tomar decisões de tesouraria sem checar poderes do contrato social ou sem documentar a recomendação.","kw":["sem poderes","sem documentacao"]}],"gab":"Sustentabilidade vem de governança, não de um produto. O banker deve recomendar uma política de investimentos/tesouraria formal, aprovada pelos sócios, definindo objetivos por bucket, limites de concentração por emissor e produto, horizontes e alcadas de decisão. A separação patrimonial e central: os recursos são da empresa e só chegam a Mariana via pro-labore (tributado) ou distribuição de lucros formalizada; usar o caixa da PJ para gastos pessoais configura confusão patrimonial, com risco de desconsideração da personalidade jurídica e problemas com o fisco. Antes de operar, e preciso checar o contrato social (quem tem poderes para aplicar), o cadastro/KYC da PJ e o questionário de suitability da empresa na instituição. Cada aplicação precisa de registro contábil correto, comprovantes e tratamento tributário adequado, mantendo trilha de auditoria das decisões. Por fim, o banker deve respeitar os limites da sua atuação: não faz gestão discricionária da carteira (isso e papel do gestor) nem substitui aconselhamento contábil/tributário; o ideal e atuar em conjunto com o contador e, quando necessário, o advogado da empresa, sempre sob o dever fiduciário e de boa informação ao cliente."}]},{"area":"High Income · Suitability","title":"Primeiro investimento: organizando a vida financeira de uma jovem profissional","cliente":"Mariana, 24 anos, solteira, sem dependentes. Recém-efetivada como analista júnior, renda líquida de R$ 4.500/mês. Mora de aluguel (R$ 1.500/mês) e nunca investiu - hoje deixa o dinheiro parado na conta corrente. Tem R$ 8.000 guardados e consegue poupar cerca de R$ 700/mês.","contexto":"Mariana procura você porque um amigo recomendou que ela 'comecasse a investir em ações e cripto para ficar rica rapido'. Ela não tem reserva de emergência, não conhece seu perfil de investidor e nunca passou por um processo de suitability. Demonstra ansiedade por retornos altos, mas também medo de perder dinheiro. Como banker Safra, você precisa conduzir o primeiro atendimento, base do advisory e da suitability, de forma educativa e tecnicamente correta.","etapas":[{"q":"Antes de recomendar qualquer produto, como você conduz a etapa de descoberta e diagnóstico da Mariana? Quais informações você levanta e por que o processo de suitability e obrigatório neste caso?","bullets":[{"t":"Levantar dados financeiros completos: renda, despesas fixas e variáveis, capacidade de poupança, patrimônio e dívidas existentes","kw":["orcamento","capacidade de poupanca","fluxo de caixa","dividas"]},{"t":"Identificar objetivos e horizontes de cada meta (curto, médio e longo prazo), pois definem a alocação adequada","kw":["objetivos","horizonte","metas","prazo"]},{"t":"Aplicar o questionário de suitability (API) para definir o perfil de investidor: conservador, moderado ou arrojado, conforme Resolução CVM 30/2021","kw":["suitability","API","perfil de investidor","CVM 30"]},{"t":"Verificar conhecimento e experiência prévia em investimentos, além de tolerância a risco e capacidade de assumir perdas","kw":["tolerancia a risco","experiencia","conhecimento"]},{"t":"Explicar que a adequação (suitability) e obrigatória e visa garantir que a recomendação seja compatível com o perfil, vedando recomendar produto inadequado","kw":["adequacao","obrigatorio","compativel"]}],"redFlags":[{"t":"Recomendar ações ou cripto de imediato, atendendo ao desejo do amigo sem diagnóstico nem suitability","kw":["sem suitability","cripto imediato","acoes direto"]},{"t":"Presumir o perfil sem aplicar o questionário (API)","kw":["presumir perfil","sem API"]}],"gab":"A etapa de descoberta deve preceder qualquer recomendação. O banker levanta o fluxo de caixa (renda de R$ 4.500, despesas e capacidade de poupar ~R$ 700/mês), patrimônio (R$ 8.000) e eventuais dívidas. Em seguida, identifica objetivos e horizontes. O processo de suitability e obrigatório pela Resolução CVM 30/2021 (que substituiu a Instrução CVM 539): antes de recomendar produtos, o profissional deve verificar se o produto e adequado ao perfil, objetivos e situação financeira do cliente, definidos via Análise de Perfil do Investidor (API). Como Mariana nunca investiu e tem baixo conhecimento, seu perfil tende a ser conservador inicialmente. Recomendar ações/cripto sem esse processo violaria a norma e seria tecnicamente incorreto."},{"q":"Mariana não possui reserva de emergência. Como você explica a importância dela, qual valor sugere e em quais produtos essa reserva deve ser alocada? Justifique tecnicamente.","bullets":[{"t":"Explicar que a reserva de emergência e prioridade antes de qualquer investimento de risco, protegendo contra imprevistos (desemprego, saúde) sem precisar resgatar investimentos no prejuízo","kw":["reserva de emergencia","prioridade","imprevistos","protecao"]},{"t":"Sugerir reserva de 3 a 6 meses de despesas; como ela tem emprego CLT relativamente estável, 3 a 6 meses do custo de vida e razoável","kw":["3 a 6 meses","despesas","custo de vida"]},{"t":"Priorizar produtos com alta liquidez (resgate D+0 ou D+1) e baixíssimo risco","kw":["liquidez diaria","baixo risco","D+0","D+1"]},{"t":"Indicar Tesouro Selic, CDB de liquidez diária ou fundos DI, todos com cobertura ou segurança elevada","kw":["Tesouro Selic","CDB liquidez diaria","fundo DI"]},{"t":"Mencionar proteção do FGC até R$ 250 mil por CPF/instituição para CDBs, reforçando segurança","kw":["FGC","250 mil","garantia"]}],"redFlags":[{"t":"Alocar a reserva em produtos voláteis ou de baixa liquidez (ações, fundos imobiliários, previdência, cripto)","kw":["reserva em acoes","baixa liquidez","cripto reserva"]},{"t":"Pular a reserva e já partir para investimentos de risco","kw":["sem reserva","risco antes"]}],"gab":"A reserva de emergência e o alicerce do planejamento financeiro: garante liquidez imediata para imprevistos sem obrigar o resgate de investimentos em momento desfavorável. O parâmetro classico e de 3 a 6 meses de despesas essenciais. Considerando o custo de vida da Mariana (aluguel de R$ 1.500 + demais despesas), 3 a 6 meses pode representar algo em torno de R$ 9.000 a R$ 18.000 - portanto, os R$ 8.000 atuais ainda não cobrem a reserva ideal, devendo ela ser priorizada com a poupança mensal. Os produtos adequados são de alta liquidez e baixo risco: Tesouro Selic (título público pós-fixado, baixíssima volatilidade, liquidez diária), CDBs de liquidez diária (cobertos pelo FGC até R$ 250 mil por CPF por instituição) e fundos DI de baixa taxa. Produtos voláteis ou de baixa liquidez são inadequados para esse fim."},{"q":"Apos a reserva estar encaminhada, Mariana quer comecar a investir o excedente. Quais produtos básicos você apresenta para um primeiro investimento e como explica a tributação de cada um de forma didática?","bullets":[{"t":"Apresentar renda fixa básica: Tesouro Direto (Selic, IPCA+, Prefixado) e CDB/LCI/LCA, explicando pós-fixado x prefixado x inflação","kw":["Tesouro Direto","CDB","LCI","LCA","pos-fixado"]},{"t":"Explicar que LCI e LCA são isentas de IR para pessoa física, enquanto CDB e Tesouro seguem tabela regressiva de IR","kw":["LCI LCA isentas","tabela regressiva","IR"]},{"t":"Detalhar a tabela regressiva: 22,5% até 180 dias, 20% de 181-360, 17,5% de 361-720 e 15% acima de 720 dias","kw":["22,5%","15%","regressiva","prazo"]},{"t":"Mencionar IOF regressivo nos resgates antes de 30 dias, desestimulando saque muito rapido","kw":["IOF","30 dias","resgate"]},{"t":"Adequar a recomendação ao perfil conservador/iniciante e usar linguagem didática, alinhando produto ao horizonte de cada objetivo","kw":["perfil","didatico","horizonte","adequacao"]}],"redFlags":[{"t":"Afirmar que LCI/LCA ou Tesouro têm IR igual, ou errar a tabela regressiva de IR","kw":["IR errado","tabela incorreta"]},{"t":"Empurrar produtos complexos/voláteis ou com alta taxa sem aderência ao perfil iniciante","kw":["produto complexo","alta taxa","inadequado"]}],"gab":"Para um primeiro investidor de perfil conservador, os produtos básicos são de renda fixa. No Tesouro Direto: Tesouro Selic (pós-fixado, segue a Selic, baixa volatilidade), Tesouro IPCA+ (híbrido, protege da inflação, indicado para metas longas) e Tesouro Prefixado (taxa travada). Entre títulos bancários: CDB (pós ou prefixado, coberto pelo FGC) e LCI/LCA (lastreadas em crédito imobiliário/agro, também cobertas pelo FGC). Tributação: CDB e Tesouro Direto seguem a tabela regressiva de IR sobre o rendimento - 22,5% para aplicações até 180 dias, 20% de 181 a 360 dias, 17,5% de 361 a 720 dias e 15% acima de 720 dias. LCI e LCA são isentas de IR para pessoa física, o que pode torna-las atraentes mesmo com taxa nominal menor. Ha ainda IOF regressivo sobre o rendimento em resgates nos primeiros 30 dias (zerando a partir do 30o dia). A recomendação deve respeitar o perfil iniciante e casar o produto com o horizonte de cada objetivo."},{"q":"Mariana insiste em destinar uma parte para ações e cripto, dizendo que 'quer aprender e não se importa de arriscar um pouco'. Como você lida com esse desejo de forma ética, alinhando expectativas e mantendo a adequação ao perfil?","bullets":[{"t":"Acolher o interesse sem julgar, mas reforçar que a base (reserva + renda fixa) deve estar consolidada antes de assumir risco","kw":["base primeiro","reserva consolidada","acolher"]},{"t":"Alinhar expectativas: desfazer a ideia de 'ficar rico rapido', explicando volatilidade, risco de perda e ausência de garantia em renda variável e cripto","kw":["alinhar expectativas","volatilidade","risco de perda","sem garantia"]},{"t":"Propor uma parcela pequena e definida (ex.: percentual reduzido do excedente) como aprendizado, mantendo diversificação e adequação","kw":["parcela pequena","diversificacao","percentual","aprendizado"]},{"t":"Se o produto for inadequado ao perfil declarado, reavaliar/reenquadrar o suitability ou registrar a recomendação com as devidas advertências conforme a norma","kw":["suitability","reenquadrar","advertencia","registro"]},{"t":"Atuar com dever fiduciário/ética: priorizar o interesse da cliente e a educação financeira, não a venda de produtos","kw":["etica","interesse do cliente","educacao financeira","dever fiduciario"]}],"redFlags":[{"t":"Ceder e alocar parte relevante em cripto/ações para agradar, ignorando o perfil conservador e prometendo ganhos","kw":["ceder","promessa de ganho","ignorar perfil"]},{"t":"Recusar qualquer diálogo ou tratar a cliente como incapaz, sem educar nem registrar a decisão","kw":["sem dialogo","sem registro"]}],"gab":"O caminho ético não e nem ceder cegamente nem simplesmente recusar. Primeiro, acolhe-se o interesse da Mariana e valoriza-se a vontade de aprender. Em seguida, alinha-se expectativas: renda variável e cripto são voláteis, podem gerar perdas, não tem garantia do FGC e não se prestam a 'ficar rico rapido'. A base (reserva de emergência e renda fixa) deve estar consolidada antes de qualquer exposição a risco. Pode-se então propor uma parcela pequena e bem delimitada do excedente como 'dinheiro de aprendizado', preferencialmente comecando por produtos mais diversificados (ex.: ETFs ou fundos) antes de ativos individuais, sempre respeitando a diversificação. Tecnicamente, se a renda variável for inadequada ao perfil conservador declarado, a Resolução CVM 30/2021 exige que o profissional alerte sobre a inadequação e, em alguns casos, obtenha declaração do cliente; o perfil também pode ser reavaliado se o conhecimento/tolerância mudarem. Acima de tudo, prevalece o dever de agir no melhor interesse do cliente e a educação financeira, jamais a promessa de retorno ou a venda casada de produtos."}]},{"area":"Private · Suitability","title":"O conservador tentado pela dica do amigo: cripto, ações e o dever de suitability","cliente":"Roberto, 58 anos, engenheiro aposentado pela previdência privada e INSS. Patrimônio financeiro de R$ 800 mil, quase todo em CDB e Tesouro Selic. Perfil conservador confirmado em API recente. Renda mensal de R$ 12 mil, sem outras fontes. Horizonte voltado a preservar capital e complementar a aposentadoria. Baixo conhecimento sobre renda variável.","contexto":"Roberto procura o banker Safra empolgado: um amigo do clube ganhou muito com Bitcoin e com uma ação de tecnologia em poucos meses. Ele quer aplicar R$ 400 mil (metade do patrimônio) em cripto e ações para não ficar para trás. Diz que o amigo garantiu que só sobe e que ele tem pressa porque a oportunidade e agora. O banker sabe que o perfil declarado e conservador e que a operação seria desenquadrada.","etapas":[{"q":"Diante do pedido de Roberto para alocar metade do patrimônio em cripto e ações, como você conduz a primeira conversa e o que precisa verificar antes de qualquer recomendação ou execução?","bullets":[{"t":"Resgatar e reavaliar o perfil de suitability (API) atual, confirmando que ele permanece conservador e não apenas seguir o impulso do cliente.","kw":["suitability","API","perfil conservador","reavaliacao"]},{"t":"Identificar que ha desenquadramento entre o perfil declarado e a operação desejada (renda variável/cripto x conservador), exigindo tratamento formal.","kw":["desenquadramento","inadequacao","renda variavel"]},{"t":"Acolher o cliente sem julgar, fazer escuta ativa e mapear a real motivação (medo de perder, FOMO, pressa) e os objetivos por trás do pedido.","kw":["escuta ativa","FOMO","objetivos","motivacao"]},{"t":"Levantar dados financeiros completos: reserva de emergência, dependentes, dívidas, necessidade de liquidez e horizonte, antes de opinar.","kw":["reserva de emergencia","liquidez","horizonte","necessidades"]}],"redFlags":[{"t":"Executar a ordem imediatamente porque o cliente pediu, ignorando o dever de adequação.","kw":["executar imediato","ignorar suitability"]},{"t":"Recomendar a alocação confiando na dica do amigo como se fosse análise.","kw":["dica de amigo","recomendar sem analise"]}],"gab":"A primeira providência e tratar o pedido como um caso classico de potencial inadequação (desenquadramento de suitability), regido pela Resolução CVM 30/2021, que obriga o profissional a verificar a adequação do produto ao perfil, situação financeira e objetivos do cliente antes de recomendar. O banker deve resgatar a API mais recente, confirmar que o perfil segue conservador e fazer escuta ativa para entender a motivação real, que aqui tem forte componente comportamental (FOMO e viés de manada apos a dica do amigo). Antes de qualquer opinião, e preciso ter o quadro completo: reserva de emergência, liquidez necessária, dívidas, dependentes e horizonte. Nenhuma recomendação ou execução deve ocorrer sem esse diagnóstico, e a dica do amigo não constitui análise nem fundamento para indicar produtos."},{"q":"Roberto insiste. Pela regra de suitability, você pode atender o desejo dele de investir em produto inadequado ao perfil? Como proceder formalmente nesse cenário?","bullets":[{"t":"Explicar que a CVM 30/2021 permite a operação por iniciativa do cliente, mas exige alerta formal sobre a inadequação antes da execução.","kw":["CVM 30/2021","alerta de inadequacao","iniciativa do cliente"]},{"t":"Obter declaração/termo de ciência do cliente de que foi alertado e ainda assim deseja seguir, com registro e arquivamento.","kw":["termo de ciencia","declaracao","registro","arquivamento"]},{"t":"Diferenciar recomendar (vedado quando inadequado) de executar ordem não solicitada pelo profissional, deixando claro que o profissional não recomenda a operação.","kw":["recomendar x executar","ordem do cliente","nao recomendado"]},{"t":"Reforçar a opção recomendada de atualizar a API somente se o perfil real mudou, jamais forçar reclassificação apenas para enquadrar a venda.","kw":["nao forcar reclassificacao","atualizar API","perfil real"]}],"redFlags":[{"t":"Reclassificar artificialmente o perfil para arrojado só para liberar a operação.","kw":["reclassificar artificial","forcar perfil"]},{"t":"Executar sem qualquer alerta ou termo de ciência documentado.","kw":["sem alerta","sem documentacao"]}],"gab":"A Resolução CVM 30/2021 não proíbe que o cliente invista em produto inadequado por sua própria iniciativa, mas veda que o profissional recomende produto desalinhado ao perfil e exige, antes da primeira operação desse tipo, alerta claro de que a operação não e adequada, com a obtenção de declaração expressa de ciência do cliente, devidamente registrada e arquivada. E essencial separar os papéis: o banker pode executar uma ordem não solicitada por ele, mas não deve recomendar a alocação inadequada. Manipular a API para reclassificar o cliente como arrojado apenas para viabilizar a venda e conduta vedada e antiética (conflito de interesses, violação do Código ANBIMA e da própria CVM 30). A atualização da API só se justifica se houver mudança real e comprovada de perfil, objetivos ou tolerância a risco, nunca como artifício."},{"q":"Como educar Roberto sobre os riscos específicos de cripto e ações concentradas, desarmando os vieses comportamentais por trás da decisão, sem ser paternalista?","bullets":[{"t":"Nomear e explicar os vieses presentes: efeito manada, FOMO, excesso de confiança, viés de recência e ancoragem no ganho do amigo.","kw":["efeito manada","FOMO","vies de recencia","excesso de confianca"]},{"t":"Explicar riscos técnicos: alta volatilidade, ausência de garantia (sem FGC), risco de perda total, concentração e iliquidez de cripto.","kw":["volatilidade","sem FGC","perda total","concentracao"]},{"t":"Contextualizar sobrevivência: o amigo conta os ganhos, não as perdas (viés de sobrevivência), e resultado passado não garante futuro.","kw":["vies de sobrevivencia","retorno passado","sem garantia"]},{"t":"Conectar ao objetivo de vida dele: preservar a aposentadoria e renda; quantificar o impacto de uma queda de 50% sobre os R$ 400 mil.","kw":["objetivo de vida","aposentadoria","impacto da perda","preservacao"]}],"redFlags":[{"t":"Apenas dizer não sem explicar, tratando o cliente como incapaz.","kw":["paternalismo","negar sem educar"]}],"gab":"A educação financeira deve ser concreta e ligada a vida do cliente, não um sermão. Roberto esta sob vários vieses comportamentais: efeito manada e FOMO (medo de ficar de fora apos a dica), viés de recência (extrapolar a alta recente como tendência), excesso de confiança e ancoragem no ganho relatado pelo amigo. Vale lembrar o viés de sobrevivência: ouvimos quem ganhou, raramente quem perdeu. Tecnicamente, cripto e ações concentradas têm alta volatilidade, não contam com cobertura do FGC, podem sofrer perda parcial ou total e, no caso de cripto, ha riscos adicionais de liquidez, custódia e regulação. O ponto decisivo e quantificar: uma queda de 50% sobre R$ 400 mil significa R$ 200 mil a menos, metade do patrimônio que sustenta a aposentadoria dele. Ancorar a conversa nos objetivos de preservação e renda, e não na moral, faz o cliente reavaliar com autonomia."},{"q":"Que alternativa adequada e plano de ação você propõe para acolher o desejo de Roberto de buscar mais retorno, respeitando o perfil conservador e o dever fiduciário?","bullets":[{"t":"Propor diversificação gradual e limitada: uma pequena fatia de risco (ex.: 5% a 10%) como dinheiro de aprendizado, mantendo o núcleo conservador intacto.","kw":["diversificacao","fatia pequena","5% a 10%","nucleo conservador"]},{"t":"Garantir reserva de emergência e objetivos essenciais antes de qualquer risco, blindando a aposentadoria.","kw":["reserva de emergencia","blindar aposentadoria","objetivos essenciais"]},{"t":"Oferecer veículos diversificados e mais adequados que aposta concentrada: multimercados, fundos de ações/ETFs amplos, exposição indireta, sempre dentro do suitability.","kw":["multimercado","ETF","diversificado","dentro do suitability"]},{"t":"Estabelecer plano escrito, revisão periódica da carteira e da API, e alinhar expectativas de risco e horizonte.","kw":["plano escrito","revisao periodica","alinhar expectativas","monitoramento"]},{"t":"Registrar tudo e atuar com transparência e dever fiduciário, colocando o interesse do cliente acima de comissões.","kw":["dever fiduciario","transparencia","registro","interesse do cliente"]}],"redFlags":[{"t":"Empurrar produto de maior comissão disfarçado de alternativa, sem aderência ao perfil.","kw":["conflito de interesse","produto de comissao"]},{"t":"Concordar com os R$ 400 mil só para não perder o cliente.","kw":["ceder a pressao","manter cliente a qualquer custo"]}],"gab":"A melhor saida não e um não seco nem um sim ao pedido original, mas uma alternativa adequada que acolhe o desejo de mais retorno dentro do perfil. O caminho profissional e a diversificação gradual: antes de tudo, assegurar reserva de emergência e os objetivos essenciais de aposentadoria; depois, se o cliente quer experimentar risco, destinar uma fatia pequena e controlada (tipicamente 5% a 10% do patrimônio, não 50%) como capital de aprendizado, mantendo o núcleo conservador (Tesouro, CDB, renda fixa de qualidade) intacto. Em vez de aposta concentrada em uma cripto e uma ação indicadas por amigo, ofertar veículos diversificados e mais aderentes, como fundos multimercado, fundos de ações ou ETFs amplos, sempre validados pelo suitability. Tudo formalizado em plano escrito, com revisão periódica da carteira e da API e expectativas de risco/horizonte alinhadas. O dever fiduciário exige transparência total e priorizar o interesse do cliente acima de comissões; jamais empurrar produto só pela remuneração nem ceder a pressão para preservar o relacionamento."}]},{"area":"Private · Planejamento patrimonial","title":"Sucessão patrimonial de família empresária: holding, seguro de vida e doação em vida","cliente":"Casal Almeida, casados em comunhão parcial de bens. Roberto (68) e Marta (64). Patrimônio total de aproximadamente R$ 22 milhões: empresa operacional (R$ 9 mi), 3 imóveis de aluguel (R$ 6 mi), residência (R$ 3 mi) e carteira financeira (R$ 4 mi). Três filhos adultos, sendo um deles sócio na empresa e dois sem envolvimento no negócio. Residentes em SP.","contexto":"Roberto recebeu diagnóstico de doença crônica controlada e o casal quer organizar a sucessão em vida para reduzir custos, evitar conflitos entre os filhos e dar liquidez ao inventário. Eles ouviram falar em 'abrir uma holding' e em 'fazer um seguro de vida', mas não entendem como cada instrumento funciona, nem a carga tributária envolvida. Pedem ao private banking do Safra um plano sucessório integrado e legalmente sólido para o patrimônio da família.","etapas":[{"q":"Antes de propor qualquer estrutura, como você conduziria o diagnóstico sucessório inicial do casal Almeida e quais informações e premissas precisa levantar para dimensionar o problema (custos de inventário, ITCMD, regime de bens e perfil dos herdeiros)?","bullets":[{"t":"Mapear o regime de bens (comunhão parcial) e separar meação do cônjuge da herança propriamente dita, pois a meação não integra a sucessão.","kw":["regime de bens","meacao","comunhao parcial"]},{"t":"Estimar o custo do inventário: ITCMD (em SP alíquota de 4% sobre o quinhão transmitido por morte/doação), honorários advocatícios e custas/emolumentos, além do prazo e da via (judicial x extrajudicial).","kw":["ITCMD","4%","inventario","custas"]},{"t":"Identificar a legítima: 50% do patrimônio e reservado aos herdeiros necessários (descendentes/cônjuge), limitando a liberdade de disposição a parte disponível.","kw":["legitima","herdeiros necessarios","parte disponivel","50%"]},{"t":"Levantar a necessidade de liquidez do espólio para pagar tributos e despesas sem precisar vender ativos as pressas (ativos ilíquidos: empresa e imóveis).","kw":["liquidez","espolio","ativos iliquidos"]},{"t":"Mapear o perfil e as relações entre herdeiros (um sócio operacional, dois fora do negócio) para antecipar conflitos de governança e definir objetivos da família.","kw":["perfil dos herdeiros","governanca","conflito","objetivos"]}],"redFlags":[{"t":"Sair propondo 'abrir holding' como solução padrão sem diagnóstico, regime de bens ou levantamento de custos e objetivos.","kw":["solucao pronta","sem diagnostico"]},{"t":"Ignorar a meação do cônjuge e tratar 100% do patrimônio como herança.","kw":["ignorar meacao","100%"]}],"gab":"O diagnóstico deve comecar pelo regime de bens. Na comunhão parcial, o que foi adquirido onerosamente na constância do casamento e comum; no falecimento de um cônjuge, metade (meação) já pertence ao sobrevivente e não se inventaria. Apenas a outra metade (mais eventuais bens particulares) compõe a herança, sobre a qual incide o ITCMD - em SP a alíquota e de 4% (ha PLs visando progressividade, mas a competência e estadual). O Código Civil reserva a legítima: 50% do patrimônio aos herdeiros necessários (descendentes e cônjuge), restando 50% como parte disponível para destinação livre (testamento, doação). O banker deve quantificar o custo total do inventário (ITCMD + honorários advocatícios, tipicamente 6% a 10%, + custas) e, sobretudo, a necessidade de liquidez: empresa e imóveis são ilíquidos e o ITCMD/custas vencem antes da partilha, gerando risco de venda forçada. Por fim, deve mapear objetivos e o perfil dos herdeiros - especialmente o filho sócio versus os dois de fora - para desenhar governança que evite litígio. Sem esse diagnóstico, qualquer estrutura proposta será genérica e potencialmente inadequada."},{"q":"O casal quer criar uma holding familiar para concentrar a empresa e os imóveis. Quais são os benefícios e as limitações reais dessa estrutura para fins sucessórios e tributários, e que cuidados você destacaria (inclusive sobre ITBI e ganho de capital na integralização)?","bullets":[{"t":"A holding permite transmitir quotas (e não bens individualmente), facilitando a partilha e a doação gradual aos filhos com reserva de usufruto e cláusulas de proteção.","kw":["holding","quotas","doacao","usufruto"]},{"t":"Acordo de sócios / cláusulas no contrato social (inalienabilidade, impenhorabilidade, incomunicabilidade, reversão) dão governança e protegem o patrimônio de conflitos e de terceiros.","kw":["acordo de socios","clausulas","incomunicabilidade","governanca"]},{"t":"Atenção a tributação da integralização: imóvel integralizado ao capital pode ter imunidade de ITBI, mas ela e condicionada e não se aplica se a atividade for preponderantemente imobiliária (compra/venda/locação).","kw":["ITBI","imunidade","atividade imobiliaria","preponderancia"]},{"t":"Avaliar ganho de capital: integralizar pelo valor de declaração evita IR, mas integralizar a mercado pode gerar ganho de capital tributável; planejar o regime tributário dos aluguéis (PJ x PF).","kw":["ganho de capital","valor de declaracao","regime tributario"]},{"t":"Reconhecer que holding não elimina o ITCMD na doação/sucessão das quotas (ITCMD incide também sobre doação) - o ganho e de organização, liquidez documental e potencial economia futura, não isenção automática.","kw":["ITCMD na doacao","nao elimina","expectativa"]}],"redFlags":[{"t":"Vender a holding como forma de 'não pagar ITCMD' ou 'fugir de imposto' - o ITCMD incide sobre a doação das quotas.","kw":["fuga de imposto","nao paga ITCMD"]},{"t":"Ignorar a perda da imunidade de ITBI quando a holding tem atividade imobiliária preponderante.","kw":["ignorar ITBI","preponderancia imobiliaria"]}],"gab":"A holding familiar (em geral uma sociedade limitada ou EIRELI sucedida por Ltda) e útil porque transforma bens em quotas: em vez de inventariar imóveis e empresa um a um, a família passa a transferir participações societárias, o que simplifica partilha e permite doação em vida das quotas aos filhos com reserva de usufruto vitalício para os pais (que mantém controle e renda). O contrato social/acordo de sócios pode prever cláusulas de inalienabilidade, impenhorabilidade, incomunicabilidade e reversão, blindando contra ex-cônjuges dos filhos e credores e estabelecendo regras de governança - especialmente relevante com um filho sócio e dois de fora. Pontos de atenção tributária: (1) ITBI - a CF garante imunidade na integralização de imóveis ao capital social, mas essa imunidade não se aplica quando a atividade preponderante da PJ for imobiliária (locação, compra e venda); como a família tem imóveis de aluguel, isso deve ser analisado caso a caso, pois pode haver incidência de ITBI. (2) IR/ganho de capital - integralizar pelo valor constante na declaração de IRPF evita ganho de capital; integralizar a valor de mercado realiza ganho tributável. (3) Tributação da renda - aluguéis na PJ (lucro presumido) podem ter carga efetiva menor que na PF, mas exige análise. Importante: a holding NÃO isenta ITCMD - a doação das quotas e fato gerador do ITCMD (4% em SP). O benefício e organização, liquidez documental, governança e possível economia, não isenção."},{"q":"A família tem patrimônio concentrado em ativos ilíquidos (empresa e imóveis) e você identificou risco de falta de caixa no espólio. Como o seguro de vida se encaixa no plano sucessório e quais vantagens jurídicas e tributárias ele oferece nesse contexto?","bullets":[{"t":"O seguro de vida gera liquidez imediata aos beneficiários para pagar ITCMD, custas e despesas sem precisar vender empresa ou imóveis as pressas.","kw":["liquidez","seguro de vida","ITCMD","espolio"]},{"t":"O capital segurado não integra o inventário nem a herança (art. 794 do Código Civil) e não responde por dívidas do segurado, sendo pago diretamente ao beneficiário.","kw":["nao integra inventario","art. 794","beneficiario"]},{"t":"Em regra o seguro de vida e isento de IR e não sofre ITCMD na maioria dos estados (e direito próprio do beneficiário, não transmissão causa mortis) - ressalvada legislação estadual específica.","kw":["isento de IR","ITCMD","direito proprio"]},{"t":"Permite equalizar a herança: o filho sócio fica com a empresa e os outros dois são compensados via capital segurado, evitando condomínio forçado e conflito.","kw":["equalizar","compensacao","filho socio","condominio"]},{"t":"A indicação livre de beneficiários só vale sobre a parte disponível; não pode-se usar o seguro para fraudar a legítima dos herdeiros necessários.","kw":["beneficiario","parte disponivel","legitima"]}],"redFlags":[{"t":"Afirmar que o seguro de vida 'sempre' e isento de ITCMD em todo o Brasil sem ressalva quanto a legislação estadual.","kw":["sempre isento","sem ressalva"]},{"t":"Propor seguro para burlar a legítima dos herdeiros necessários (ex.: deixar tudo a um só filho).","kw":["burlar legitima","fraude"]}],"gab":"O seguro de vida e a peca de liquidez do plano. Como o patrimônio Almeida e dominado por ativos ilíquidos (empresa e imóveis), no falecimento o espólio precisará de caixa para pagar ITCMD (4% em SP), honorários e custas - que vencem antes da partilha. Sem liquidez, a família seria forçada a vender ativos com pressa e desconto. O seguro de vida resolve isso: o capital segurado e pago em poucos dias diretamente ao beneficiário. Juridicamente, o art. 794 do Código Civil determina que o capital segurado não se considera herança para todos os efeitos de direito e não responde pelas dívidas do segurado, ou seja, fica fora do inventário. Tributariamente, o capital recebido em razão de morte e isento de IR (Lei 9.250/95) e, na maioria dos estados, não sofre ITCMD por ser direito próprio do beneficiário e não transmissão causa mortis - mas o banker deve verificar a legislação estadual aplicável, pois ha variações. O seguro também permite equalizar a herança: o filho sócio recebe as quotas da empresa e os dois filhos de fora são compensados com o capital segurado, evitando condomínio societário forçado e litígio. Limite importante: a liberdade de indicar beneficiários alcanca a parte disponível; não se pode usar o seguro para esvaziar a legítima dos herdeiros necessários (50%)."},{"q":"Para fechar o plano, como você integraria holding, doação em vida com reserva de usufruto, seguro de vida e eventual testamento em uma estratégia coerente, respeitando a legítima e definindo a governança da empresa entre os três filhos?","bullets":[{"t":"Doação das quotas da holding em vida aos três filhos com reserva de usufruto vitalício aos pais (controle e renda mantidos) e cláusulas de proteção - antecipando a sucessão e diluindo o ITCMD.","kw":["doacao","usufruto","clausulas","antecipacao"]},{"t":"Respeitar a legítima: a doação a herdeiros necessários e adiantamento da legítima e deve ser colacionada, salvo dispensa expressa pela parte disponível; garantir igualdade ou justificar diferenças.","kw":["legitima","colacao","adiantamento","parte disponivel"]},{"t":"Acordo de sócios definindo governança: o filho sócio com gestão operacional, os outros dois como quotistas sem ingerência, regras de dividendos, entrada/saida e resolução de conflitos.","kw":["acordo de socios","governanca","dividendos","gestao"]},{"t":"Seguro de vida para liquidez do ITCMD e para equalizar quem recebe a empresa versus quem recebe ativos financeiros, evitando condomínio forçado.","kw":["seguro de vida","liquidez","equalizar"]},{"t":"Testamento para dispor da parte disponível (até 50%), nomear benefícios específicos e reduzir litígios, sempre dentro da legislação e revisado periodicamente.","kw":["testamento","parte disponivel","revisao"]}],"redFlags":[{"t":"Montar estrutura que viola a legítima ou ignora a colação das doações a herdeiros necessários.","kw":["viola legitima","sem colacao"]},{"t":"Atuar isoladamente sem advogado/contador especializado para os atos jurídicos (contrato social, escrituras, testamento).","kw":["sem advogado","atuacao isolada"]}],"gab":"A estratégia integrada combina os instrumentos de forma complementar. Primeiro, constitui-se a holding e integraliza-se a empresa e os imóveis (observados ITBI e ganho de capital). Em seguida, os pais doam as quotas aos três filhos em vida, com reserva de usufruto vitalício - mantém controle político e os rendimentos enquanto vivos, antecipa a sucessão e recolhe o ITCMD da doação agora (em SP 4%, podendo aproveitar a base atual diante de discussões sobre progressividade). Essa doação a herdeiros necessários e, por lei, adiantamento da legítima e sujeita a colação no futuro, salvo dispensa expressa imputada a parte disponível; por isso o plano deve assegurar igualdade entre os filhos ou justificar e documentar eventuais diferenças, sempre preservando a legítima de 50%. A governança e formalizada por acordo de sócios/contrato social: o filho sócio assume a gestão operacional, os dois de fora permanecem como quotistas com direitos econômicos mas sem ingerência, com regras claras de dividendos, drag/tag, saida e mediação de conflitos. O seguro de vida entra como liquidez para o ITCMD remanescente e para equalizar a partilha (compensando os filhos que não ficam com a empresa), fora do inventário e em regra isento de IR. Por fim, um testamento dispõe da parte disponível, nomeia legados específicos (ex.: residência a um filho) e reduz litígio. Todo o conjunto deve ser executado com advogado e contador especializados e revisado periodicamente diante de mudanças familiares e legislativas (reforma tributária, PLs de ITCMD)."}]}]
+[
+  {
+    "area": "Digital · Previdência e aposentadoria",
+    "title": "Revisão de estratégia de aposentadoria aos 60 anos: previdência, retirada sustentável e taxa de reposição",
+    "cliente": "Roberto, 60 anos, casado, engenheiro CLT com salário bruto de R$ 15.000/mês. Pretende se aposentar em 5 anos (aos 65). Patrimônio acumulado: R$ 900 mil, sendo R$ 450 mil em um PGBL, R$ 280 mil em CDBs/Tesouro e R$ 170 mil em fundos de ações. Perfil moderado. Casa própria quitada. Expectativa de gastar cerca de R$ 9.000/mês na aposentadoria. Sempre fez declaração completa do IR.",
+    "contexto": "Roberto procura o assessor digital do BTG Pactual preocupado se seu patrimônio será suficiente para manter o padrão de vida após parar de trabalhar. Ele contratou o PGBL há 12 anos por orientação do gerente de banco da época, mas nunca revisou a tabela de tributação escolhida nem o regime de saída; quer agora uma assessoria de previdência conduzida pelo BTG para a sua carteira. Também não sabe quanto poderá sacar por mês sem o risco de o dinheiro acabar e desconhece o impacto do INSS na sua renda futura.",
+    "etapas": [
+      {
+        "q": "Como você avaliaria a adequação do PGBL de Roberto, considerando o tipo de declaração de IR dele, o regime de tributação (progressivo x regressivo) e a fase do ciclo de vida em que ele se encontra? O produto continua fazendo sentido?",
+        "bullets": [
+          {
+            "t": "Confirmar que o PGBL é adequado por ele fazer declaração completa, permitindo deduzir aportes até 12% da renda bruta tributável anual, diferindo (não isentando) o imposto para o resgate.",
+            "kw": [
+              "declaracao completa",
+              "deducao 12%",
+              "diferimento",
+              "renda bruta tributavel"
+            ]
+          },
+          {
+            "t": "Analisar o regime de tributação: o regressivo favorece o longo prazo (alíquota cai até 10% após 10 anos), e como ele aporta há 12 anos, parte relevante já estaria na faixa mínima; verificar se foi escolhido e se ainda cabe mudança.",
+            "kw": [
+              "regressivo",
+              "10%",
+              "10 anos",
+              "prazo medio"
+            ]
+          },
+          {
+            "t": "Lembrar que no PGBL a tributação na saída incide sobre o valor total (principal + rendimentos), diferente do VGBL que tributa só o rendimento; isso deve entrar no cálculo da renda líquida.",
+            "kw": [
+              "base de calculo",
+              "valor total",
+              "VGBL",
+              "rendimento"
+            ]
+          },
+          {
+            "t": "Considerar a fase do ciclo de vida: a poucos anos do resgate, avaliar a política de investimento do fundo (renda fixa x multimercado) e a taxa de administração/carregamento como fatores de adequação.",
+            "kw": [
+              "taxa de administracao",
+              "carregamento",
+              "politica de investimento",
+              "ciclo de vida"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Recomendar resgate total imediato do PGBL sem analisar o regime tributário, gerando tributação elevada de uma só vez e perda do diferimento.",
+            "kw": [
+              "resgate total",
+              "tributacao elevada"
+            ]
+          },
+          {
+            "t": "Confundir PGBL com VGBL afirmando que a tributação incide só sobre os rendimentos.",
+            "kw": [
+              "confundir PGBL VGBL",
+              "so rendimentos"
+            ]
+          }
+        ],
+        "gab": "O PGBL é adequado a Roberto porque ele faz declaração completa do IR e pode deduzir aportes de até 12% da renda bruta tributável anual, o que difere (não elimina) o imposto para o momento do resgate. Como ele aporta há 12 anos, se estiver no regime regressivo a maior parte dos aportes já alcança a alíquota mínima de 10%, o cenário mais eficiente. Atenção crítica: no PGBL o IR na saída incide sobre o valor total resgatado (principal + rendimentos), ao contrário do VGBL que tributa apenas o rendimento. A escolha do regime (progressivo x regressivo) é definitiva após a opção formal e deve ser checada. O produto continua fazendo sentido se a política de investimento e os custos (taxa de administração e eventual carregamento) forem competitivos. O assessor deve revisar esses pontos antes de qualquer recomendação, evitando resgate total precipitado."
+      },
+      {
+        "q": "Roberto quer saber quanto poderá retirar por mês na aposentadoria sem o risco de o dinheiro acabar. Como você estruturaria esse cálculo de retirada sustentável e quais premissas precisam ser definidas com ele?",
+        "bullets": [
+          {
+            "t": "Definir as premissas centrais: horizonte/expectativa de vida (planejar até 90-95 anos por conservadorismo), inflação, retorno real líquido esperado da carteira e se ele quer ou não preservar o principal para herdeiros.",
+            "kw": [
+              "expectativa de vida",
+              "retorno real",
+              "inflacao",
+              "preservar principal"
+            ]
+          },
+          {
+            "t": "Apresentar a regra de retirada sustentável (ex.: faixa de 3,5% a 4% ao ano do patrimônio como referência) e calcular: sobre R$ 900 mil, ~4% equivale a cerca de R$ 36 mil/ano (R$ 3 mil/mês), bem abaixo da meta de R$ 9 mil.",
+            "kw": [
+              "taxa de retirada",
+              "4%",
+              "retirada sustentavel",
+              "deficit"
+            ]
+          },
+          {
+            "t": "Trabalhar com retorno real (descontada a inflação) e não nominal, e considerar a tributação das retiradas no cálculo do valor líquido disponível.",
+            "kw": [
+              "retorno real",
+              "valor liquido",
+              "tributacao da retirada"
+            ]
+          },
+          {
+            "t": "Incluir o INSS e eventual renda do PGBL no fluxo total, e usar simulações de cenários/Monte Carlo ou estresse para medir a probabilidade de o patrimônio durar.",
+            "kw": [
+              "INSS",
+              "fluxo total",
+              "cenarios",
+              "probabilidade de sucesso"
+            ]
+          },
+          {
+            "t": "Identificar o gap entre meta de gasto e renda projetada e propor ajustes: aumentar aportes nos 5 anos restantes, reduzir despesas, adiar a aposentadoria ou rever o padrão de vida.",
+            "kw": [
+              "gap",
+              "aportes adicionais",
+              "adiar aposentadoria",
+              "ajuste de meta"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Prometer retirada fixa garantida sem considerar inflação, sequência de retornos ou longevidade.",
+            "kw": [
+              "retirada garantida",
+              "sem inflacao"
+            ]
+          },
+          {
+            "t": "Usar retorno nominal histórico otimista e ignorar tributação, superestimando a renda sustentável.",
+            "kw": [
+              "retorno nominal",
+              "ignorar tributacao"
+            ]
+          }
+        ],
+        "gab": "A retirada sustentável exige definir premissas com o cliente: horizonte (planejar até 90-95 anos), inflação, retorno real líquido da carteira e se ele deseja preservar o principal. Uma referência consagrada é a faixa de retirada de 3,5% a 4% ao ano do patrimônio (a 'regra dos 4%', baseada no estudo Trinity, é um ponto de partida, não garantia). Sobre R$ 900 mil, 4% representam ~R$ 36 mil/ano, ou ~R$ 3 mil/mês, valor que pode crescer com os aportes dos próximos 5 anos e somar-se ao INSS, mas que ainda fica distante da meta de R$ 9 mil/mês. Os cálculos devem usar retorno real (não nominal) e considerar a tributação das retiradas. Identificado o gap, o assessor deve apresentar alternativas: elevar aportes até a aposentadoria, reduzir despesas, adiar a saída do trabalho ou recalibrar a meta de gasto. Simulações de cenários (inclusive estresse e risco de sequência de retornos) ajudam a medir a probabilidade de o patrimônio durar."
+      },
+      {
+        "q": "Considerando o INSS de Roberto, como a taxa de reposição (renda na aposentadoria dividida pela renda atual) entra na sua análise, e o que você explicaria a ele sobre o papel do INSS versus a previdência privada na composição da renda futura?",
+        "bullets": [
+          {
+            "t": "Definir taxa de reposição como a razão entre a renda total na aposentadoria e a renda da ativa, e estimar a de Roberto: meta de R$ 9 mil sobre os R$ 15 mil de hoje ~60%.",
+            "kw": [
+              "taxa de reposicao",
+              "renda na ativa",
+              "60%",
+              "razao"
+            ]
+          },
+          {
+            "t": "Explicar que o INSS tem teto de benefício (em 2024 cerca de R$ 7.786) e que, ganhando R$ 15 mil, Roberto receberá bem menos que o salário via INSS, abrindo um gap relevante a ser coberto pela previdência privada/investimentos.",
+            "kw": [
+              "teto do INSS",
+              "gap previdenciario",
+              "beneficio limitado",
+              "complementar"
+            ]
+          },
+          {
+            "t": "Posicionar o INSS como base (pilar público) e a previdência privada + carteira como complemento para elevar a taxa de reposição até o nível desejado.",
+            "kw": [
+              "pilar publico",
+              "complemento",
+              "pilares",
+              "composicao de renda"
+            ]
+          },
+          {
+            "t": "Recomendar simular o benefício no Meu INSS e considerar regras vigentes (idade/tempo de contribuição após a Reforma de 2019, fator/média salarial) antes de fixar a data de aposentadoria.",
+            "kw": [
+              "Meu INSS",
+              "Reforma da Previdencia",
+              "regras de elegibilidade",
+              "media salarial"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Assumir que o INSS substituirá o salário integral, ignorando o teto do benefício.",
+            "kw": [
+              "INSS integral",
+              "ignorar teto"
+            ]
+          }
+        ],
+        "gab": "Taxa de reposição é a relação entre a renda na aposentadoria e a renda da ativa. Para Roberto, uma meta de R$ 9 mil sobre R$ 15 mil indica reposição de ~60%. O ponto central é o teto do INSS (em 2024, cerca de R$ 7.786): mesmo contribuindo sobre R$ 15 mil, ele não receberá próximo disso pelo regime público, pois o benefício é limitado ao teto e ainda calculado pela média salarial corrigida com as regras pós-Reforma de 2019. O INSS deve ser tratado como o pilar/base da renda, e a previdência privada (PGBL) somada à carteira de investimentos como o complemento que fecha o gap até a reposição desejada. O assessor deve orientar a simulação oficial no Meu INSS e verificar elegibilidade (idade, tempo de contribuição, regras de transição) antes de definir a data de aposentadoria, integrando o benefício estimado ao fluxo de renda total projetado."
+      },
+      {
+        "q": "Para os 5 anos que faltam até a aposentadoria e a transição para a fase de retirada, como você ajustaria a alocação da carteira e a estratégia de saída (modalidade de renda do PGBL, glide path, reserva de liquidez), alinhando ao perfil moderado e à suitability?",
+        "bullets": [
+          {
+            "t": "Propor redução gradual de risco (glide path), aumentando renda fixa conforme se aproxima e durante a aposentadoria, sem zerar a parcela de risco, pois o horizonte de vida ainda é longo (20-30 anos).",
+            "kw": [
+              "glide path",
+              "reducao de risco",
+              "renda fixa",
+              "horizonte longo"
+            ]
+          },
+          {
+            "t": "Mitigar o risco de sequência de retornos com uma reserva de liquidez/baldes (bucket) cobrindo 1-3 anos de despesas em ativos de baixa volatilidade, evitando vender ativos de risco em queda.",
+            "kw": [
+              "risco de sequencia",
+              "reserva de liquidez",
+              "baldes",
+              "baixa volatilidade"
+            ]
+          },
+          {
+            "t": "Analisar as modalidades de saída do PGBL: resgates programados (flexibilidade, controle de alíquota regressiva) versus renda vitalícia/temporária (proteção à longevidade, porém com cessão da reserva e menor liquidez).",
+            "kw": [
+              "resgate programado",
+              "renda vitalicia",
+              "longevidade",
+              "liquidez"
+            ]
+          },
+          {
+            "t": "Reafirmar a aderência ao perfil moderado e atualizar a suitability (API), documentando objetivos, horizonte e tolerância a risco antes de qualquer realocação.",
+            "kw": [
+              "suitability",
+              "perfil moderado",
+              "API",
+              "documentacao"
+            ]
+          },
+          {
+            "t": "Considerar eficiência tributária na ordem de saques e o planejamento sucessório (beneficiários do PGBL/VGBL ficam fora do inventário), alinhando com objetivos de herança.",
+            "kw": [
+              "eficiencia tributaria",
+              "ordem de saque",
+              "sucessao",
+              "beneficiarios"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Migrar a carteira para 100% renda fixa, expondo a renda a perda de poder de compra ao longo de 20-30 anos de aposentadoria.",
+            "kw": [
+              "100% renda fixa",
+              "perda de poder de compra"
+            ]
+          },
+          {
+            "t": "Recomendar renda vitalícia sem alertar sobre a cessão da reserva à seguradora e a perda de liquidez e de herança daquele saldo.",
+            "kw": [
+              "vitalicia sem alerta",
+              "cessao da reserva"
+            ]
+          }
+        ],
+        "gab": "A transição pede um glide path: reduzir gradualmente o risco aumentando renda fixa (CDBs, LCIs/LCAs e Tesouro dentro do cardápio digital) nos 5 anos pré-aposentadoria e na fase de saque, sem zerar a parcela de renda variável, já que a expectativa de vida ainda implica 20-30 anos de horizonte e necessidade de proteção contra a inflação. Para enfrentar o risco de sequência de retornos, recomenda-se uma reserva de liquidez (estratégia de baldes) com 1 a 3 anos de despesas em ativos de baixa volatilidade, evitando vender ativos de risco em momentos de queda. Na saída do PGBL, comparar resgates programados (mais flexíveis e com controle da alíquota regressiva) com a renda vitalícia (protege contra longevidade, mas cede a reserva à seguradora, reduz liquidez e tira o saldo da herança). Tudo deve ser ancorado no perfil moderado, com a suitability (API) atualizada e documentada, e considerar eficiência tributária na ordem dos saques e o planejamento sucessório, lembrando que beneficiários de PGBL/VGBL recebem fora do inventário."
+      }
+    ]
+  },
+  {
+    "area": "Digital · Planejamento sucessório",
+    "title": "Herança de R$ 850 mil: do recebimento à alocação estruturada",
+    "cliente": "Marina, 47 anos, dentista autônoma, casada em comunhão parcial de bens, 2 filhos (15 e 19 anos). Renda mensal líquida de cerca de R$ 12 mil. Perfil declarado moderado, baixa experiência em investimentos (só poupança e um CDB). Reserva de emergência parcial (R$ 20 mil). Objetivos: preservar o patrimônio, custear a faculdade dos filhos e complementar a aposentadoria aos 60.",
+    "contexto": "Marina recebeu uma herança do pai falecido composta por R$ 380 mil em conta corrente (após inventário concluído), um apartamento de dois quartos alugado avaliado em R$ 320 mil (aluguel de R$ 1.800/mês) e R$ 150 mil em uma carteira herdada de ações e fundos, totalizando cerca de R$ 850 mil. Ela está ansiosa, recebeu várias ofertas do gerente do banco tradicional e de um cunhado que 'investe em cripto', e quer 'fazer logo alguma coisa para o dinheiro não ficar parado'. Abriu conta na plataforma digital do BTG Pactual e busca uma assessoria estruturada para a alocação desse patrimônio. Procura você, assessor digital de um escritório BTG Advisors, para organizar a decisão antes de aplicar.",
+    "etapas": [
+      {
+        "q": "Antes de propor qualquer alocação, quais providências de diagnóstico e organização você deve conduzir com a Marina nas primeiras reuniões? Justifique por que não se deve investir imediatamente.",
+        "bullets": [
+          {
+            "t": "Verificar a conclusão formal do inventário e a regularidade da transmissão de cada ativo (formal de partilha, ITCMD já recolhido, escritura do apartamento em nome dela), confirmando que os bens efetivamente já são dela e estão livres.",
+            "kw": [
+              "inventario",
+              "formal de partilha",
+              "ITCMD",
+              "transmissao"
+            ]
+          },
+          {
+            "t": "Reaplicar/atualizar o suitability (análise de perfil do investidor) e o questionário de adequação, pois um patrimônio novo e muito maior altera capacidade de risco, horizonte e objetivos; o perfil 'moderado' antigo foi traçado sobre patrimônio pequeno.",
+            "kw": [
+              "suitability",
+              "perfil do investidor",
+              "capacidade de risco",
+              "objetivos"
+            ]
+          },
+          {
+            "t": "Mapear o balanço patrimonial e o fluxo de caixa completos: dívidas, custo de vida, reserva de emergência, e tratar a herança como capital de longo prazo separado da liquidez do dia a dia.",
+            "kw": [
+              "balanco patrimonial",
+              "fluxo de caixa",
+              "reserva de emergencia",
+              "liquidez"
+            ]
+          },
+          {
+            "t": "Acolher o estado emocional (luto e ansiedade), recomendar parquear o numerário em ativo líquido e seguro de baixíssimo risco (Tesouro Selic / fundo DI / CDB de liquidez diária com FGC) enquanto se elabora o plano, evitando decisão impulsiva.",
+            "kw": [
+              "luto",
+              "Tesouro Selic",
+              "liquidez diaria",
+              "decisao impulsiva"
+            ]
+          },
+          {
+            "t": "Definir e hierarquizar objetivos com horizontes (faculdade dos filhos em 1 a 6 anos, aposentadoria em 13 anos, preservação), pois cada objetivo demanda alocação distinta (alocação por objetivos).",
+            "kw": [
+              "objetivos",
+              "horizonte",
+              "alocacao por objetivos",
+              "metas"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Sair recomendando produtos ou aplicar o dinheiro de imediato 'para não ficar parado', sem diagnóstico, suitability ou verificação da titularidade dos bens.",
+            "kw": [
+              "aplicar imediato",
+              "sem diagnostico",
+              "sem suitability"
+            ]
+          },
+          {
+            "t": "Tratar a herança como dinheiro a ser gasto/movimentado livremente, ignorando a separação entre reserva, objetivos e capital de longo prazo.",
+            "kw": [
+              "sem separar objetivos",
+              "gastar a heranca"
+            ]
+          }
+        ],
+        "gab": "O erro mais comum é investir antes de diagnosticar. Primeiro confirme que a transmissão está juridicamente concluída: inventário encerrado, formal de partilha, ITCMD pago (imposto estadual de 2% a 8% sobre herança, já devido por se tratar de causa mortis) e apartamento já registrado em nome de Marina no cartório. Só então os ativos são dela para alocar. Em paralelo, refaça o suitability: o perfil 'moderado' foi medido sobre patrimônio pequeno e o aporte de R$ 850 mil mudou completamente a capacidade financeira de assumir risco - capacidade (objetiva) e tolerância (subjetiva) são coisas distintas e ambas precisam ser reavaliadas. Levante balanço patrimonial e fluxo de caixa e complete a reserva de emergência (6 a 12 meses de custo de vida, ainda mais relevante por ela ser autônoma sem CLT, o que pede algo em torno de R$ 70 mil a R$ 100 mil, bem acima dos R$ 20 mil atuais). Como ela está em luto e ansiosa, estacione os R$ 380 mil em ativo líquido e seguro (Tesouro Selic, fundo DI ou CDB de liquidez diária coberto pelo FGC até R$ 250 mil por instituição/CPF, o que já exige dividir entre instituições ou priorizar o Tesouro) e só monte a carteira definitiva após planejar. Por fim, organize os objetivos por horizonte (faculdade dos filhos no curto/médio prazo, aposentadoria aos 60 no longo prazo) para alocar cada balde de forma adequada."
+      },
+      {
+        "q": "Considerando os objetivos e o novo perfil, como você estruturaria a alocação estratégica dos recursos financeiros (os R$ 380 mil em caixa mais a carteira herdada de R$ 150 mil)? Trate diversificação e a destinação para a faculdade dos filhos.",
+        "bullets": [
+          {
+            "t": "Alocação por objetivos (baldes): caixa/reserva, balde de curto-médio prazo para a faculdade (renda fixa de baixa volatilidade casada com o vencimento dos gastos) e balde de longo prazo para aposentadoria com mais exposição a risco.",
+            "kw": [
+              "alocacao por objetivos",
+              "baldes",
+              "casamento de prazos",
+              "horizonte"
+            ]
+          },
+          {
+            "t": "Diversificação por classes e emissores dentro do cardápio digital: renda fixa (Tesouro IPCA+, CDBs/LCIs/LCAs com FGC), fundos de ações e multimercado, previdência PGBL/VGBL e, com parcimônia, COE ou fundos com exposição internacional para reduzir risco-país.",
+            "kw": [
+              "diversificacao",
+              "classes de ativos",
+              "fundos",
+              "renda fixa e variavel"
+            ]
+          },
+          {
+            "t": "Faculdade: para os gastos mais próximos (filho de 19 já na faculdade ou perto) usar Tesouro Selic/IPCA+ curto ou CDB de vencimento alinhado; nada de renda variável para recursos que serão usados em até 2-3 anos.",
+            "kw": [
+              "Tesouro IPCA+",
+              "vencimento alinhado",
+              "baixa volatilidade",
+              "curto prazo"
+            ]
+          },
+          {
+            "t": "Analisar criticamente a carteira herdada (R$ 150 mil): não manter por inércia ou apego; avaliar concentração, qualidade dos ativos, custos/taxas de fundos e ganho de capital embutido antes de rebalancear, vendendo de forma planejada.",
+            "kw": [
+              "carteira herdada",
+              "rebalanceamento",
+              "concentracao",
+              "custos"
+            ]
+          },
+          {
+            "t": "Dimensionar risco de forma compatível: como já existe o apartamento (R$ 320 mil) gerando renda, o patrimônio total já tem forte peso imobiliário - isso deve ser considerado na alocação global para não concentrar ainda mais.",
+            "kw": [
+              "visao do patrimonio total",
+              "concentracao imobiliaria",
+              "risco compativel"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Concentrar em poucos ativos, num só emissor/banco ou em modas (cripto via cunhado, ação da hora) sem mandato, prazo ou diversificação.",
+            "kw": [
+              "concentracao",
+              "cripto sem criterio",
+              "produto da moda"
+            ]
+          },
+          {
+            "t": "Colocar dinheiro de uso próximo (faculdade) em renda variável ou ativos voláteis, expondo a meta de curto prazo a perdas.",
+            "kw": [
+              "renda variavel curto prazo",
+              "meta exposta",
+              "volatilidade indevida"
+            ]
+          }
+        ],
+        "gab": "A espinha dorsal é alocação por objetivos somada a diversificação. Separe em baldes por horizonte: (1) reserva de emergência e caixa em Tesouro Selic/fundo DI; (2) balde faculdade, casando o vencimento dos títulos com os anos de mensalidade - para o filho de 19, recursos de uso em até 2-3 anos ficam em Tesouro Selic ou CDB de liquidez/vencimento curto, sem renda variável; para o de 15, há horizonte de 3 a 6 anos, permitindo Tesouro IPCA+ de prazo alinhado, que protege o poder de compra (mensalidade sobe com inflação); (3) balde aposentadoria (13 anos), onde cabem fundos de ações, multimercado e previdência PGBL/VGBL, com exposição a risco compatível com o suitability atualizado. Diversifique por classe (renda fixa pós-fixada, prefixada e indexada à inflação, fundos de ações e multimercado) e por emissor, respeitando o limite do FGC (R$ 250 mil por CPF/instituição, teto de R$ 1 mi a cada 4 anos) - com R$ 380 mil em caixa, isso obriga a distribuir entre pelo menos duas instituições ou usar Tesouro Direto, que é risco soberano. Sobre a carteira herdada de R$ 150 mil: não a mantenha por apego nem a venda toda de uma vez; audite concentração, taxas e o imposto sobre ganho de capital antes de rebalancear gradualmente. É fundamental olhar o patrimônio total: o apartamento de R$ 320 mil já representa mais de um terço dos R$ 850 mil, um peso imobiliário relevante, então a carteira financeira não deve reforçar essa concentração."
+      },
+      {
+        "q": "Quais são as implicações tributárias relevantes nessa situação (herança, apartamento alugado e os investimentos) e como elas influenciam suas recomendações?",
+        "bullets": [
+          {
+            "t": "ITCMD já incidiu sobre a herança (imposto estadual, alíquota de 2% a 8% conforme o estado); após isso o recebimento em si não gera IR para a herdeira - o que tributa dali pra frente são os rendimentos.",
+            "kw": [
+              "ITCMD",
+              "imposto estadual",
+              "causa mortis",
+              "isento de IR no recebimento"
+            ]
+          },
+          {
+            "t": "Aluguel do apartamento: tributado na pessoa física pela tabela progressiva do IRPF (até 27,5%) via carnê-leão mensal, somando-se aos rendimentos de autônoma; avaliar o rendimento líquido real e o custo de oportunidade de manter o imóvel.",
+            "kw": [
+              "aluguel",
+              "carne-leao",
+              "tabela progressiva",
+              "27,5%"
+            ]
+          },
+          {
+            "t": "IR sobre investimentos: renda fixa segue tabela regressiva (22,5% até 15%); LCI/LCA e poupança são isentas de IR para PF; fundos têm come-cotas conforme a classe e ganho tributado no resgate.",
+            "kw": [
+              "tabela regressiva",
+              "LCI LCA isentas",
+              "come-cotas",
+              "fundos"
+            ]
+          },
+          {
+            "t": "Ganho de capital: na venda de ações/fundos da carteira herdada apura-se ganho sobre o custo de aquisição (na sucessão, em geral o valor declarado pelo espólio/partilha); planejar a venda para não gerar IR desnecessário; alienação do apartamento tem IR de ganho de capital (15%) com regras de isenção específicas.",
+            "kw": [
+              "ganho de capital",
+              "custo de aquisicao",
+              "venda planejada",
+              "IR sobre imovel"
+            ]
+          },
+          {
+            "t": "Eficiência tributária como critério de alocação: preferir produtos isentos/diferidos para PF quando alinhados ao objetivo, e considerar previdência (PGBL/VGBL) para aposentadoria, atentando à tabela regressiva da previdência (10% após 10 anos) e ao planejamento sucessório.",
+            "kw": [
+              "eficiencia tributaria",
+              "PGBL VGBL",
+              "diferimento",
+              "tabela regressiva previdencia"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Afirmar que a herança recebida é tributada por IR de renda, confundindo ITCMD (sucessão) com Imposto de Renda.",
+            "kw": [
+              "heranca paga IR",
+              "confundir ITCMD com IR"
+            ]
+          },
+          {
+            "t": "Vender toda a carteira herdada de imediato sem apurar ganho de capital nem o custo de aquisição, gerando imposto evitável.",
+            "kw": [
+              "venda sem apurar ganho",
+              "imposto evitavel"
+            ]
+          }
+        ],
+        "gab": "O ponto de partida é não confundir tributos. Sobre a herança em si incide o ITCMD (imposto estadual, causa mortis, alíquota de 2% a 8% conforme o estado), que já deve ter sido pago no inventário; o mero recebimento não gera Imposto de Renda para Marina. A partir daí, tributa-se a renda gerada. O aluguel de R$ 1.800/mês é tributado na PF pela tabela progressiva do IRPF via carnê-leão, somando-se aos rendimentos que ela já recebe como autônoma de pessoas físicas - na prática, o aluguel tende a ser tributado na alíquota marginal de até 27,5%, o que reduz o rendimento líquido do imóvel e deve entrar na análise de custo de oportunidade de manter ou vender o bem. Nos investimentos: renda fixa segue tabela regressiva de IR (22,5% até 180 dias, caindo a 15% acima de 720 dias); LCI, LCA e poupança são isentas de IR para pessoa física; fundos abertos têm come-cotas semestral conforme a classe e o ganho é tributado no resgate. Na carteira herdada, a venda de ações e fundos apura ganho de capital sobre o custo de aquisição (no recebimento por sucessão o custo costuma ser o valor declarado pelo espólio/na partilha), então programe as vendas para não gerar IR desnecessário e aproveite, em ações, a isenção mensal de vendas até R$ 20 mil no mercado à vista - com R$ 150 mil herdados, algumas janelas mensais podem zerar o imposto da realocação. A venda do apartamento, se ocorrer, tem IR sobre ganho de capital (15%, com fatores de redução e isenções específicas, como a compra de outro imóvel residencial em 180 dias). Conclusão prática: a eficiência tributária deve guiar a alocação - priorize produtos isentos ou com diferimento quando casarem com o objetivo, e avalie PGBL/VGBL para o balde aposentadoria, lembrando que o VGBL é útil também no planejamento sucessório por transmitir-se fora do inventário."
+      },
+      {
+        "q": "Como você abordaria o planejamento sucessório e a proteção do próprio patrimônio de Marina (ela tem 2 filhos, é casada e exerce profissão com risco), e como conduziria a relação para mitigar conflitos e vieses (cunhado, ofertas do gerente do banco)?",
+        "bullets": [
+          {
+            "t": "Planejamento sucessório da própria Marina em escala adequada ao patrimônio: discutir testamento, doação em vida com reserva de usufruto e o uso de VGBL/seguro de vida, que transmitem valores aos beneficiários fora do inventário e com agilidade de liquidez, sem estruturas complexas desnecessárias.",
+            "kw": [
+              "planejamento sucessorio",
+              "testamento",
+              "seguro de vida",
+              "VGBL fora do inventario"
+            ]
+          },
+          {
+            "t": "Considerar o regime de bens (comunhão parcial) e a legítima dos herdeiros (50% indisponíveis aos herdeiros necessários), respeitando os limites legais ao planejar doações e testamento.",
+            "kw": [
+              "regime de bens",
+              "legitima",
+              "herdeiros necessarios",
+              "comunhao parcial"
+            ]
+          },
+          {
+            "t": "Proteção patrimonial pela atividade de risco (dentista): seguros adequados (responsabilidade civil profissional, vida, invalidez) e separação patrimonial, sem recorrer a estruturas com propósito de fraude/ocultação.",
+            "kw": [
+              "protecao patrimonial",
+              "seguro RC profissional",
+              "seguro de vida",
+              "invalidez"
+            ]
+          },
+          {
+            "t": "Gestão de vieses e conflitos: educar Marina sobre o risco do palpite do cunhado (cripto) e das ofertas de produtos do banco tradicional (possível conflito de interesse/comissões), reforçando decisão baseada em plano e no melhor interesse da cliente.",
+            "kw": [
+              "vieses comportamentais",
+              "conflito de interesse",
+              "melhor interesse do cliente",
+              "educacao financeira"
+            ]
+          },
+          {
+            "t": "Documentar e monitorar: formalizar o plano/política de investimento, revisar periodicamente, e atuar de forma transparente sobre remuneração e suitability contínuo, incluindo a família/filhos no diálogo quando pertinente.",
+            "kw": [
+              "politica de investimento",
+              "monitoramento",
+              "transparencia",
+              "revisao periodica"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Propor doações ou estruturas com finalidade de fraudar credores, sonegar tributos ou burlar a legítima dos herdeiros necessários.",
+            "kw": [
+              "fraude a credores",
+              "burlar legitima",
+              "sonegacao"
+            ]
+          },
+          {
+            "t": "Ceder à pressão do cunhado/banco e alocar em cripto ou produtos de alta comissão sem suitability, plano ou divulgação de conflito.",
+            "kw": [
+              "ceder a pressao",
+              "alta comissao sem disclosure",
+              "cripto sem suitability"
+            ]
+          }
+        ],
+        "gab": "A herança tornou Marina detentora de um patrimônio relevante para a família, o que torna o planejamento sucessório DELA tema central - em escala compatível com o segmento: para R$ 850 mil não se justifica montar holding familiar, cujos custos de constituição e manutenção superariam o benefício; os instrumentos adequados são mais simples. Apresente-os: testamento (que só pode dispor de 50%, pois a legítima - a outra metade - é reservada por lei aos herdeiros necessários, os dois filhos), doação em vida com reserva de usufruto (por exemplo, do apartamento alugado, mantendo a renda com ela) e, com destaque, VGBL e seguro de vida, que se transmitem aos beneficiários fora do inventário, com liquidez rápida e, no caso do VGBL, sem ITCMD em vários estados (tema ainda em discussão judicial) - útil para dar caixa imediato à família num momento de sucessão. Considere o regime de comunhão parcial e os direitos do cônjuge ao planejar. Pela profissão de risco (dentista, exposta a responsabilidade civil), recomende seguros adequados (RC profissional, vida e invalidez, este último crítico por ela ser autônoma e a renda depender do próprio trabalho) e separação patrimonial legítima - nunca estruturas voltadas a fraude a credores, sonegação ou a burlar a legítima, o que é ilegal e antiético. No plano comportamental, seu papel como assessor é proteger Marina de decisões guiadas por viés e por terceiros: o palpite do cunhado sobre cripto (excesso de confiança, FOMO) e as ofertas do gerente do banco tradicional (potencial conflito de interesse e comissões embutidas) devem ser confrontados com o plano e o suitability. Atue com transparência sobre sua própria remuneração como assessor, formalize uma política de investimento, monitore e revise periodicamente, e mantenha a decisão ancorada no melhor interesse da cliente - princípio central das normas da CVM e dos códigos da ANBIMA."
+      }
+    ]
+  },
+  {
+    "area": "Digital · Suitability",
+    "title": "Aplicação do caixa da pequena empresa: liquidez, risco e compliance na conta PJ",
+    "cliente": "Mariana, 47 anos, sócia-administradora de uma pequena empresa de serviços de engenharia (Lucro Presumido, faturamento ~R$ 2 mi/ano). Perfil de investidora conservador a moderado. A empresa acumulou R$ 600 mil em caixa, hoje 100% em conta corrente e em um CDB de liquidez diária do banco tradicional de relacionamento rendendo ~85% do CDI.",
+    "contexto": "Mariana procura o assessor de um escritório BTG Advisors porque o caixa da empresa está 'parado' e rendendo pouco. Ela quer melhorar a rentabilidade, mas tem necessidades de capital de giro recorrentes (folha, fornecedores, impostos) e uma reforma com ampliação da sede prevista para daqui a 18 meses, estimada em R$ 200 mil, que vai exigir desembolso. Ela também mistura, na prática, recursos da PJ com objetivos pessoais e cogita 'investir tudo no que render mais'. A conta é PJ, sob CNPJ, e não existe política formal de aplicação financeira; ela leva o caso ao assessor digital para estruturar o caixa da empresa.",
+    "etapas": [
+      {
+        "q": "Antes de recomendar qualquer produto, como você estrutura o diagnóstico do caixa da empresa para definir quanto, quando e com qual horizonte cada parcela pode ser aplicada? Que informações você levanta?",
+        "bullets": [
+          {
+            "t": "Levantar fluxo de caixa projetado e identificar capital de giro recorrente (folha, fornecedores, tributos, sazonalidade) antes de decidir aplicações.",
+            "kw": [
+              "fluxo de caixa",
+              "capital de giro",
+              "sazonalidade"
+            ]
+          },
+          {
+            "t": "Segmentar o caixa de R$ 600 mil por horizonte e objetivo (reserva operacional/liquidez imediata, recursos de médio prazo, e os R$ 200 mil da reforma em ~18 meses).",
+            "kw": [
+              "segmentar",
+              "horizonte",
+              "reserva operacional",
+              "reforma 18 meses"
+            ]
+          },
+          {
+            "t": "Mapear obrigações e datas certas: vencimentos de tributos (IRPJ/CSLL/PIS/Cofins/ISS), 13º, distribuição de lucros e eventuais parcelas de financiamento ou garantias bancárias.",
+            "kw": [
+              "vencimentos",
+              "tributos",
+              "financiamento"
+            ]
+          },
+          {
+            "t": "Aplicar suitability da PJ e separar claramente patrimônio da empresa do patrimônio pessoal da sócia.",
+            "kw": [
+              "suitability",
+              "separação PJ PF",
+              "perfil"
+            ]
+          },
+          {
+            "t": "Definir política/objetivo de cada parcela: preservação de capital e liquidez têm prioridade sobre rentabilidade no caixa operacional.",
+            "kw": [
+              "preservação de capital",
+              "liquidez",
+              "política"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Recomendar produtos antes de entender o fluxo de caixa e as necessidades de liquidez da empresa.",
+            "kw": [
+              "recomendar antes",
+              "sem diagnóstico"
+            ]
+          },
+          {
+            "t": "Tratar todo o caixa como recurso de longo prazo, ignorando capital de giro e a reforma futura.",
+            "kw": [
+              "tudo longo prazo",
+              "ignorar giro"
+            ]
+          }
+        ],
+        "gab": "Um bom diagnóstico começa pelo fluxo de caixa projetado, não pelo produto. O assessor deve estimar a queima mensal de caixa (folha, fornecedores, tributos), a sazonalidade do faturamento e os eventos certos (13º, distribuição de lucros, vencimentos de IRPJ/CSLL/PIS/Cofins/ISS). A partir disso, segmenta o caixa de R$ 600 mil em parcelas: (1) liquidez imediata / reserva operacional (D+0 a D+1) para giro e imprevistos; (2) médio prazo para excedentes sem uso definido; (3) os R$ 200 mil da reforma em ~18 meses, que têm data e valor relativamente conhecidos e pedem produto com vencimento alinhado. Suitability também se aplica à PJ, e é essencial separar o patrimônio da empresa do patrimônio pessoal da sócia, pois misturar os dois gera risco tributário, societário e de confusão patrimonial. No caixa da empresa, a hierarquia correta é preservação de capital e liquidez acima de rentabilidade."
+      },
+      {
+        "q": "Mariana diz que quer 'investir tudo no que render mais', incluindo possivelmente ações e fundos imobiliários para o caixa da empresa. Como você conduz essa conversa sob a ótica de suitability e dos objetivos do caixa da empresa?",
+        "bullets": [
+          {
+            "t": "Reforçar que o objetivo do caixa da empresa é dar suporte à operação; renda variável concentra risco de mercado e liquidez incompatível com capital de giro.",
+            "kw": [
+              "objetivo do caixa",
+              "risco de mercado",
+              "incompatível"
+            ]
+          },
+          {
+            "t": "Distinguir suitability da PJ do apetite pessoal da sócia; a vontade individual não autoriza expor o caixa operacional a renda variável.",
+            "kw": [
+              "suitability PJ",
+              "apetite pessoal",
+              "não autoriza"
+            ]
+          },
+          {
+            "t": "Explicar implicações tributárias e contábeis: ganhos da PJ entram no resultado; renda variável e marcação a mercado afetam o balanço e podem gerar volatilidade indesejada.",
+            "kw": [
+              "tributação PJ",
+              "marcação a mercado",
+              "balanço"
+            ]
+          },
+          {
+            "t": "Propor que apetite por risco maior seja canalizado via distribuição de lucros para a PF e investido no nome pessoal, dentro do perfil e do cardápio digital (fundos, carteira digital).",
+            "kw": [
+              "distribuição de lucros",
+              "investir na PF"
+            ]
+          },
+          {
+            "t": "Documentar a recomendação e eventual desenquadramento de perfil (recusa do cliente), registrando ciência de risco.",
+            "kw": [
+              "documentar",
+              "desenquadramento",
+              "termo de ciência"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Acatar 'investir tudo no que render mais' e alocar o caixa operacional em ações/FIIs.",
+            "kw": [
+              "acatar tudo",
+              "caixa em ações"
+            ]
+          },
+          {
+            "t": "Vender produto de maior comissão explorando o desejo de rentabilidade, sem alinhar à suitability.",
+            "kw": [
+              "maior comissão",
+              "sem suitability"
+            ]
+          }
+        ],
+        "gab": "O papel do assessor aqui é reorientar a expectativa sem desrespeitar a cliente. O caixa da empresa existe para sustentar a operação; alocá-lo em renda variável (ações, FIIs) introduz volatilidade e risco de liquidez que podem comprometer folha, fornecedores e tributos justamente em um momento de estresse de mercado. Suitability também vale para PJ, e o apetite pessoal de Mariana não transforma o caixa operacional em recurso de risco. Há ainda efeito tributário e contábil: na PJ os rendimentos integram o resultado e a renda variável sofre marcação a mercado, oscilando o balanço. Se a cliente realmente deseja mais risco, o caminho correto é distribuir lucros formalmente (observadas as regras tributárias vigentes) e investir esse recurso no nome pessoal, onde uma alocação com mais risco, via fundos e carteira digital adequados ao perfil, faz mais sentido e fica separada da operação. Caso ela insista em desenquadrar o perfil da empresa, o assessor deve formalizar a recomendação e colher termo de ciência de risco, mantendo o dever de diligência e o registro exigidos pela regulação de suitability da CVM."
+      },
+      {
+        "q": "Para a parcela de liquidez/reserva operacional e para os excedentes de curto prazo, que produtos de renda fixa você sugere e por quê? Aborde risco de crédito, liquidez e o FGC no contexto de uma PJ.",
+        "bullets": [
+          {
+            "t": "Para liquidez imediata: fundos DI / Tesouro Selic (LFT) e CDBs de liquidez diária de emissores sólidos, priorizando baixa volatilidade e resgate rápido.",
+            "kw": [
+              "Tesouro Selic",
+              "fundo DI",
+              "liquidez diária"
+            ]
+          },
+          {
+            "t": "Avaliar risco de crédito do emissor e diversificar; não concentrar os R$ 600 mil em um único banco/emissor.",
+            "kw": [
+              "risco de crédito",
+              "diversificar emissores",
+              "concentração"
+            ]
+          },
+          {
+            "t": "Explicar o FGC corretamente: limite de R$ 250 mil por CPF/CNPJ por instituição e teto de R$ 1 mi a cada 4 anos; LCI/LCA/CDB cobertos, Tesouro/fundos NÃO são cobertos.",
+            "kw": [
+              "FGC",
+              "250 mil por CNPJ",
+              "teto 1 milhão"
+            ]
+          },
+          {
+            "t": "Comparar líquido de impostos: PJ no Lucro Presumido não tem isenção de LCI/LCA como a PF; comparar rentabilidade líquida de IR/IOF entre produtos.",
+            "kw": [
+              "líquido de IR",
+              "LCI LCA PJ",
+              "IOF"
+            ]
+          },
+          {
+            "t": "Buscar taxa competitiva: 85% do CDI é baixo; na plataforma digital há CDBs e fundos com taxa próxima ou acima de 100% do CDI mantendo a qualidade de crédito.",
+            "kw": [
+              "85% do CDI baixo",
+              "100% do CDI",
+              "taxa competitiva"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Concentrar os R$ 600 mil em um único emissor confiando no FGC, ignorando o limite de R$ 250 mil por CNPJ/instituição.",
+            "kw": [
+              "concentrar tudo",
+              "ignorar limite FGC"
+            ]
+          },
+          {
+            "t": "Indicar LCI/LCA para a PJ alegando isenção de IR (a isenção é da PF, não da PJ).",
+            "kw": [
+              "LCI isenção PJ",
+              "isenção errada"
+            ]
+          }
+        ],
+        "gab": "Para a reserva operacional o foco é liquidez e baixa volatilidade: Tesouro Selic (LFT), fundos DI/RF simples de taxa baixa e CDBs de liquidez diária de emissores sólidos atendem bem, com resgate em D+0/D+1. Para excedentes de curto prazo sem uso imediato, pode-se aceitar D+30 ou um CDB com vencimento alinhado aos 18 meses da reforma de R$ 200 mil. O risco de crédito do emissor deve ser avaliado e a carteira diversificada, evitando concentrar os R$ 600 mil em um único banco: acima de R$ 250 mil em uma só instituição, a PJ fica descoberta pelo FGC. Sobre o FGC: ele cobre CDB, LCI, LCA, LC e poupança até R$ 250 mil por CPF ou CNPJ por instituição, com teto global de R$ 1 milhão a cada 4 anos; Tesouro Direto e fundos de investimento NÃO são cobertos pelo FGC (o fundo tem patrimônio próprio segregado). Atenção tributária: a PJ no Lucro Presumido NÃO goza da isenção de IR de LCI/LCA que beneficia a PF, então a comparação deve ser sempre por rentabilidade líquida de IR (tabela regressiva de 22,5% a 15%) e de IOF nos primeiros 30 dias. Por fim, 85% do CDI em liquidez diária é remuneração baixa; na plataforma digital do BTG há acesso a CDBs de múltiplos emissores e fundos com taxas próximas ou acima de 100% do CDI, sem abrir mão da qualidade de crédito."
+      },
+      {
+        "q": "Que cuidados de compliance, governança e formalização você recomenda para que essa estrutura de aplicação do caixa seja sustentável e defensável (perante sócios, fisco e reguladores)?",
+        "bullets": [
+          {
+            "t": "Criar uma política de aplicação financeira formal, mesmo simples: objetivos, limites por emissor/produto, horizonte e alçadas de aprovação dos sócios.",
+            "kw": [
+              "política de investimentos",
+              "limites",
+              "alçadas"
+            ]
+          },
+          {
+            "t": "Garantir separação patrimonial PJ x PF; recursos da empresa saem para a sócia apenas via pró-labore ou distribuição de lucros formalizada, evitando confusão patrimonial.",
+            "kw": [
+              "separação patrimonial",
+              "distribuição de lucros",
+              "confusão patrimonial"
+            ]
+          },
+          {
+            "t": "Verificar contrato social/poderes para aplicar recursos e o cadastro/KYC e suitability da PJ na instituição.",
+            "kw": [
+              "contrato social",
+              "KYC",
+              "suitability PJ"
+            ]
+          },
+          {
+            "t": "Assegurar registro contábil correto, comprovantes e tratamento tributário das aplicações; manter trilha de auditoria das decisões.",
+            "kw": [
+              "registro contábil",
+              "comprovantes",
+              "auditoria"
+            ]
+          },
+          {
+            "t": "Atuar dentro dos limites da atividade de assessoria (o assessor não faz gestão discricionária nem aconselhamento tributário/contábil; envolver contador/advogado).",
+            "kw": [
+              "dever de diligência",
+              "não discricionária",
+              "envolver contador"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Permitir uso do caixa PJ para despesas pessoais da sócia sem distribuição formal (confusão patrimonial).",
+            "kw": [
+              "uso pessoal do caixa",
+              "confusão patrimonial"
+            ]
+          },
+          {
+            "t": "Tomar decisões sobre o caixa sem checar poderes do contrato social ou sem documentar a recomendação.",
+            "kw": [
+              "sem poderes",
+              "sem documentação"
+            ]
+          }
+        ],
+        "gab": "Sustentabilidade vem de governança, não de um produto. O assessor deve recomendar uma política de aplicação financeira formal, mesmo que simples, aprovada pelos sócios, definindo objetivos por parcela, limites de concentração por emissor e produto, horizontes e alçadas de decisão. A separação patrimonial é central: os recursos são da empresa e só chegam a Mariana via pró-labore (tributado) ou distribuição de lucros formalizada; usar o caixa da PJ para gastos pessoais configura confusão patrimonial, com risco de desconsideração da personalidade jurídica e problemas com o fisco. Antes de operar, é preciso checar o contrato social (quem tem poderes para aplicar), o cadastro/KYC da PJ e o questionário de suitability da empresa na instituição, conforme as regras da CVM e os códigos ANBIMA. Cada aplicação precisa de registro contábil correto, comprovantes e tratamento tributário adequado, mantendo trilha de auditoria das decisões. Por fim, o assessor deve respeitar os limites da sua atuação: não faz gestão discricionária da carteira (isso é papel do gestor) nem substitui aconselhamento contábil/tributário; o ideal é atuar em conjunto com o contador e, quando necessário, o advogado da empresa, sempre com dever de diligência e de boa informação ao cliente."
+      }
+    ]
+  },
+  {
+    "area": "Digital · Suitability",
+    "title": "Primeiro investimento: organizando a vida financeira de uma jovem profissional",
+    "cliente": "Mariana, 26 anos, solteira, sem dependentes. Analista efetivada há dois anos, renda líquida de R$ 7.000/mês. Mora de aluguel (R$ 2.200/mês) e nunca investiu: hoje deixa tudo parado na conta corrente. Acumulou R$ 60.000 (anos de sobras salariais mais um bônus recente) e consegue poupar cerca de R$ 1.200/mês.",
+    "contexto": "Mariana abriu conta na plataforma digital do BTG Pactual porque um amigo recomendou que ela 'começasse a investir em ações e cripto para ficar rica rápido'. Ela nunca estruturou uma reserva de emergência, não conhece seu perfil de investidor e nunca passou por um processo de suitability. Demonstra ansiedade por retornos altos, mas também medo de perder dinheiro. Como assessor digital de um escritório BTG Advisors, você precisa conduzir o primeiro atendimento, base da assessoria e da suitability, de forma educativa e tecnicamente correta.",
+    "etapas": [
+      {
+        "q": "Antes de recomendar qualquer produto, como você conduz a etapa de descoberta e diagnóstico da Mariana? Quais informações você levanta e por que o processo de suitability é obrigatório neste caso?",
+        "bullets": [
+          {
+            "t": "Levantar dados financeiros completos: renda, despesas fixas e variáveis, capacidade de poupança, patrimônio e dívidas existentes",
+            "kw": [
+              "orcamento",
+              "capacidade de poupanca",
+              "fluxo de caixa",
+              "dividas"
+            ]
+          },
+          {
+            "t": "Identificar objetivos e horizontes de cada meta (curto, médio e longo prazo), pois definem a alocação adequada",
+            "kw": [
+              "objetivos",
+              "horizonte",
+              "metas",
+              "prazo"
+            ]
+          },
+          {
+            "t": "Aplicar o questionário de suitability (API) para definir o perfil de investidor: conservador, moderado ou arrojado, conforme Resolução CVM 30/2021",
+            "kw": [
+              "suitability",
+              "API",
+              "perfil de investidor",
+              "CVM 30"
+            ]
+          },
+          {
+            "t": "Verificar conhecimento e experiência prévia em investimentos, além de tolerância a risco e capacidade de assumir perdas",
+            "kw": [
+              "tolerancia a risco",
+              "experiencia",
+              "conhecimento"
+            ]
+          },
+          {
+            "t": "Explicar que a adequação (suitability) é obrigatória e visa garantir que a recomendação seja compatível com o perfil, vedando recomendar produto inadequado",
+            "kw": [
+              "adequacao",
+              "obrigatorio",
+              "compativel"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Recomendar ações ou cripto de imediato, atendendo ao desejo do amigo sem diagnóstico nem suitability",
+            "kw": [
+              "sem suitability",
+              "cripto imediato",
+              "acoes direto"
+            ]
+          },
+          {
+            "t": "Presumir o perfil sem aplicar o questionário (API)",
+            "kw": [
+              "presumir perfil",
+              "sem API"
+            ]
+          }
+        ],
+        "gab": "A etapa de descoberta deve preceder qualquer recomendação. O assessor levanta o fluxo de caixa (renda líquida de R$ 7.000, despesas e capacidade de poupar cerca de R$ 1.200/mês), o patrimônio acumulado (R$ 60.000 parados na conta corrente) e eventuais dívidas. Em seguida, identifica objetivos e horizontes. O processo de suitability é obrigatório pela Resolução CVM 30/2021 (que substituiu a Instrução CVM 539): antes de recomendar produtos, o profissional deve verificar se o produto é adequado ao perfil, aos objetivos e à situação financeira da cliente, definidos via Análise de Perfil do Investidor (API). Como Mariana nunca investiu e tem baixo conhecimento, seu perfil tende a ser conservador inicialmente. Recomendar ações e cripto sem esse processo violaria a norma e seria tecnicamente incorreto."
+      },
+      {
+        "q": "Mariana nunca estruturou uma reserva de emergência. Como você explica a importância dela, qual valor sugere e em quais produtos essa reserva deve ser alocada? Justifique tecnicamente.",
+        "bullets": [
+          {
+            "t": "Explicar que a reserva de emergência é prioridade antes de qualquer investimento de risco, protegendo contra imprevistos (desemprego, saúde) sem precisar resgatar investimentos no prejuízo",
+            "kw": [
+              "reserva de emergencia",
+              "prioridade",
+              "imprevistos",
+              "protecao"
+            ]
+          },
+          {
+            "t": "Sugerir reserva de 3 a 6 meses de despesas; como ela tem emprego CLT relativamente estável, 3 a 6 meses do custo de vida é razoável",
+            "kw": [
+              "3 a 6 meses",
+              "despesas",
+              "custo de vida"
+            ]
+          },
+          {
+            "t": "Priorizar produtos com alta liquidez (resgate D+0 ou D+1) e baixíssimo risco",
+            "kw": [
+              "liquidez diaria",
+              "baixo risco",
+              "D+0",
+              "D+1"
+            ]
+          },
+          {
+            "t": "Indicar Tesouro Selic, CDB de liquidez diária ou fundos DI, todos com cobertura ou segurança elevada",
+            "kw": [
+              "Tesouro Selic",
+              "CDB liquidez diaria",
+              "fundo DI"
+            ]
+          },
+          {
+            "t": "Mencionar proteção do FGC até R$ 250 mil por CPF/instituição para CDBs, reforçando segurança",
+            "kw": [
+              "FGC",
+              "250 mil",
+              "garantia"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Alocar a reserva em produtos voláteis ou de baixa liquidez (ações, fundos imobiliários, previdência, cripto)",
+            "kw": [
+              "reserva em acoes",
+              "baixa liquidez",
+              "cripto reserva"
+            ]
+          },
+          {
+            "t": "Pular a reserva e já partir para investimentos de risco",
+            "kw": [
+              "sem reserva",
+              "risco antes"
+            ]
+          }
+        ],
+        "gab": "A reserva de emergência é o alicerce do planejamento financeiro: garante liquidez imediata para imprevistos sem obrigar o resgate de investimentos em momento desfavorável. O parâmetro clássico é de 3 a 6 meses de despesas essenciais. Considerando o custo de vida da Mariana (aluguel de R$ 2.200 mais as demais despesas, algo em torno de R$ 4.500/mês de gastos essenciais), a reserva ideal fica entre R$ 13.500 e R$ 27.000. Os R$ 60.000 acumulados cobrem esse valor com folga: a orientação é separar cerca de R$ 27.000 em produtos de liquidez imediata e liberar o restante, cerca de R$ 33.000, para objetivos de médio e longo prazo. Os produtos adequados para a reserva são de alta liquidez e baixo risco: Tesouro Selic (título público pós-fixado, baixíssima volatilidade, liquidez diária), CDBs de liquidez diária (cobertos pelo FGC até R$ 250 mil por CPF por instituição) e fundos DI de taxa baixa. Produtos voláteis ou de baixa liquidez são inadequados para esse fim."
+      },
+      {
+        "q": "Com a reserva constituída, Mariana quer começar a investir o excedente de cerca de R$ 33.000, além dos aportes de R$ 1.200/mês. Quais produtos básicos você apresenta para um primeiro investimento e como explica a tributação de cada um de forma didática?",
+        "bullets": [
+          {
+            "t": "Apresentar renda fixa básica: Tesouro Direto (Selic, IPCA+, Prefixado) e CDB/LCI/LCA, explicando pós-fixado x prefixado x inflação",
+            "kw": [
+              "Tesouro Direto",
+              "CDB",
+              "LCI",
+              "LCA",
+              "pos-fixado"
+            ]
+          },
+          {
+            "t": "Explicar que LCI e LCA são isentas de IR para pessoa física, enquanto CDB e Tesouro seguem tabela regressiva de IR",
+            "kw": [
+              "LCI LCA isentas",
+              "tabela regressiva",
+              "IR"
+            ]
+          },
+          {
+            "t": "Detalhar a tabela regressiva: 22,5% até 180 dias, 20% de 181-360, 17,5% de 361-720 e 15% acima de 720 dias",
+            "kw": [
+              "22,5%",
+              "15%",
+              "regressiva",
+              "prazo"
+            ]
+          },
+          {
+            "t": "Mencionar IOF regressivo nos resgates antes de 30 dias, desestimulando saque muito rápido",
+            "kw": [
+              "IOF",
+              "30 dias",
+              "resgate"
+            ]
+          },
+          {
+            "t": "Adequar a recomendação ao perfil conservador/iniciante e usar linguagem didática, alinhando produto ao horizonte de cada objetivo",
+            "kw": [
+              "perfil",
+              "didatico",
+              "horizonte",
+              "adequacao"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Afirmar que LCI/LCA ou Tesouro têm IR igual, ou errar a tabela regressiva de IR",
+            "kw": [
+              "IR errado",
+              "tabela incorreta"
+            ]
+          },
+          {
+            "t": "Empurrar produtos complexos/voláteis ou com alta taxa sem aderência ao perfil iniciante",
+            "kw": [
+              "produto complexo",
+              "alta taxa",
+              "inadequado"
+            ]
+          }
+        ],
+        "gab": "Para uma primeira investidora de perfil conservador, com excedente de cerca de R$ 33.000 e aportes de R$ 1.200/mês, os produtos básicos são de renda fixa. No Tesouro Direto: Tesouro Selic (pós-fixado, segue a Selic, baixa volatilidade), Tesouro IPCA+ (híbrido, protege da inflação, indicado para metas longas) e Tesouro Prefixado (taxa travada). Entre títulos bancários: CDB (pós ou prefixado, coberto pelo FGC) e LCI/LCA (lastreadas em crédito imobiliário/agro, também cobertas pelo FGC). Tributação: CDB e Tesouro Direto seguem a tabela regressiva de IR sobre o rendimento, com 22,5% para aplicações até 180 dias, 20% de 181 a 360 dias, 17,5% de 361 a 720 dias e 15% acima de 720 dias. LCI e LCA são isentas de IR para pessoa física, o que pode torná-las atraentes mesmo com taxa nominal menor. Há ainda IOF regressivo sobre o rendimento em resgates nos primeiros 30 dias (zerando a partir do 30º dia). A recomendação deve respeitar o perfil iniciante e casar cada produto com o horizonte de cada objetivo, por exemplo LCI de prazo mais longo para a parcela sem necessidade de liquidez."
+      },
+      {
+        "q": "Mariana insiste em destinar uma parte para ações e cripto, dizendo que 'quer aprender e não se importa de arriscar um pouco'. Como você lida com esse desejo de forma ética, alinhando expectativas e mantendo a adequação ao perfil?",
+        "bullets": [
+          {
+            "t": "Acolher o interesse sem julgar, mas reforçar que a base (reserva + renda fixa) deve estar consolidada antes de assumir risco",
+            "kw": [
+              "base primeiro",
+              "reserva consolidada",
+              "acolher"
+            ]
+          },
+          {
+            "t": "Alinhar expectativas: desfazer a ideia de 'ficar rico rápido', explicando volatilidade, risco de perda e ausência de garantia em renda variável e cripto",
+            "kw": [
+              "alinhar expectativas",
+              "volatilidade",
+              "risco de perda",
+              "sem garantia"
+            ]
+          },
+          {
+            "t": "Propor uma parcela pequena e definida (ex.: 5% a 10% do excedente, algo entre R$ 1.500 e R$ 3.000) como aprendizado, mantendo diversificação e adequação",
+            "kw": [
+              "parcela pequena",
+              "diversificacao",
+              "percentual",
+              "aprendizado"
+            ]
+          },
+          {
+            "t": "Se o produto for inadequado ao perfil declarado, reavaliar/reenquadrar o suitability ou registrar a recomendação com as devidas advertências conforme a norma",
+            "kw": [
+              "suitability",
+              "reenquadrar",
+              "advertencia",
+              "registro"
+            ]
+          },
+          {
+            "t": "Atuar com dever fiduciário/ética: priorizar o interesse da cliente e a educação financeira, não a venda de produtos",
+            "kw": [
+              "etica",
+              "interesse do cliente",
+              "educacao financeira",
+              "dever fiduciario"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Ceder e alocar parte relevante em cripto/ações para agradar, ignorando o perfil conservador e prometendo ganhos",
+            "kw": [
+              "ceder",
+              "promessa de ganho",
+              "ignorar perfil"
+            ]
+          },
+          {
+            "t": "Recusar qualquer diálogo ou tratar a cliente como incapaz, sem educar nem registrar a decisão",
+            "kw": [
+              "sem dialogo",
+              "sem registro"
+            ]
+          }
+        ],
+        "gab": "O caminho ético não é nem ceder cegamente nem simplesmente recusar. Primeiro, acolhe-se o interesse da Mariana e valoriza-se a vontade de aprender. Em seguida, alinham-se expectativas: renda variável e cripto são voláteis, podem gerar perdas, não têm garantia do FGC e não se prestam a 'ficar rico rápido'. A base (reserva de emergência de cerca de R$ 27.000 e a carteira de renda fixa) deve estar consolidada antes de qualquer exposição a risco. Pode-se então propor uma parcela pequena e bem delimitada do excedente, na casa de 5% a 10% (entre R$ 1.500 e R$ 3.000), como 'dinheiro de aprendizado', preferencialmente começando por veículos diversificados da plataforma, como fundos de ações ou multimercado, antes de ativos individuais, sempre respeitando a diversificação. Tecnicamente, se a renda variável for inadequada ao perfil conservador declarado, a Resolução CVM 30/2021 exige que o profissional alerte sobre a inadequação e, em alguns casos, obtenha declaração expressa da cliente; o perfil também pode ser reavaliado se o conhecimento e a tolerância mudarem. Acima de tudo, prevalece o dever de agir no melhor interesse da cliente e a educação financeira, jamais a promessa de retorno ou a venda casada de produtos."
+      }
+    ]
+  },
+  {
+    "area": "Digital · Suitability",
+    "title": "A dica do grupo de WhatsApp: cripto, ação de tecnologia e o dever de suitability",
+    "cliente": "Roberto, 57 anos, professor aposentado, cliente de um escritório BTG Advisors atendido pelo assessor digital. Patrimônio financeiro de R$ 600 mil, quase todo em CDB e Tesouro Selic na carteira digital. Perfil conservador confirmado em questionário de suitability (API) atualizado há três meses. Renda mensal de R$ 9 mil entre INSS e previdência privada, sem outras fontes. Objetivo declarado: preservar capital e complementar a renda da aposentadoria. Conhecimento baixo sobre renda variável.",
+    "contexto": "Roberto chama o assessor pelo chat do aplicativo, empolgado: um amigo do grupo de WhatsApp ganhou muito com Bitcoin e com uma ação de tecnologia em poucos meses. Ele quer mover R$ 300 mil (metade do patrimônio) para cripto e para essa ação, para não ficar para trás. Diz que o amigo garantiu que só sobe e que ele tem pressa, porque a oportunidade é agora. O assessor sabe que o perfil registrado é conservador e que a operação ficaria desenquadrada.",
+    "etapas": [
+      {
+        "q": "Diante do pedido de Roberto de alocar R$ 300 mil, metade do patrimônio, em cripto e ações, como você conduz a primeira conversa e o que precisa verificar antes de qualquer recomendação ou execução?",
+        "bullets": [
+          {
+            "t": "Resgatar e reavaliar o perfil de suitability (API) vigente, confirmando que Roberto permanece conservador, em vez de simplesmente seguir o impulso do cliente.",
+            "kw": [
+              "suitability",
+              "API",
+              "perfil conservador",
+              "reavaliacao"
+            ]
+          },
+          {
+            "t": "Identificar o desenquadramento entre o perfil declarado e a operação desejada (cripto e ação concentrada versus conservador), que exige tratamento formal.",
+            "kw": [
+              "desenquadramento",
+              "inadequacao",
+              "renda variavel"
+            ]
+          },
+          {
+            "t": "Acolher o cliente sem julgamento, praticar escuta ativa e mapear a motivação real (medo de ficar para trás, FOMO, pressa) e os objetivos por trás do pedido.",
+            "kw": [
+              "escuta ativa",
+              "FOMO",
+              "objetivos",
+              "motivacao"
+            ]
+          },
+          {
+            "t": "Levantar o quadro financeiro completo antes de opinar: reserva de emergência, dependentes, dívidas, necessidade de liquidez e horizonte de investimento.",
+            "kw": [
+              "reserva de emergencia",
+              "liquidez",
+              "horizonte",
+              "necessidades"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Executar a ordem imediatamente porque o cliente pediu, ignorando o dever de adequação.",
+            "kw": [
+              "executar imediato",
+              "ignorar suitability"
+            ]
+          },
+          {
+            "t": "Recomendar a alocação tratando a dica do amigo como se fosse análise de investimento.",
+            "kw": [
+              "dica de amigo",
+              "recomendar sem analise"
+            ]
+          }
+        ],
+        "gab": "A primeira providência é tratar o pedido como um caso clássico de potencial inadequação (desenquadramento de suitability), regido pela Resolução CVM 30/2021, que obriga o profissional a verificar a adequação do produto ao perfil, à situação financeira e aos objetivos do cliente antes de recomendar. O assessor deve resgatar a API mais recente, confirmar que o perfil segue conservador e fazer escuta ativa para entender a motivação real, que aqui tem forte componente comportamental (FOMO e efeito manada após a dica do amigo no grupo de WhatsApp). Antes de qualquer opinião, é preciso ter o quadro completo: reserva de emergência, liquidez necessária, dívidas, dependentes e horizonte. No atendimento digital, isso pode exigir migrar do chat para uma conversa por vídeo ou telefone, justamente para aprofundar o diagnóstico. Nenhuma recomendação ou execução deve ocorrer sem essa etapa, e a dica do amigo não constitui análise nem fundamento para indicar produtos."
+      },
+      {
+        "q": "Roberto insiste. Pela regra de suitability, você pode atender o desejo dele de investir os R$ 300 mil em produto inadequado ao perfil? Como proceder formalmente nesse cenário?",
+        "bullets": [
+          {
+            "t": "Explicar que a Resolução CVM 30/2021 permite a operação por iniciativa do cliente, mas exige alerta formal e prévio sobre a inadequação antes da execução.",
+            "kw": [
+              "CVM 30/2021",
+              "alerta de inadequacao",
+              "iniciativa do cliente"
+            ]
+          },
+          {
+            "t": "Obter declaração expressa de ciência do cliente de que foi alertado e ainda assim deseja seguir, com registro e arquivamento (no digital, trilha eletrônica com data e hora).",
+            "kw": [
+              "termo de ciencia",
+              "declaracao",
+              "registro",
+              "arquivamento"
+            ]
+          },
+          {
+            "t": "Diferenciar recomendar (vedado quando o produto é inadequado) de executar ordem partida do próprio cliente, deixando claro e documentado que o assessor não recomenda a operação.",
+            "kw": [
+              "recomendar x executar",
+              "ordem do cliente",
+              "nao recomendado"
+            ]
+          },
+          {
+            "t": "Atualizar a API somente se o perfil real tiver mudado de fato, jamais forçar reclassificação apenas para enquadrar a operação.",
+            "kw": [
+              "nao forcar reclassificacao",
+              "atualizar API",
+              "perfil real"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Reclassificar artificialmente o perfil para arrojado só para liberar a operação.",
+            "kw": [
+              "reclassificar artificial",
+              "forcar perfil"
+            ]
+          },
+          {
+            "t": "Executar sem qualquer alerta ou declaração de ciência documentada.",
+            "kw": [
+              "sem alerta",
+              "sem documentacao"
+            ]
+          }
+        ],
+        "gab": "A Resolução CVM 30/2021 não proíbe que o cliente invista em produto inadequado por iniciativa própria, mas veda que o profissional recomende produto desalinhado ao perfil e exige, antes da operação, alerta claro de que ela não é adequada, com obtenção de declaração expressa de ciência do cliente, devidamente registrada e arquivada. No modelo digital do BTG, esse fluxo deve deixar trilha auditável: alerta exibido e aceite registrado eletronicamente, com data e hora, antes da transmissão da ordem. É essencial separar os papéis: o assessor pode encaminhar uma ordem partida do cliente, mas não deve recomendar a alocação inadequada, e isso precisa ficar documentado. Manipular a API para reclassificar Roberto como arrojado apenas para viabilizar a operação é conduta vedada e antiética, configurando conflito de interesses e violação do Código ANBIMA e da própria CVM 30. A atualização da API só se justifica se houver mudança real e comprovada de situação financeira, objetivos ou tolerância a risco, nunca como artifício comercial."
+      },
+      {
+        "q": "Como educar Roberto sobre os riscos específicos de cripto e de ação concentrada, desarmando os vieses comportamentais por trás da decisão, sem ser paternalista?",
+        "bullets": [
+          {
+            "t": "Nomear e explicar os vieses presentes: efeito manada, FOMO, excesso de confiança, viés de recência e ancoragem no ganho relatado pelo amigo.",
+            "kw": [
+              "efeito manada",
+              "FOMO",
+              "vies de recencia",
+              "excesso de confianca"
+            ]
+          },
+          {
+            "t": "Explicar os riscos técnicos: alta volatilidade, ausência de garantia (sem FGC), possibilidade de perda total, concentração em poucos ativos e riscos de liquidez e custódia em cripto.",
+            "kw": [
+              "volatilidade",
+              "sem FGC",
+              "perda total",
+              "concentracao"
+            ]
+          },
+          {
+            "t": "Apresentar o viés de sobrevivência: o amigo conta os ganhos, não as perdas, e rentabilidade passada não garante resultado futuro.",
+            "kw": [
+              "vies de sobrevivencia",
+              "retorno passado",
+              "sem garantia"
+            ]
+          },
+          {
+            "t": "Conectar ao objetivo de vida dele, preservar a aposentadoria e a renda, quantificando o impacto de uma queda de 50% sobre os R$ 300 mil.",
+            "kw": [
+              "objetivo de vida",
+              "aposentadoria",
+              "impacto da perda",
+              "preservacao"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Apenas dizer não sem explicar, tratando o cliente como incapaz de decidir.",
+            "kw": [
+              "paternalismo",
+              "negar sem educar"
+            ]
+          }
+        ],
+        "gab": "A educação financeira deve ser concreta e ligada à vida do cliente, não um sermão. Roberto está sob vários vieses comportamentais: efeito manada e FOMO (medo de ficar de fora após a dica), viés de recência (extrapolar a alta recente como tendência permanente), excesso de confiança e ancoragem no ganho relatado pelo amigo. Vale nomear também o viés de sobrevivência: ouvimos quem ganhou, raramente quem perdeu. Tecnicamente, cripto e ação concentrada têm alta volatilidade, não contam com cobertura do FGC, podem sofrer perda parcial ou total e, no caso de cripto, há riscos adicionais de liquidez, custódia e regulação. O ponto decisivo é quantificar na realidade dele: uma queda de 50% sobre R$ 300 mil significa R$ 150 mil a menos, um quarto do patrimônio total que sustenta a complementação da aposentadoria, sem prazo garantido de recuperação. Simulações simples no próprio aplicativo ajudam a tornar o risco tangível. Ancorar a conversa nos objetivos de preservação e renda, e não em julgamento moral, permite que o cliente reavalie a decisão com autonomia."
+      },
+      {
+        "q": "Que alternativa adequada e plano de ação você propõe para acolher o desejo de Roberto de buscar mais retorno, respeitando o perfil conservador e o dever fiduciário?",
+        "bullets": [
+          {
+            "t": "Propor diversificação gradual e limitada: uma fatia pequena de risco (ex.: 5% a 10% do patrimônio, entre R$ 30 mil e R$ 60 mil) como capital de aprendizado, mantendo o núcleo conservador intacto.",
+            "kw": [
+              "diversificacao",
+              "fatia pequena",
+              "5% a 10%",
+              "nucleo conservador"
+            ]
+          },
+          {
+            "t": "Garantir reserva de emergência e os objetivos essenciais da aposentadoria antes de qualquer risco, blindando a renda futura.",
+            "kw": [
+              "reserva de emergencia",
+              "blindar aposentadoria",
+              "objetivos essenciais"
+            ]
+          },
+          {
+            "t": "Oferecer veículos diversificados da plataforma digital em vez de aposta concentrada: fundos multimercado, fundos de ações ou ETFs amplos, sempre validados pelo suitability.",
+            "kw": [
+              "multimercado",
+              "ETF",
+              "diversificado",
+              "dentro do suitability"
+            ]
+          },
+          {
+            "t": "Formalizar plano escrito, com revisão periódica da carteira e da API e alinhamento de expectativas de risco e horizonte.",
+            "kw": [
+              "plano escrito",
+              "revisao periodica",
+              "alinhar expectativas",
+              "monitoramento"
+            ]
+          },
+          {
+            "t": "Registrar tudo e atuar com transparência e dever fiduciário, colocando o interesse do cliente acima de comissões.",
+            "kw": [
+              "dever fiduciario",
+              "transparencia",
+              "registro",
+              "interesse do cliente"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Empurrar produto de maior comissão disfarçado de alternativa, sem aderência ao perfil.",
+            "kw": [
+              "conflito de interesse",
+              "produto de comissao"
+            ]
+          },
+          {
+            "t": "Concordar com os R$ 300 mil só para não perder o cliente para outra plataforma.",
+            "kw": [
+              "ceder a pressao",
+              "manter cliente a qualquer custo"
+            ]
+          }
+        ],
+        "gab": "A melhor saída não é um não seco nem um sim ao pedido original, mas uma alternativa adequada que acolhe o desejo de mais retorno dentro do perfil. O caminho profissional é a diversificação gradual: antes de tudo, assegurar a reserva de emergência e os objetivos essenciais da aposentadoria; depois, se o cliente quer experimentar risco, destinar uma fatia pequena e controlada, tipicamente 5% a 10% do patrimônio (R$ 30 mil a R$ 60 mil, e não R$ 300 mil), como capital de aprendizado, mantendo o núcleo conservador (Tesouro, CDB, LCI/LCA de qualidade) intacto. Em vez da aposta concentrada em uma cripto e uma ação indicadas pelo amigo, ofertar veículos diversificados da própria prateleira digital, como fundos multimercado, fundos de ações ou ETFs amplos, sempre validados pelo suitability. Tudo formalizado em plano escrito, com revisão periódica da carteira e da API pelo aplicativo e expectativas de risco e horizonte alinhadas. O dever fiduciário exige transparência total e priorizar o interesse do cliente acima de comissões: jamais empurrar produto pela remuneração nem ceder à pressão apenas para preservar o relacionamento."
+      }
+    ]
+  },
+  {
+    "area": "Digital · Planejamento patrimonial",
+    "title": "Sucessão em vida no varejo qualificado: doação com usufruto, seguro de vida, previdência e testamento",
+    "cliente": "Casal Almeida, casados em comunhão parcial de bens. Roberto (66) e Marta (62). Patrimônio total de aproximadamente R$ 900 mil: residência própria (R$ 450 mil), um apartamento alugado (R$ 250 mil) e investimentos financeiros (R$ 200 mil) distribuídos entre CDBs, fundos e Tesouro Direto na plataforma do BTG. Dois filhos adultos: Paulo, que mora perto dos pais, cuida do apartamento alugado e ajuda no dia a dia, e Carla, que mora em outra cidade e não participa da administração dos bens. Residentes em SP, atendidos por um escritório BTG Advisors.",
+    "contexto": "Roberto recebeu diagnóstico de doença crônica controlada e o casal quer organizar a sucessão em vida para reduzir custos, evitar conflitos entre os filhos e garantir liquidez para o inventário. Eles assistiram a vídeos na internet dizendo que 'holding familiar resolve tudo' e também ouviram falar em 'fazer um seguro de vida', mas não entendem como cada instrumento funciona, quanto custa e o que faz sentido para um patrimônio de R$ 900 mil. Pedem ao assessor digital do BTG Pactual um plano sucessório simples, barato e legalmente sólido para o patrimônio da família.",
+    "etapas": [
+      {
+        "q": "Antes de propor qualquer solução, como você conduziria o diagnóstico sucessório inicial do casal Almeida e quais informações e premissas precisa levantar para dimensionar o problema (custos de inventário, ITCMD, regime de bens e perfil dos herdeiros)?",
+        "bullets": [
+          {
+            "t": "Mapear o regime de bens (comunhão parcial) e separar a meação do cônjuge da herança propriamente dita, pois a meação não integra a sucessão.",
+            "kw": [
+              "regime de bens",
+              "meacao",
+              "comunhao parcial"
+            ]
+          },
+          {
+            "t": "Estimar o custo do inventário: ITCMD (em SP alíquota de 4% sobre o quinhão transmitido por morte ou doação), honorários advocatícios e custas ou emolumentos, além do prazo e da via (judicial x extrajudicial).",
+            "kw": [
+              "ITCMD",
+              "4%",
+              "inventario",
+              "custas"
+            ]
+          },
+          {
+            "t": "Identificar a legítima: 50% do patrimônio é reservado aos herdeiros necessários (descendentes e cônjuge), limitando a liberdade de disposição à parte disponível.",
+            "kw": [
+              "legitima",
+              "herdeiros necessarios",
+              "parte disponivel",
+              "50%"
+            ]
+          },
+          {
+            "t": "Levantar a necessidade de liquidez do espólio: mesmo os R$ 200 mil em investimentos ficam bloqueados durante o inventário, e ITCMD e custas vencem antes da partilha, criando risco de venda apressada de imóvel.",
+            "kw": [
+              "liquidez",
+              "espolio",
+              "bloqueio",
+              "ativos iliquidos"
+            ]
+          },
+          {
+            "t": "Mapear o perfil e as relações entre os herdeiros (Paulo próximo e envolvido na administração, Carla distante e fora do dia a dia) para antecipar conflitos e definir os objetivos da família.",
+            "kw": [
+              "perfil dos herdeiros",
+              "conflito",
+              "objetivos",
+              "familia"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Sair propondo 'abrir holding' ou qualquer solução padrão sem diagnóstico, sem conhecer o regime de bens e sem levantar custos e objetivos.",
+            "kw": [
+              "solucao pronta",
+              "sem diagnostico"
+            ]
+          },
+          {
+            "t": "Ignorar a meação do cônjuge e tratar 100% do patrimônio como herança.",
+            "kw": [
+              "ignorar meacao",
+              "100%"
+            ]
+          }
+        ],
+        "gab": "O diagnóstico deve começar pelo regime de bens. Na comunhão parcial, o que foi adquirido onerosamente na constância do casamento é comum; no falecimento de um cônjuge, metade (meação) já pertence ao sobrevivente e não se inventaria. Apenas a outra metade (mais eventuais bens particulares) compõe a herança, sobre a qual incide o ITCMD; em SP a alíquota é de 4% (há projetos de lei visando progressividade, mas a competência é estadual). O Código Civil reserva a legítima: 50% do patrimônio pertence aos herdeiros necessários (descendentes e cônjuge), restando 50% como parte disponível para destinação livre por testamento ou doação. O assessor deve quantificar o custo total do inventário: somando ITCMD, honorários advocatícios (tipicamente 6% a 10%) e custas, a conta pode superar R$ 80 mil a R$ 100 mil sobre um patrimônio de R$ 900 mil. E, sobretudo, deve medir a necessidade de liquidez: os dois imóveis (R$ 450 mil e R$ 250 mil) são ilíquidos e até os R$ 200 mil em CDBs, fundos e Tesouro ficam bloqueados no inventário até alvará ou partilha, enquanto ITCMD e custas vencem antes, gerando risco de venda forçada com desconto. Por fim, deve mapear objetivos e o perfil dos herdeiros, especialmente a assimetria entre Paulo, que administra o apartamento alugado, e Carla, que está fora do dia a dia, para desenhar uma solução que evite litígio. Sem esse diagnóstico, qualquer instrumento proposto será genérico e potencialmente inadequado."
+      },
+      {
+        "q": "O casal viu na internet que 'holding familiar' seria a solução e pergunta se deve abrir uma para os dois imóveis. Para um patrimônio de R$ 900 mil, a holding se justifica? Quais custos e limitações você apresentaria e que alternativas mais simples e baratas fazem sentido nesse caso?",
+        "bullets": [
+          {
+            "t": "Dimensionar os custos reais da holding: constituição (contrato social, registros, ITBI eventual) e manutenção recorrente (contabilidade mensal, taxas, obrigações acessórias), que corroem o benefício em patrimônios dessa escala.",
+            "kw": [
+              "custos",
+              "manutencao",
+              "contabilidade",
+              "escala"
+            ]
+          },
+          {
+            "t": "Explicar que a holding não elimina o ITCMD: a doação das quotas aos filhos é fato gerador do imposto (4% em SP), então não se trata de 'fugir de imposto'.",
+            "kw": [
+              "ITCMD na doacao",
+              "nao elimina",
+              "expectativa"
+            ]
+          },
+          {
+            "t": "Alertar para o ITBI na integralização: a imunidade constitucional é condicionada e não se aplica se a atividade preponderante da PJ for imobiliária (locação, compra e venda), o que é provável com um apartamento alugado.",
+            "kw": [
+              "ITBI",
+              "imunidade",
+              "atividade imobiliaria",
+              "preponderancia"
+            ]
+          },
+          {
+            "t": "Apresentar alternativas proporcionais ao patrimônio: doação do imóvel em vida com reserva de usufruto e cláusulas de proteção, testamento para a parte disponível e uso de previdência e seguro para os recursos financeiros.",
+            "kw": [
+              "doacao",
+              "usufruto",
+              "testamento",
+              "previdencia"
+            ]
+          },
+          {
+            "t": "Lembrar que inventário extrajudicial (em cartório), quando herdeiros são capazes e concordes, reduz custo e prazo, e que o planejamento em vida amplia essa possibilidade.",
+            "kw": [
+              "extrajudicial",
+              "cartorio",
+              "custo",
+              "prazo"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Vender a holding como forma de 'não pagar ITCMD' ou 'fugir de imposto', quando o ITCMD incide sobre a doação das quotas.",
+            "kw": [
+              "fuga de imposto",
+              "nao paga ITCMD"
+            ]
+          },
+          {
+            "t": "Empurrar estrutura cara e complexa desproporcional ao patrimônio de R$ 900 mil, ignorando os custos recorrentes de manutenção.",
+            "kw": [
+              "desproporcional",
+              "custos recorrentes"
+            ]
+          }
+        ],
+        "gab": "A resposta tecnicamente honesta é que, para um patrimônio de R$ 900 mil com apenas dois imóveis e dois herdeiros, a holding raramente se justifica. Os custos de constituição (honorários, registros na Junta Comercial) e, principalmente, os custos recorrentes (contabilidade mensal, taxas e obrigações acessórias que facilmente somam alguns milhares de reais por ano) consomem em poucos anos o que a estrutura economizaria. Além disso, a holding não isenta ITCMD: a doação das quotas aos filhos é fato gerador do imposto, com os mesmos 4% de SP que incidiriam na doação direta dos bens. Há ainda o risco de ITBI na integralização: a imunidade constitucional para imóveis integralizados ao capital social não se aplica quando a atividade preponderante da PJ é imobiliária (locação, compra e venda), situação provável para uma PJ cujo principal ativo gerador de receita seria o apartamento alugado de R$ 250 mil. O caminho proporcional ao caso combina instrumentos simples: doação do imóvel em vida com reserva de usufruto vitalício aos pais (que mantêm o uso e a renda do aluguel) e cláusulas de incomunicabilidade e impenhorabilidade lavradas na própria escritura; testamento para ordenar a parte disponível; e organização dos R$ 200 mil financeiros em previdência e seguro, que ficam fora do inventário. Planejar em vida também favorece o inventário extrajudicial em cartório, possível quando os herdeiros são maiores, capazes e concordes, o que reduz custo e prazo. O papel do assessor é alinhar a expectativa criada pelos vídeos de internet com a realidade de custo e benefício do patrimônio da família."
+      },
+      {
+        "q": "Você identificou risco de falta de caixa no espólio, já que os imóveis somam R$ 700 mil e os R$ 200 mil financeiros ficam bloqueados no inventário. Como o seguro de vida e a previdência (VGBL) se encaixam no plano sucessório e quais vantagens jurídicas e tributárias oferecem nesse contexto?",
+        "bullets": [
+          {
+            "t": "O seguro de vida gera liquidez imediata aos beneficiários para pagar ITCMD, custas e despesas sem precisar vender imóvel às pressas nem esperar alvará judicial.",
+            "kw": [
+              "liquidez",
+              "seguro de vida",
+              "ITCMD",
+              "espolio"
+            ]
+          },
+          {
+            "t": "O capital segurado não integra o inventário nem a herança (art. 794 do Código Civil) e não responde por dívidas do segurado, sendo pago diretamente ao beneficiário.",
+            "kw": [
+              "nao integra inventario",
+              "art. 794",
+              "beneficiario"
+            ]
+          },
+          {
+            "t": "O capital recebido por morte é isento de IR e, conforme decisão do STF, não incide ITCMD sobre VGBL e PGBL transmitidos em razão da morte; ainda assim, verificar a legislação estadual e o caso concreto.",
+            "kw": [
+              "isento de IR",
+              "ITCMD",
+              "STF",
+              "VGBL"
+            ]
+          },
+          {
+            "t": "Previdência com beneficiários indicados paga em dias, fora do inventário, e permite equalizar a herança: Paulo fica com o apartamento alugado de R$ 250 mil e Carla é compensada com capital segurado ou saldo de previdência em valor equivalente.",
+            "kw": [
+              "equalizar",
+              "compensacao",
+              "beneficiarios",
+              "previdencia"
+            ]
+          },
+          {
+            "t": "A indicação livre de beneficiários deve respeitar a legítima: não se pode usar seguro ou previdência para esvaziar o quinhão dos herdeiros necessários.",
+            "kw": [
+              "beneficiario",
+              "parte disponivel",
+              "legitima"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Afirmar que seguro e previdência 'sempre' escapam de ITCMD em todo o Brasil sem ressalva quanto à legislação estadual e à jurisprudência.",
+            "kw": [
+              "sempre isento",
+              "sem ressalva"
+            ]
+          },
+          {
+            "t": "Propor seguro ou VGBL para burlar a legítima dos herdeiros necessários (ex.: direcionar tudo a um só filho).",
+            "kw": [
+              "burlar legitima",
+              "fraude"
+            ]
+          }
+        ],
+        "gab": "Seguro de vida e previdência são as peças de liquidez do plano. Como R$ 700 mil do patrimônio Almeida estão em imóveis e até os R$ 200 mil financeiros ficam bloqueados durante o inventário, no falecimento o espólio precisará de caixa para pagar ITCMD (4% em SP), honorários e custas, que vencem antes da partilha. Sem liquidez, a família seria forçada a vender um imóvel com pressa e desconto. O seguro de vida resolve isso: o capital segurado é pago em poucos dias diretamente ao beneficiário. Juridicamente, o art. 794 do Código Civil determina que o capital segurado não se considera herança para nenhum efeito e não responde pelas dívidas do segurado, ou seja, fica fora do inventário. Tributariamente, o capital recebido em razão de morte é isento de IR (Lei 9.250/95). Na previdência, o VGBL com beneficiários indicados também é pago fora do inventário, e o STF decidiu pela não incidência de ITCMD sobre valores de VGBL e PGBL transmitidos aos beneficiários em razão da morte; mesmo assim, o assessor deve ressalvar a legislação estadual e acompanhar a evolução do tema em vez de prometer isenção absoluta. Esses instrumentos ainda permitem equalizar a herança: se o plano destina o apartamento alugado de R$ 250 mil a Paulo, que já o administra, Carla pode ser compensada com capital segurado ou saldo de previdência em valor equivalente, evitando condomínio forçado entre irmãos e litígio. Limite importante: a liberdade de indicar beneficiários deve respeitar a legítima dos herdeiros necessários (50%); usar seguro ou previdência para esvaziar o quinhão de um herdeiro pode ser questionado judicialmente."
+      },
+      {
+        "q": "Para fechar o plano, como você integraria doação em vida com reserva de usufruto, seguro de vida, previdência e testamento em uma estratégia coerente, respeitando a legítima e prevenindo conflito entre Paulo e Carla?",
+        "bullets": [
+          {
+            "t": "Doação da nua-propriedade do apartamento alugado a Paulo com reserva de usufruto vitalício aos pais (que mantêm a renda do aluguel) e cláusulas de proteção, antecipando a sucessão e pagando o ITCMD da doação pela base atual.",
+            "kw": [
+              "doacao",
+              "usufruto",
+              "clausulas",
+              "antecipacao"
+            ]
+          },
+          {
+            "t": "Respeitar a legítima: doação a herdeiro necessário é adiantamento da legítima e deve ser colacionada, salvo dispensa expressa imputada à parte disponível; garantir equivalência entre os filhos ou documentar as diferenças.",
+            "kw": [
+              "legitima",
+              "colacao",
+              "adiantamento",
+              "parte disponivel"
+            ]
+          },
+          {
+            "t": "Seguro de vida e previdência com Carla como beneficiária principal em valor próximo aos R$ 250 mil do apartamento, gerando liquidez para o ITCMD e equalizando a partilha.",
+            "kw": [
+              "seguro de vida",
+              "liquidez",
+              "equalizar"
+            ]
+          },
+          {
+            "t": "Testamento para dispor da parte disponível (até 50%), destinar legados específicos e reduzir litígio, sempre dentro da lei e revisado periodicamente.",
+            "kw": [
+              "testamento",
+              "parte disponivel",
+              "revisao"
+            ]
+          },
+          {
+            "t": "Formalizar tudo com advogado e contador especializados e registrar uma conversa de alinhamento em família, para que Paulo e Carla conheçam e aceitem o desenho antes do fato.",
+            "kw": [
+              "advogado",
+              "alinhamento",
+              "familia",
+              "transparencia"
+            ]
+          }
+        ],
+        "redFlags": [
+          {
+            "t": "Montar plano que viola a legítima ou ignora a colação da doação feita a Paulo.",
+            "kw": [
+              "viola legitima",
+              "sem colacao"
+            ]
+          },
+          {
+            "t": "Atuar isoladamente sem advogado ou contador especializado para os atos jurídicos (escritura de doação, testamento).",
+            "kw": [
+              "sem advogado",
+              "atuacao isolada"
+            ]
+          }
+        ],
+        "gab": "A estratégia integrada combina os instrumentos de forma complementar e proporcional ao patrimônio de R$ 900 mil. Primeiro, os pais doam em vida a nua-propriedade do apartamento alugado de R$ 250 mil a Paulo, com reserva de usufruto vitalício: mantêm o uso e a renda do aluguel enquanto vivos, antecipam a sucessão e recolhem agora o ITCMD da doação (4% em SP, cerca de R$ 10 mil, aproveitando a base atual diante das discussões sobre progressividade). A escritura deve trazer cláusulas de incomunicabilidade e impenhorabilidade, protegendo o bem de eventual divórcio ou credores de Paulo. Essa doação a herdeiro necessário é, por lei, adiantamento da legítima e sujeita a colação no futuro, salvo dispensa expressa imputada à parte disponível; por isso o plano compensa Carla desde já, nomeando-a beneficiária principal de seguro de vida e de previdência em valor próximo aos R$ 250 mil, recursos que chegam em dias, fora do inventário e em regra isentos de IR, além de fornecerem a liquidez para o ITCMD remanescente sobre a residência de R$ 450 mil e os demais bens. O testamento fecha o desenho: dispõe da parte disponível (até 50%), pode destinar legados específicos e documenta a vontade do casal, reduzindo espaço para litígio. Completam o plano uma conversa de alinhamento com os dois filhos, para que o desenho seja conhecido e aceito em vida, e a execução formal com advogado e contador especializados, já que o assessor orienta e coordena, mas não pratica os atos jurídicos. O conjunto deve ser revisado periodicamente diante de mudanças familiares e legislativas (reforma tributária, projetos de lei sobre ITCMD)."
+      }
+    ]
+  }
+]
