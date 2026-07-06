@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   /* Tipografia white-label: Inter (Google Fonts). Sem fontes proprietarias de terceiros. */
   :root{
@@ -20,7 +20,7 @@
     --green:#3FBF7F; --greensoft:rgba(63,191,127,.16);
     --amber:#E3B341; --ambersoft:rgba(227,179,65,.16);
     --blue:#195AB4; --bluesoft:rgba(37,99,235,.10);
-    --gold:#D4AF5C; --gold-ink:#7E601F;
+    --gold:#8562CB; --gold-ink:#BCABE0;
     --r:16px; --rs:11px;
   }
   *{box-sizing:border-box}
@@ -29,7 +29,7 @@
   body{
     background:radial-gradient(1200px 700px at 80% -10%, rgba(117,76,197,.18), transparent 60%), var(--bg);
     color:var(--txt);
-    font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; line-height:1.5;
     text-rendering:optimizeLegibility; overflow-x:hidden;
   }
@@ -50,7 +50,7 @@
   .logo b{color:var(--red)}
   .logo .sub{color:var(--mut);font-weight:600;font-size:11px;border-left:1px solid var(--line2);padding-left:9px;margin-left:3px}
   .xpmark{display:inline-flex;align-items:baseline;font-weight:900;font-size:23px;letter-spacing:-.01em;line-height:1}
-  .xpmark b{color:#13205A}
+  .xpmark b{color:#F5F5F6}
   .xpmark .pgram{display:inline-block;width:13px;height:18px;margin:0 5px;transform:skewX(-15deg);background:linear-gradient(150deg,var(--red2),var(--red));border-radius:2px;box-shadow:none;align-self:center}
   .xpmark .inc{color:var(--mut);font-weight:600;font-size:15px}
   .xpmark.lg{font-size:30px} .xpmark.lg .pgram{width:17px;height:24px} .xpmark.lg .inc{font-size:19px}
@@ -84,8 +84,8 @@
      Sempre tem co-brand visivel: logo real quando ha internet, selo de texto quando não ha. */
   .xp-logo{height:22px;width:auto;display:block;object-fit:contain;flex-shrink:0}
   .xp-mark{display:inline-grid;place-items:center;font-weight:900;letter-spacing:.02em;
-    color:#0B0B0F;background:var(--gold);border-radius:5px;padding:2px 8px;height:22px;
-    font-size:14px;line-height:1;box-shadow:0 2px 8px rgba(199,176,106,.25);flex-shrink:0}
+    color:#FFFFFF;background:var(--gold);border-radius:5px;padding:2px 8px;height:22px;
+    font-size:14px;line-height:1;box-shadow:0 2px 8px rgba(133,98,203,.30);flex-shrink:0}
   /* separador "×" do co-brand (legado) */
   .cobrand{display:inline-flex;align-items:center;gap:9px;flex-shrink:0}
   .cobrand .x{color:var(--mut2);font-weight:600;font-size:13px}
@@ -134,7 +134,7 @@
   .foot-note{color:var(--mut2);font-size:12.5px;font-style:italic;margin-top:18px}
 
   /* ---------- OVERVIEW ---------- */
-  .hero-tag{display:inline-flex;gap:8px;align-items:center;background:var(--redsoft);border:1px solid rgba(199,176,106,.35);color:var(--gold-ink);font-weight:700;font-size:12.5px;padding:6px 13px;border-radius:99px;margin-bottom:20px}
+  .hero-tag{display:inline-flex;gap:8px;align-items:center;background:var(--redsoft);border:1px solid rgba(133,98,203,.38);color:var(--gold-ink);font-weight:700;font-size:12.5px;padding:6px 13px;border-radius:99px;margin-bottom:20px}
   .funnel{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
   .step{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:14px;padding:20px;position:relative;cursor:pointer;transition:border-color .18s,transform .18s,box-shadow .18s}
   .step:hover{border-color:rgba(39,71,166,.5);transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.35)}
@@ -373,7 +373,7 @@
   .profchip .pav{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--red),var(--red2));display:grid;place-items:center;font-weight:800;font-size:11.5px;color:#fff;flex-shrink:0}
   .profchip .pi{line-height:1.15;padding-right:4px} .profchip b{font-size:12.5px;display:block} .profchip .pa{display:block;color:var(--mut2);font-size:10.5px}
   .lvlring{width:64px;height:64px;border-radius:50%;background:conic-gradient(var(--red) 0 62%, var(--line2) 62% 100%);display:grid;place-items:center;flex-shrink:0}
-  .lvlring i{width:50px;height:50px;border-radius:50%;background:var(--card);display:grid;place-items:center;font-weight:800;font-size:18px;font-style:normal;color:var(--amber)}
+  .lvlring i{width:50px;height:50px;border-radius:50%;background:var(--card);display:grid;place-items:center;font-weight:800;font-size:18px;font-style:normal;color:var(--red2)}
   .jtl{margin-top:4px}
   .jstep{display:flex;gap:15px}
   .jcol{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
@@ -411,8 +411,8 @@
   .lex{background:var(--bg2);border:1px solid var(--line2);border-radius:12px;padding:14px 16px;margin:0 0 16px}
   .lex p{margin:6px 0 0;font-size:14.5px;line-height:1.6;color:var(--txt)}
   .lterm{display:inline-block;font-size:12px;font-weight:700;color:var(--mut);border:1px solid var(--line2);border-radius:99px;padding:4px 11px;margin:0 6px 6px 0}
-  .ltip{background:var(--ambersoft);border:1px solid rgba(245,158,11,.3);border-radius:12px;padding:13px 16px;font-size:14px;line-height:1.55;margin:6px 0 0}
-  .ltip b{color:var(--amber)}
+  .ltip{background:var(--redsoft);border:1px solid rgba(133,98,203,.32);border-radius:12px;padding:13px 16px;font-size:14px;line-height:1.55;margin:6px 0 0}
+  .ltip b{color:var(--red2)}
   .lsrc{margin-top:14px;font-size:12.5px;color:var(--mut2)} .lsrc a{color:var(--red2);text-decoration:none} .lsrc a:hover{text-decoration:underline}
   .jbody h4 .jx{display:none;font-weight:700;font-size:11px;color:var(--mut);background:var(--card2);border:1px solid var(--line2);border-radius:6px;padding:1px 7px;margin-left:8px;vertical-align:middle;letter-spacing:.02em}
 
@@ -2262,7 +2262,7 @@ th.caRbac-col-on{color:var(--red2) !important;border-bottom:2px solid var(--red)
   <linearGradient id="btgGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D8C27E"></stop><stop offset="1" stop-color="#C7B06A"></stop></linearGradient>
   <symbol id="xplogo" viewBox="0 0 300 92">
     <rect x="0" y="9" width="13" height="74" rx="3" fill="url(#btgGrad)"></rect>
-    <text x="28" y="74" font-family="Montserrat,-apple-system,'Segoe UI',sans-serif" font-weight="600" font-size="90" letter-spacing="-3" fill="currentColor">BTG Pactual</text>
+    <text x="28" y="74" font-family="Inter,-apple-system,'Segoe UI',sans-serif" font-weight="600" font-size="90" letter-spacing="-3" fill="currentColor">BTG Pactual</text>
   </symbol>
 </defs></svg>
 
@@ -2411,7 +2411,7 @@ th.caRbac-col-on{color:var(--red2) !important;border-bottom:2px solid var(--red)
       <div class="lvlring"><i>62</i></div>
       <div style="flex:1;min-width:220px">
         <div style="font-weight:800;font-size:17px" id="jLvlName">Sua jornada</div>
-        <div class="muted" style="font-size:13px;margin-top:2px">Segmento Digital · Índice de Prontidão Consultiva <b style="color:var(--amber)" id="jPreparo">62</b></div>
+        <div class="muted" style="font-size:13px;margin-top:2px">Segmento Digital · Índice de Prontidão Consultiva <b style="color:var(--red2)" id="jPreparo">62</b></div>
         <div class="progress" style="margin-top:10px"><i style="width:48%"></i></div>
         <div class="muted" style="font-size:12px;margin-top:5px">Prontidão para carteira complexa a partir de 85</div>
       </div>
@@ -4945,7 +4945,7 @@ function esFinishSessao(){
   bumpPreparo(2);
   const box=document.getElementById('esResult');
   if(box){ box.style.display='block';
-    box.innerHTML='<div class="ev ok"><div class="vh"><span style="color:var(--green)"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M5 13l4 4L19 7"/></svg> Sessão concluída</span></div><div style="color:var(--mut);margin-top:6px">Você percorreu as '+esQs.length+' questões de <b style="color:var(--txt)">'+esEsc(esCert)+' · '+esEsc(esTopic)+'</b>. Progresso salvo: seu Índice de Prontidão Consultiva subiu para <b style="color:var(--amber)">'+getPreparo()+'</b>.</div></div>';
+    box.innerHTML='<div class="ev ok"><div class="vh"><span style="color:var(--green)"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M5 13l4 4L19 7"/></svg> Sessão concluída</span></div><div style="color:var(--mut);margin-top:6px">Você percorreu as '+esQs.length+' questões de <b style="color:var(--txt)">'+esEsc(esCert)+' · '+esEsc(esTopic)+'</b>. Progresso salvo: seu Índice de Prontidão Consultiva subiu para <b style="color:var(--red2)">'+getPreparo()+'</b>.</div></div>';
     box.scrollIntoView({behavior:'smooth',block:'nearest'});
   }
 }
