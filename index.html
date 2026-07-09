@@ -71,11 +71,11 @@
   .micst.rec{color:var(--err2)} .micst.load{color:var(--red2)} .micst.ok{color:var(--green)} .micst.err{color:var(--amber)}
   nav{display:flex;gap:3px;order:3;width:100%;margin-left:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
   nav::-webkit-scrollbar{height:0;display:none}
-  .tab{background:none;border:0;color:#333;font:inherit;font-size:13px;font-weight:400;padding:12px 11px;border-radius:0;cursor:pointer;transition:color .15s,box-shadow .2s;white-space:nowrap;flex-shrink:0;box-shadow:inset 0 -2px 0 transparent}
+  .tab{background:none;border:0;border-bottom:2px solid transparent;color:#333;font:inherit;font-size:13px;font-weight:400;padding:12px 11px 10px;border-radius:0;cursor:pointer;transition:color .15s,border-color .2s;white-space:nowrap;flex-shrink:0}
   .tab:hover{color:var(--red)}
-  .tab.on{color:var(--red);font-weight:500;background:transparent;box-shadow:inset 0 -2px 0 var(--red)}
+  .tab.on{color:var(--red);font-weight:500;background:transparent;border-bottom-color:var(--red)}
   /* foco de teclado vira a MESMA underline (nunca caixa de outline: evitava "linha dupla" na aba ativa) */
-  .tab:focus-visible{outline:none;box-shadow:inset 0 -2px 0 var(--red2)}
+  .tab:focus-visible{outline:none;border-bottom-color:var(--red2)}
   .tab:focus{outline:none}
   .wl{display:flex;align-items:center;gap:7px;flex-shrink:0;font-size:11px;color:var(--mut2);font-weight:700;letter-spacing:.06em;border:1px solid var(--line);padding:6px 10px;border-radius:99px}
   @media(max-width:1000px){
@@ -2380,6 +2380,16 @@ th.caRbac-col-on{color:var(--red2) !important;border-bottom:2px solid var(--red)
 .cvi-bar .lbl{ font-size:12.5px; color:rgba(255,255,255,.85); flex:1; }
 .cvi-end{ appearance:none; border:1px solid rgba(255,255,255,.4); background:transparent; color:#fff; cursor:pointer; font-family:inherit; font-weight:700; font-size:13px; padding:8px 14px; border-radius:4px; }
 .cvi-end:hover{ background:rgba(255,255,255,.12); }
+/* Sala ao vivo em TELA CHEIA: durante a chamada o stage e movido para o <body>
+   (ancestrais com transform das animacoes .reveal quebrariam o position:fixed)
+   e ocupa o viewport inteiro; a barra de encerrar vira rodape fixo. */
+.cvi-stage.full{ position:fixed; inset:0; z-index:3000; background:var(--navy); padding:0; margin:0; }
+.cvi-stage.full.on{ display:flex; flex-direction:column; }
+.cvi-stage.full .cvi-frameWrap{ flex:1; min-height:0; border-radius:0; }
+.cvi-stage.full .cvi-frameWrap iframe{ width:100%; height:100%; }
+.cvi-stage.full .cvi-msg{ height:100%; }
+.cvi-stage.full .cvi-bar{ padding:12px 18px; background:rgba(5,19,42,.94); border-top:1px solid rgba(255,255,255,.08); }
+html.cvi-lock, html.cvi-lock body{ overflow:hidden; }
 @media (max-width:560px){
   .cvi-head{ flex-wrap:wrap; }
   .cvi-btn{ width:100%; }
@@ -8494,8 +8504,37 @@ const INTERVIEW=[
    toca no fluxo de gravacao/avaliacao existente. */
 (function(){
   const ALLOW = 'camera; microphone; fullscreen; display-capture; autoplay';
-  function findLauncher(btn){ return btn.closest('.cvi-launcher'); }
-  function stageOf(launcher){ return launcher.querySelector('[data-cvi-stage]'); }
+  function findLauncher(btn){
+    const l = btn.closest('.cvi-launcher');
+    if(l) return l;
+    // botao dentro do stage DESTACADO no <body> (fullscreen): resolve pelo back-ref
+    const st = btn.closest('[data-cvi-stage]');
+    return (st && st.__launcher) || null;
+  }
+  // o stage pode estar DESTACADO no <body> durante a sala fullscreen; o launcher guarda a referencia
+  function stageOf(launcher){ return launcher.querySelector('[data-cvi-stage]') || launcher.__stageDetached || null; }
+
+  // Tela cheia: move o stage p/ o <body> (ancestral com transform das animacoes .reveal
+  // quebraria o position:fixed) e trava o scroll de fundo; unFull devolve ao card.
+  function goFull(launcher, stage){
+    if(!stage || stage.__origin) return;
+    stage.__origin = { parent: stage.parentElement, next: stage.nextSibling };
+    stage.__launcher = launcher; launcher.__stageDetached = stage;
+    document.body.appendChild(stage);
+    stage.classList.add('full');
+    document.documentElement.classList.add('cvi-lock');
+  }
+  function unFull(stage){
+    if(!stage) return;
+    stage.classList.remove('full');
+    document.documentElement.classList.remove('cvi-lock');
+    const o = stage.__origin;
+    if(o){
+      stage.__origin = null;
+      if(stage.__launcher){ stage.__launcher.__stageDetached = null; stage.__launcher = null; }
+      if(o.parent) o.parent.insertBefore(stage, o.next || null);
+    }
+  }
 
   // estado por launcher (conversation_id ativo p/ encerrar; mode p/ a analise)
   const active = new WeakMap();
@@ -8508,6 +8547,7 @@ const INTERVIEW=[
     stage.innerHTML = '<div class="cvi-frameWrap"><div class="cvi-msg"><div class="sp"></div><b>Conectando ao avatar…</b><p>O avatar leva alguns segundos para entrar na sala. Seu navegador vai pedir acesso à câmera e ao microfone.</p></div></div>';
   }
   function showNotConfigured(stage, detail){
+    unFull(stage);
     stage.classList.add('on');
     stage.innerHTML = '<div class="cvi-frameWrap"><div class="cvi-msg"><b>Avatar de vídeo não configurado</b>'
       + '<p>O avatar de vídeo não está habilitado neste ambiente. Enquanto isso, use a gravação por vídeo e voz logo abaixo.</p>'
@@ -8515,6 +8555,7 @@ const INTERVIEW=[
       + '<button class="cvi-end" type="button" data-cvi-close>Fechar</button></div></div>';
   }
   function showError(stage, detail){
+    unFull(stage);
     stage.classList.add('on');
     stage.innerHTML = '<div class="cvi-frameWrap"><div class="cvi-msg"><b>Não foi possível iniciar o avatar</b>'
       + '<p>Tente novamente em instantes. Se persistir, o limite de minutos/sessões simultâneas do serviço de vídeo pode ter sido atingido.</p>'
@@ -8544,17 +8585,20 @@ const INTERVIEW=[
       +'<div style="font-weight:700;font-size:16px;color:'+selCorLocal(v)+'">'+v+'<span style="font-size:11px;color:rgba(255,255,255,.5)">/100</span></div></div>';
   }
   function showAnalyzing(stage){
+    unFull(stage);   // a analise volta a aparecer no card (a sala fullscreen ja encerrou)
     stage.classList.add('on');
     stage.innerHTML = '<div class="cvi-frameWrap"><div class="cvi-msg"><div class="sp"></div><b>Analisando a conversa…</b>'
       + '<p>A IA está puxando a transcrição e avaliando suas falas. Isso pode levar até um minuto. O resultado também aparece na triagem do gestor.</p></div></div>';
   }
   function showAnalysisFail(stage){
+    unFull(stage);
     stage.classList.add('on');
     stage.innerHTML = '<div class="cvi-frameWrap"><div class="cvi-msg"><b>Não foi possível gerar a análise agora</b>'
       + '<p>A conversa foi encerrada normalmente, mas a avaliação não pôde ser concluída. Verifique sua conexão e tente uma nova sessão; se a análise existir, ela também aparece na triagem do gestor.</p>'
       + '<button class="cvi-end" type="button" data-cvi-close>Fechar</button></div></div>';
   }
   function showAnalysis(stage, s){
+    unFull(stage);
     stage.classList.add('on');
     var ov = Number.isFinite(s.overall) ? s.overall : null;
     var dims = '';
@@ -8611,7 +8655,7 @@ const INTERVIEW=[
     if(analyze && cid){ const stage = stageOf(launcher); if(stage) analyzeConversation(launcher, cid, mode, stage); }
   }
   function closeStage(launcher){
-    const stage = stageOf(launcher); if(stage){ (timers.get(stage)||[]).forEach(clearTimeout); timers.delete(stage); stage.classList.remove('on'); stage.innerHTML=''; }
+    const stage = stageOf(launcher); if(stage){ (timers.get(stage)||[]).forEach(clearTimeout); timers.delete(stage); unFull(stage); stage.classList.remove('on'); stage.innerHTML=''; }
     launcher.querySelectorAll('[data-cvi-start]').forEach(function(b){ b.disabled=false; });
   }
 
@@ -8619,6 +8663,7 @@ const INTERVIEW=[
     const stage = stageOf(launcher);
     launcher.querySelectorAll('[data-cvi-start]').forEach(function(b){ b.disabled=true; });
     gen.set(launcher, (gen.get(launcher)||0)+1);   // nova sessao toma o stage; invalida analise pendente da sessao anterior
+    goFull(launcher, stage);   // sala/carregamento em TELA CHEIA; estados de erro/analise voltam ao card
     showLoading(stage);
     try{
       const r = await fetch('/api/tavus/conversation',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({mode, variant})});
