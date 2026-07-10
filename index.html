@@ -6,6 +6,7 @@
 <title>BTG Pactual Workforce Intelligence</title>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/btg-icon.png">
+<script>if(/^\/candidatura\//.test(location.pathname))document.documentElement.setAttribute('data-cand','1');</script>
 <style>
   /* Tipografia oficial: BTG Pactual Sans (arquivos locais, mesmos servidos em btgpactual.com).
      Peso 500-900 mapeado no Medium: negrito renderiza Medium, convencao tipografica do BTG. */
@@ -28,6 +29,8 @@
     --r:4px; --rs:3px;
   }
   *{box-sizing:border-box}
+  /* pagina publica de candidatura: o app NUNCA pisca (atributo setado no <head>, antes do 1o paint) */
+  html[data-cand] header,html[data-cand] section.view,html[data-cand] #login,html[data-cand] body>footer{display:none !important}
   html,body{margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{
@@ -2508,11 +2511,11 @@ html.cvi-lock, html.cvi-lock body{ overflow:hidden; }
       <button class="tab" data-go="historico" id="tabHistorico" style="display:none">Evidências</button>
       <button class="tab" data-go="central">Central</button>
       <button class="tab" data-go="selecao">Seleção</button>
-      <button class="tab" data-go="greenhouse">Greenhouse</button>
       <button class="tab" data-go="pessoas">Pessoas</button>
       <button class="tab" data-go="risco">Risco</button>
       <button class="tab" data-go="escritorios">Escritórios</button>
       <button class="tab" data-go="impacto">Impacto</button>
+      <button class="tab" data-go="greenhouse">Greenhouse</button>
       <button class="tab" data-go="auditoria">Auditoria</button>
       
       
@@ -5026,8 +5029,9 @@ function openMission(tid, idx){
       <div class="lsrc">Fonte oficial: <a href="${m.source.url}" target="_blank" rel="noopener">${m.source.label}</a></div>
       <button class="btn" style="margin-top:16px;width:100%" onclick="startMQuiz('${tid}',${idx})">Fazer o Quiz da Missão (${m.quiz.length} questões) →</button>
     </div>`;
-  window.scrollTo({top:0,behavior:'smooth'});
+  jScrollTrails();
 }
+function jScrollTrails(){ try{ var el=document.getElementById('trails'); if(!el) return; var r=el.getBoundingClientRect(); if(r.top<0 || r.top>140) el.scrollIntoView({behavior:'smooth',block:'start'}); }catch(e){} }
 function startMQuiz(tid, idx){ _mq={tid, idx, i:0, correct:0, answered:false}; renderMQuiz(); }
 function renderMQuiz(){
   const m=MISSIONS[_mq.tid][_mq.idx], q=m.quiz[_mq.i], L=['A','B','C','D'];
@@ -5040,7 +5044,7 @@ function renderMQuiz(){
       <div class="expl" id="mqExpl"></div>
       <div class="row" style="margin-top:14px;justify-content:flex-end"><button class="btn" id="mqNext" style="display:none"></button></div>
     </div>`;
-  window.scrollTo({top:0,behavior:'smooth'});
+  jScrollTrails();
 }
 function answerMQ(i){
   if(_mq.answered) return; _mq.answered=true;
@@ -5066,7 +5070,7 @@ function finishMQuiz(){
       ${pass?`<button class="btn" onclick="renderTrails()">Voltar à trilha →</button>`
             :`<div class="row" style="justify-content:center"><button class="btn ghost" onclick="openMission('${_mq.tid}',${_mq.idx})">Revisar a lição</button><button class="btn" onclick="startMQuiz('${_mq.tid}',${_mq.idx})">Tentar de novo</button></div>`}
     </div>`;
-  window.scrollTo({top:0,behavior:'smooth'});
+  jScrollTrails();
 }
 
 /* ============================== LOGIN + PERFIL POR AREA ============================== */
@@ -5086,7 +5090,7 @@ function renderRolePick(){
   el.innerHTML=roles.map(r=>`<button type="button" class="areaOpt${r[0]===_roleSel?' on':''}" onclick="pickRole('${r[0]}')"><span class="ra"></span><span><b>${r[1]}</b><span class="ad">${r[2]}</span></span></button>`).join('');
 }
 function pickRole(k){ _roleSel=k; renderRolePick(); const ab=document.getElementById('areaBlock'); if(ab) ab.style.display=(k==='assessor'?'':'none'); }
-const ROLE_NAV={ assessor:['overview','jornada','estudo','caso','certificar','desenvolver','tutor','entrevista','simulado','historico'], gestao:['central','pessoas','selecao','greenhouse','risco','escritorios','impacto','auditoria'] };
+const ROLE_NAV={ assessor:['overview','jornada','estudo','caso','certificar','desenvolver','tutor','entrevista','simulado','historico'], gestao:['central','selecao','pessoas','risco','escritorios','impacto','greenhouse','auditoria'] };
 function applyRoleNav(role){
   role=(role==='gestao')?'gestao':'assessor';
   const allow=ROLE_NAV[role];
@@ -8269,6 +8273,23 @@ function selEscHtml(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c
 function selHora(iso){ try{ return new Date(iso).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}); }catch(_){ return iso||''; } }
 function selDelBtn(id){ return '<button type="button" data-del="'+selEscHtml(id)+'" title="Remover esta sessão" style="flex:0 0 auto;border:1px solid var(--line2);background:transparent;color:var(--mut2);cursor:pointer;border-radius:4px;width:26px;height:26px;font-size:16px;line-height:1;padding:0">&times;</button>'; }
 document.addEventListener('click',function(ev){ var b=ev.target.closest&&ev.target.closest('[data-del]'); if(!b) return; var id=b.getAttribute('data-del'); if(!confirm('Remover esta sessão da triagem?')) return; fetch('/api/triagem/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:id})}).then(function(r){return r.json();}).then(function(){ if(typeof carregarSessoesAvatar==='function') carregarSessoesAvatar(); if(typeof carregarCandidaturas==='function') carregarCandidaturas(); }).catch(function(){}); });
+// Analise comportamental estruturada (estilo comitê iBooster) p/ cards do gestor:
+// nota + dimensões com evidência citada + momento-chave + pontos fortes.
+function selComportamento(s){
+  var c=s.comportamento; if(!c||!Array.isArray(c.dimensoes)||!c.dimensoes.length) return '';
+  var cor=function(n){return n>=75?'var(--green)':n>=50?'var(--amber)':'var(--err)';};
+  return '<div style="margin-top:10px;border-top:1px dashed var(--line);padding-top:8px">'
+    +'<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><b style="font-size:12.5px;color:#001E61">Análise comportamental</b>'
+    +(Number.isFinite(c.nota)?'<span style="font-weight:800;font-size:14px;color:'+cor(c.nota)+'">'+c.nota+'<span class="muted" style="font-size:10px;font-weight:400">/100</span></span>':'')
+    +'<span class="muted" style="font-size:10.5px">comitê IA · evidência por fala</span></div>'
+    +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:6px 18px;margin-top:6px">'
+    +c.dimensoes.map(function(d){return '<div><div style="display:flex;justify-content:space-between;gap:8px;font-size:12px"><b>'+selEscHtml(d.nome)+'</b><span style="font-weight:700;color:'+cor(d.nota)+'">'+d.nota+'</span></div>'+(d.evidencia?'<div class="muted" style="font-size:11.5px;font-style:italic;line-height:1.4">'+selEscHtml(d.evidencia)+'</div>':'')+'</div>';}).join('')
+    +'</div>'
+    +(c.resumo?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:6px">'+selEscHtml(c.resumo)+'</div>':'')
+    +(s.momentoChave?'<div style="font-size:12px;line-height:1.5;margin-top:6px"><b style="color:var(--amber)">Momento-chave:</b> <span class="muted">'+selEscHtml(s.momentoChave)+'</span></div>':'')
+    +((s.pontosFortes||[]).length?'<div style="font-size:12px;margin-top:4px"><b style="color:var(--green)">Pontos fortes:</b> <span class="muted">'+selEscHtml(s.pontosFortes.join('; '))+'</span></div>':'')
+    +'</div>';
+}
 function selCardEntrevista(s){
   var ov=Number.isFinite(s.overall)?s.overall:0;
   return '<div class="card" style="margin-bottom:12px;padding:14px 16px">'
@@ -8283,6 +8304,7 @@ function selCardEntrevista(s){
     +(s.redFlags>0?'<div style="color:var(--err2);font-size:12.5px;font-weight:600;margin:6px 0 2px">Sinais de alerta de conduta/suitability: '+s.redFlags+'</div>':'')
     +(s.evidencia?'<div class="muted" style="font-size:13px;line-height:1.5;margin-top:6px"><b style="color:#001E61">Evidência da conversa:</b> '+selEscHtml(s.evidencia)+'</div>':'')
     +(s.comportamental?'<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:4px"><b style="color:#001E61">Comportamental:</b> '+selEscHtml(s.comportamental)+'</div>':'')
+    +selComportamento(s)
   +'</div>';
 }
 function selCardAtendimento(s){
@@ -8735,6 +8757,23 @@ const INTERVIEW=[
       + '<p>A conversa foi encerrada normalmente, mas a avaliação não pôde ser concluída. Verifique sua conexão e tente uma nova sessão; se a análise existir, ela também aparece na triagem do gestor.</p>'
       + '<button class="cvi-end" type="button" data-cvi-close>Fechar</button></div></div>';
   }
+  // Analise comportamental estruturada (estilo comitê iBooster): nota geral + dimensões
+  // com evidência citada + momento-chave + pontos fortes. Renderiza só se o servidor mandou.
+  function comportamentoHtml(s){
+    const c = s.comportamento; if(!c || !Array.isArray(c.dimensoes) || !c.dimensoes.length) return '';
+    let h = '<div style="margin-top:12px;border-top:1px solid rgba(255,255,255,.14);padding-top:10px">'
+      + '<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><b style="font-size:13px">Análise comportamental</b>'
+      + (Number.isFinite(c.nota)?('<span style="font-weight:800;font-size:15px;color:'+selCorLocal(c.nota)+'">'+c.nota+'<span style="font-size:10.5px;color:rgba(255,255,255,.5)">/100</span></span>'):'')
+      + '<span class="muted" style="font-size:10.5px">comitê IA · evidência por fala</span></div>';
+    h += c.dimensoes.map(function(d){
+      return '<div style="margin-top:7px"><div style="display:flex;justify-content:space-between;gap:10px;font-size:12px"><b>'+esc(d.nome)+'</b><span style="font-weight:700;color:'+selCorLocal(d.nota)+'">'+d.nota+'</span></div>'
+        + (d.evidencia?('<div class="muted" style="font-size:11.5px;line-height:1.45;font-style:italic">'+esc(d.evidencia)+'</div>'):'')+'</div>';
+    }).join('');
+    if(c.resumo) h += '<div class="muted" style="font-size:12px;line-height:1.5;margin-top:8px">'+esc(c.resumo)+'</div>';
+    if(s.momentoChave) h += '<div style="font-size:12px;line-height:1.5;margin-top:8px"><b style="color:var(--amber)">Momento-chave:</b> <span class="muted">'+esc(s.momentoChave)+'</span></div>';
+    if((s.pontosFortes||[]).length) h += '<div style="font-size:12px;margin-top:6px"><b style="color:var(--green)">Pontos fortes:</b> <span class="muted">'+esc(s.pontosFortes.join('; '))+'</span></div>';
+    return h + '</div>';
+  }
   function showAnalysis(stage, s){
     unFull(stage);
     stage.classList.add('on');
@@ -8766,6 +8805,7 @@ const INTERVIEW=[
       + (verdictTxt?('<div style="margin-top:8px;font-size:13px;font-weight:600;color:#fff">'+esc(verdictTxt)+'</div>'):'')
       + listas
       + (s.comportamental?('<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:8px"><b style="color:#fff">Comportamental:</b> '+esc(s.comportamental)+'</div>'):'')
+      + (s.tipo==='entrevista'?comportamentoHtml(s):'')
       + (s.mock?('<div class="muted" style="font-size:11px;margin-top:8px;opacity:.75">Análise preliminar · a avaliação completa por IA é ativada com o motor de análise conectado.</div>'):'')
       + '</div>'
       + '<div class="cvi-bar"><span class="lbl">Esta análise também alimenta a aba de Seleção do gestor.</span>'
@@ -14074,6 +14114,7 @@ function carregarCandidaturas(){
           +'<div style="margin-top:4px">'+candDim('Comunicação',e.comunicacao)+candDim('Postura',e.postura)+candDim('Suitability',e.suitabilityAwareness)+'</div>'
           +(e.comportamental?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:6px"><b>Comportamental:</b> '+candEsc(e.comportamental)+'</div>':'')
           +(e.evidencia?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:4px"><b>Evidência da entrevista:</b> '+candEsc(e.evidencia)+'</div>':'')
+          +selComportamento(e)
           +'</div>';
       } else {
         ivBloco='<div class="muted" style="font-size:12px;margin-top:8px">Entrevista com IA ainda não realizada.</div>';
@@ -14175,8 +14216,8 @@ setInterval(function(){
     document.querySelectorAll('header, section.view, #login, body>footer').forEach(function(n){ n.style.display='none'; });
     document.body.style.background='var(--bg)';
   }
-  function shell(inner){
-    return '<div style="max-width:640px;margin:0 auto;padding:34px 20px 60px">'
+  function shell(inner, larga){
+    return '<div style="max-width:'+(larga?'920px':'640px')+';margin:0 auto;padding:34px 20px 60px">'
       +'<div style="display:flex;align-items:center;gap:10px;margin-bottom:26px"><img src="btg-logo.svg" alt="BTG Pactual" style="height:26px"/><span class="muted" style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase">Processo seletivo</span></div>'
       +inner+'</div>';
   }
@@ -14275,16 +14316,19 @@ setInterval(function(){
     provaItens.forEach(function(it){ var c=porCat[it.categoria]||(porCat[it.categoria]={ok:0,n:0}); c.n++; if(it.acertou) c.ok++; });
     var payload={ vaga:VAGA_ID, candidato:CAND, respostas:respostas, duracaoSeg:Math.round((Date.now()-startedAt)/1000),
       prova:{ acertos:provaItens.filter(function(i){return i.acertou;}).length, total:provaItens.length, porCategoria:porCat, itens:provaItens } };
-    fetch('/api/triagem/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
-      .then(function(r){ return r.json(); })
-      .then(function(d){ CAND_ID=(d&&d.id)||null; renderEntrevista(); })
-      .catch(function(){ setTimeout(function(){ fetch('/api/triagem/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}).then(function(r){return r.json();}).then(function(d){ CAND_ID=(d&&d.id)||CAND_ID; }).catch(function(){}); },1500); renderEntrevista(); });
+    var tenta=function(n){
+      return fetch('/api/triagem/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+        .then(function(r){ if(!r.ok) throw new Error('http '+r.status); return r.json(); })
+        .then(function(d){ CAND_ID=(d&&d.id)||CAND_ID; })
+        .catch(function(){ if(n>0){ return new Promise(function(res){ setTimeout(res, 1800); }).then(function(){ return tenta(n-1); }); } });
+    };
+    tenta(3).then(function(){ renderEntrevista(); });
   }
   /* Etapa final: entrevista em video com a recrutadora virtual (Marina, Gente e Gestao).
      Nota nenhuma aparece; a analise vai direto para a candidatura no painel do gestor. */
   var ivConvId=null;
   function renderEntrevista(){
-    root.innerHTML=shell(
+    root.innerHTML=shell.call(null,
       '<div class="card" style="padding:28px">'
       +'<div class="eyebrow" style="margin-bottom:6px">Última etapa</div>'
       +'<h2 style="margin:0 0 8px;font-size:21px">Entrevista em vídeo com a Marina</h2>'
@@ -14293,7 +14337,7 @@ setInterval(function(){
       +'<button id="candIvStart" class="btn" style="width:100%">Iniciar entrevista em vídeo</button>'
       +'<button id="candIvSkip" class="btn ghost" style="width:100%;margin-top:8px">Concluir sem a entrevista em vídeo</button>'
       +'<div id="candIvErr" style="color:var(--err2);font-size:12.5px;margin-top:8px;min-height:16px"></div>'
-      +'</div>');
+      +'</div>', true);
     el('candIvSkip').onclick=function(){ renderFim(false); };
     el('candIvStart').onclick=function(){
       var btn=el('candIvStart'); btn.disabled=true; btn.textContent='Preparando a sala...';
@@ -14307,7 +14351,7 @@ setInterval(function(){
           ivConvId=d.conversation_id||null;
           btn.style.display='none'; el('candIvSkip').style.display='none';
           el('candIvStage').innerHTML='<div style="background:#05132A;border-radius:4px;overflow:hidden;margin-bottom:12px">'
-            +'<iframe src="'+candEsc(d.conversation_url)+'" allow="camera; microphone; fullscreen; display-capture" style="display:block;width:100%;height:520px;border:0"></iframe></div>'
+            +'<iframe src="'+candEsc(d.conversation_url)+'" allow="camera; microphone; fullscreen; display-capture" style="display:block;width:100%;height:600px;border:0"></iframe></div>'
             +'<button id="candIvEnd" class="btn" style="width:100%">Encerrar entrevista e concluir</button>';
           el('candIvEnd').onclick=function(){
             var eb=el('candIvEnd'); eb.disabled=true; eb.textContent='Encerrando...';
