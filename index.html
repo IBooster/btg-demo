@@ -8216,12 +8216,14 @@ function selPill(rec){
 function renderSelecao(){
   var root=document.getElementById('selRoot'); if(!root) return;
   var C=(typeof BTG_CANDIDATOS!=='undefined')?BTG_CANDIDATOS:[];
-  if(!C.length){ root.innerHTML='<div id="selCandidaturas"></div><div class="muted">Pipeline de candidatos vazio.</div>'; carregarCandidaturas(); return; }
+  if(!C.length){ root.innerHTML='<div id="selCandidaturas"></div><div id="selAvatarSessions"></div><div class="muted">Pipeline de candidatos vazio.</div>'; carregarSessoesAvatar(); carregarCandidaturas(); return; }
   var shortlist=C.filter(function(c){return c.recomendacao==='Avançar para entrevista humana';}).length;
   var emAval=C.filter(function(c){return c.etapa!=='Shortlist';}).length;
   var redflag=C.filter(function(c){return c.redFlags>0;}).length;
   var html='';
   html+='<div id="selCandidaturas"></div>';
+  // Sessoes REAIS do avatar IA vem ANTES do pipeline de exemplo (resultado de hoje acima do mock)
+  html+='<div id="selAvatarSessions"></div>';
   html+='<div class="eyebrow" style="margin:18px 0 10px">Exemplo de pipeline preenchido · dados ilustrativos</div>';
   html+='<div class="kpibar" style="margin-bottom:16px">'
    +'<div class="kpi"><div class="v">'+C.length+'</div><div class="l">candidatos no pipeline</div></div>'
@@ -8260,8 +8262,6 @@ function renderSelecao(){
       +'</div>';
     });
   });
-  // marcador onde as sessoes do avatar IA serao injetadas (carregadas de /api/triagem/sessions)
-  html+='<div id="selAvatarSessions"></div>';
   root.innerHTML=html;
   carregarSessoesAvatar();
   carregarCandidaturas();
