@@ -2461,6 +2461,13 @@ th.caRbac-col-on{color:var(--red2) !important;border-bottom:2px solid var(--red)
 .cvi-stage.full .cvi-msg{ height:100%; }
 .cvi-stage.full .cvi-bar{ padding:12px 18px; background:rgba(5,19,42,.94); border-top:1px solid rgba(255,255,255,.08); }
 html.cvi-lock, html.cvi-lock body{ overflow:hidden; }
+/* Card CONCLUIDO expande p/ largura total (estilo modo estudo do iBooster): a analise
+   ganha respiro embaixo e o outro card desce. Aplica no filho direto do .cvi-duo. */
+.cvi-duo > *{ order:0; min-width:0; }
+.cvi-duo > .cvi-expanded{ grid-column:1 / -1; flex-basis:100%; width:100%; order:-1; }
+.cvi-expanded [data-cvi-stage] .cvi-frameWrap{ padding:22px 28px !important; }
+.cvi-bdims{ display:grid; grid-template-columns:1fr; gap:8px 28px; }
+.cvi-expanded .cvi-bdims{ grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); margin-top:2px; }
 @media (max-width:560px){
   .cvi-head{ flex-wrap:wrap; }
   .cvi-btn{ width:100%; }
@@ -8283,7 +8290,7 @@ function selComportamento(s){
     +(Number.isFinite(c.nota)?'<span style="font-weight:800;font-size:14px;color:'+cor(c.nota)+'">'+c.nota+'<span class="muted" style="font-size:10px;font-weight:400">/100</span></span>':'')
     +'<span class="muted" style="font-size:10.5px">comitê IA · evidência por fala</span></div>'
     +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:6px 18px;margin-top:6px">'
-    +c.dimensoes.map(function(d){return '<div><div style="display:flex;justify-content:space-between;gap:8px;font-size:12px"><b>'+selEscHtml(d.nome)+'</b><span style="font-weight:700;color:'+cor(d.nota)+'">'+d.nota+'</span></div>'+(d.evidencia?'<div class="muted" style="font-size:11.5px;font-style:italic;line-height:1.4">'+selEscHtml(d.evidencia)+'</div>':'')+'</div>';}).join('')
+    +c.dimensoes.map(function(d){return '<div><div style="display:flex;align-items:baseline;gap:8px;font-size:12px"><b>'+selEscHtml(d.nome)+'</b><span style="font-weight:700;color:'+cor(d.nota)+'">'+d.nota+'</span></div>'+(d.evidencia?'<div class="muted" style="font-size:11.5px;font-style:italic;line-height:1.4">'+selEscHtml(d.evidencia)+'</div>':'')+'</div>';}).join('')
     +'</div>'
     +(c.resumo?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:6px">'+selEscHtml(c.resumo)+'</div>':'')
     +(s.momentoChave?'<div style="font-size:12px;line-height:1.5;margin-top:6px"><b style="color:var(--amber)">Momento-chave:</b> <span class="muted">'+selEscHtml(s.momentoChave)+'</span></div>':'')
@@ -8303,7 +8310,7 @@ function selCardEntrevista(s){
     +'</div>'
     +(s.redFlags>0?'<div style="color:var(--err2);font-size:12.5px;font-weight:600;margin:6px 0 2px">Sinais de alerta de conduta/suitability: '+s.redFlags+'</div>':'')
     +(s.evidencia?'<div class="muted" style="font-size:13px;line-height:1.5;margin-top:6px"><b style="color:#001E61">Evidência da conversa:</b> '+selEscHtml(s.evidencia)+'</div>':'')
-    +(s.comportamental?'<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:4px"><b style="color:#001E61">Comportamental:</b> '+selEscHtml(s.comportamental)+'</div>':'')
+    +(s.comportamental?'<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:4px"><b style="color:#001E61">Parecer geral:</b> '+selEscHtml(s.comportamental)+'</div>':'')
     +selComportamento(s)
   +'</div>';
 }
@@ -8321,7 +8328,7 @@ function selCardAtendimento(s){
     +((s.strengths||[]).length?'<div style="font-size:12.5px;margin-top:6px"><b style="color:var(--green)">Pontos fortes:</b> '+selEscHtml(s.strengths.join('; '))+'</div>':'')
     +((s.gaps||[]).length?'<div style="font-size:12.5px;margin-top:4px"><b style="color:var(--amber)">A desenvolver:</b> '+selEscHtml(s.gaps.join('; '))+'</div>':'')
     +(s.verdict?'<div class="muted" style="font-size:13px;line-height:1.5;margin-top:6px"><b style="color:#001E61">Veredito:</b> '+selEscHtml(s.verdict)+'</div>':'')
-    +(s.comportamental?'<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:4px"><b style="color:#001E61">Comportamental:</b> '+selEscHtml(s.comportamental)+'</div>':'')
+    +(s.comportamental?'<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:4px"><b style="color:#001E61">Parecer geral:</b> '+selEscHtml(s.comportamental)+'</div>':'')
   +'</div>';
 }
 function carregarSessoesAvatar(){
@@ -8696,6 +8703,45 @@ const INTERVIEW=[
     }
   }
 
+  // ---- card expandido + ultima analise persistida (estilo modo estudo) ----
+  // Concluiu a conversa: o card expande p/ largura total com a analise embaixo e o outro
+  // desce. A analise fica salva POR ABA (sessionStorage) ate fechar a aba ou trocar de
+  // login, e pode ser reaberta pelo botao "Ver ultima analise" no card.
+  const LASTKEY = (id) => 'btg_cvi_last:' + (id || '');
+  function itemOf(launcher){
+    let n = launcher;
+    while(n && n.parentElement && !n.parentElement.classList.contains('cvi-duo')) n = n.parentElement;
+    return (n && n.parentElement && n.parentElement.classList.contains('cvi-duo')) ? n : launcher;
+  }
+  function expand(launcher){ itemOf(launcher).classList.add('cvi-expanded'); }
+  function collapse(launcher){ itemOf(launcher).classList.remove('cvi-expanded'); }
+  function loadLast(launcher){ try{ return launcher.id ? JSON.parse(sessionStorage.getItem(LASTKEY(launcher.id))||'null') : null; }catch(_){ return null; } }
+  function saveLast(launcher, s){ try{ if(launcher.id) sessionStorage.setItem(LASTKEY(launcher.id), JSON.stringify(s)); }catch(_){} ensureLastBtn(launcher); }
+  function ensureLastBtn(launcher){
+    if(!launcher || !launcher.id || launcher.querySelector('[data-cvi-lastview]')) return;
+    if(!loadLast(launcher)) return;
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'cvi-end'; b.setAttribute('data-cvi-lastview','');
+    b.textContent = 'Ver última análise';
+    const head = launcher.querySelector('.cvi-head'); if(head) head.appendChild(b);
+  }
+  function collapseSiblings(launcher){
+    const view = launcher.closest('.view'); if(!view) return;
+    view.querySelectorAll('.cvi-launcher').forEach(function(l){
+      if(l === launcher) return;
+      collapse(l);
+      const st = stageOf(l);
+      if(st && !active.has(l)){ st.classList.remove('on'); st.innerHTML=''; }
+      ensureLastBtn(l);
+    });
+  }
+  // limpeza no logout/troca de login (a "memoria" das analises e por pessoa)
+  function clearSavedAnalyses(){ try{ Object.keys(sessionStorage).forEach(function(k){ if(k.indexOf('btg_cvi_last:')===0) sessionStorage.removeItem(k); }); }catch(_){} }
+  { const _lo = window.logout; if(typeof _lo === 'function'){ window.logout = function(){ clearSavedAnalyses(); return _lo.apply(this, arguments); }; } }
+  { const _dl = window.doLogin; if(typeof _dl === 'function'){ window.doLogin = function(){ clearSavedAnalyses(); return _dl.apply(this, arguments); }; } }
+  // boot: cards com analise salva ganham o botao de reabrir
+  document.querySelectorAll('.cvi-launcher').forEach(ensureLastBtn);
+
   // estado por launcher (conversation_id ativo p/ encerrar; mode p/ a analise)
   const active = new WeakMap();
   const modeOf = new WeakMap();
@@ -8765,10 +8811,10 @@ const INTERVIEW=[
       + '<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><b style="font-size:13px">Análise comportamental</b>'
       + (Number.isFinite(c.nota)?('<span style="font-weight:800;font-size:15px;color:'+selCorLocal(c.nota)+'">'+c.nota+'<span style="font-size:10.5px;color:rgba(255,255,255,.5)">/100</span></span>'):'')
       + '<span class="muted" style="font-size:10.5px">comitê IA · evidência por fala</span></div>';
-    h += c.dimensoes.map(function(d){
-      return '<div style="margin-top:7px"><div style="display:flex;justify-content:space-between;gap:10px;font-size:12px"><b>'+esc(d.nome)+'</b><span style="font-weight:700;color:'+selCorLocal(d.nota)+'">'+d.nota+'</span></div>'
+    h += '<div class="cvi-bdims" style="margin-top:7px">'+c.dimensoes.map(function(d){
+      return '<div><div style="display:flex;align-items:baseline;gap:8px;font-size:12px"><b>'+esc(d.nome)+'</b><span style="font-weight:700;color:'+selCorLocal(d.nota)+'">'+d.nota+'</span></div>'
         + (d.evidencia?('<div class="muted" style="font-size:11.5px;line-height:1.45;font-style:italic">'+esc(d.evidencia)+'</div>'):'')+'</div>';
-    }).join('');
+    }).join('')+'</div>';
     if(c.resumo) h += '<div class="muted" style="font-size:12px;line-height:1.5;margin-top:8px">'+esc(c.resumo)+'</div>';
     if(s.momentoChave) h += '<div style="font-size:12px;line-height:1.5;margin-top:8px"><b style="color:var(--amber)">Momento-chave:</b> <span class="muted">'+esc(s.momentoChave)+'</span></div>';
     if((s.pontosFortes||[]).length) h += '<div style="font-size:12px;margin-top:6px"><b style="color:var(--green)">Pontos fortes:</b> <span class="muted">'+esc(s.pontosFortes.join('; '))+'</span></div>';
@@ -8804,7 +8850,7 @@ const INTERVIEW=[
       + '<div style="display:flex;gap:16px;flex-wrap:wrap;margin:12px 0 4px">'+dims+'</div>'
       + (verdictTxt?('<div style="margin-top:8px;font-size:13px;font-weight:600;color:#fff">'+esc(verdictTxt)+'</div>'):'')
       + listas
-      + (s.comportamental?('<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:8px"><b style="color:#fff">Comportamental:</b> '+esc(s.comportamental)+'</div>'):'')
+      + (s.comportamental?('<div class="muted" style="font-size:12.5px;line-height:1.5;margin-top:8px"><b style="color:#fff">Parecer geral:</b> '+esc(s.comportamental)+'</div>'):'')
       + (s.tipo==='entrevista'?comportamentoHtml(s):'')
       + (s.mock?('<div class="muted" style="font-size:11px;margin-top:8px;opacity:.75">Análise preliminar · a avaliação completa por IA é ativada com o motor de análise conectado.</div>'):'')
       + '</div>'
@@ -8814,12 +8860,13 @@ const INTERVIEW=[
   async function analyzeConversation(launcher, cid, mode, stage){
     if(!cid || !stage) return;
     const myGen = gen.get(launcher);   // se reabrirem o avatar durante a analise, descarta o resultado antigo
+    expand(launcher);
     showAnalyzing(stage);
     try{
       const r = await fetch('/api/tavus/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({conversation_id:cid, mode, candidato:(window.PROFILE&&PROFILE.nome)||undefined})});
       const data = await r.json().catch(()=>null);
       if(gen.get(launcher)!==myGen) return;   // uma nova sessao tomou o stage -> nao sobrescreve a sala ao vivo
-      if(data && data.tipo){ showAnalysis(stage, data); }
+      if(data && data.tipo){ showAnalysis(stage, data); saveLast(launcher, data); }
       else { showAnalysisFail(stage); }
     }catch(e){ if(gen.get(launcher)===myGen) showAnalysisFail(stage); }
   }
@@ -8834,6 +8881,7 @@ const INTERVIEW=[
   }
   function closeStage(launcher){
     const stage = stageOf(launcher); if(stage){ (timers.get(stage)||[]).forEach(clearTimeout); timers.delete(stage); unFull(stage); stage.classList.remove('on'); stage.innerHTML=''; }
+    collapse(launcher); ensureLastBtn(launcher);
     launcher.querySelectorAll('[data-cvi-start]').forEach(function(b){ b.disabled=false; });
   }
 
@@ -8841,6 +8889,7 @@ const INTERVIEW=[
     const stage = stageOf(launcher);
     launcher.querySelectorAll('[data-cvi-start]').forEach(function(b){ b.disabled=true; });
     gen.set(launcher, (gen.get(launcher)||0)+1);   // nova sessao toma o stage; invalida analise pendente da sessao anterior
+    collapseSiblings(launcher);
     goFull(launcher, stage);   // sala/carregamento em TELA CHEIA; estados de erro/analise voltam ao card
     showLoading(stage);
     try{
@@ -8857,6 +8906,8 @@ const INTERVIEW=[
   document.addEventListener('click', function(ev){
     const startBtn = ev.target.closest && ev.target.closest('[data-cvi-start]');
     if(startBtn){ const l=findLauncher(startBtn); if(l){ start(l, startBtn.getAttribute('data-cvi-start'), startBtn.getAttribute('data-cvi-variant')||undefined); } return; }
+    const lastBtn = ev.target.closest && ev.target.closest('[data-cvi-lastview]');
+    if(lastBtn){ const l=findLauncher(lastBtn); if(l){ const saved=loadLast(l); if(saved){ const st=stageOf(l); if(st){ expand(l); showAnalysis(st, saved); } } } return; }
     const closeBtn = ev.target.closest && ev.target.closest('[data-cvi-close]');
     if(closeBtn){
       const l=findLauncher(closeBtn); if(!l) return;
@@ -14112,7 +14163,7 @@ function carregarCandidaturas(){
           +'<div style="font-size:12.5px;font-weight:700">Entrevista com IA · Marina (Gente e Gestão)'+(e.mock?' <span class="muted" style="font-weight:400;font-size:11px">· análise de exemplo</span>':'')+'</div>'
           +'<div style="font-size:16px;font-weight:800;color:#001E61">'+(e.overall==null?'-':e.overall)+'<span class="muted" style="font-size:11px;font-weight:400">/100</span></div></div>'
           +'<div style="margin-top:4px">'+candDim('Comunicação',e.comunicacao)+candDim('Postura',e.postura)+candDim('Suitability',e.suitabilityAwareness)+'</div>'
-          +(e.comportamental?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:6px"><b>Comportamental:</b> '+candEsc(e.comportamental)+'</div>':'')
+          +(e.comportamental?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:6px"><b>Parecer geral:</b> '+candEsc(e.comportamental)+'</div>':'')
           +(e.evidencia?'<div class="muted" style="font-size:12px;line-height:1.5;margin-top:4px"><b>Evidência da entrevista:</b> '+candEsc(e.evidencia)+'</div>':'')
           +selComportamento(e)
           +'</div>';
